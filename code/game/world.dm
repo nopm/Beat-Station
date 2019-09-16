@@ -38,6 +38,7 @@ GLOBAL_VAR_INIT(bypass_tgs_reboot, world.system_type == UNIX && world.byond_buil
 #endif
 
 	hippie_initialize() // hippie -- loads mentor and other stuff. Due to mentors, it has to be after load_admins().
+	beat_initialize() // beat -- Inits our own stuff, has to be after hippie_initialize().
 	LoadVerbs(/datum/verbs/menu)
 	if(CONFIG_GET(flag/usewhitelist))
 		load_whitelist()
