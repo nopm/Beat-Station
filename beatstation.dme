@@ -8,4 +8,5 @@
 // BEGIN_INCLUDE
 #include "hippiestation.dme"
 #include "beatstation\code\init.dm"
+#include "beatstation\code\modules\client\verbs\looc.dm"
 // END_INCLUDE
