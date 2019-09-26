@@ -1,0 +1,5 @@
+author: "Nopm"
+delete-after: True
+changes: 
+  - bugfix: "Ghosts can now use the LOOC"
+  - tweak: "Fixed some dumb ass LOOC code"
