@@ -92,7 +92,7 @@ GLOBAL_VAR_INIT(looc_allowed, 1)
             var/prefix = "(G)LOOC"
             if (C.mob in heard)
                 prefix = "LOOC"
-            to_chat(C,"<font color='#6699CC'><span class='ooc'><span class='prefix'>[prefix]:</span> <EM>[src.key]/[src.mob.name]:</EM> <span class='message'>[msg]</span></span></font>")
+            to_chat(C,"<font color='#6699CC'><span class='bold'><span class='prefix'>[prefix]:</span> <EM>[src.mob.name]:</EM> <span class='message'>[msg]</span></span></font>")
 
 
 /proc/log_looc(text)
