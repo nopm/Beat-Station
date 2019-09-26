@@ -43,12 +43,12 @@ GLOBAL_VAR_INIT(looc_allowed, 1)
             to_chat(src, "<B>Advertising other servers is not allowed.</B>")
             log_admin("[key_name(src)] has attempted to advertise in LOOC: [msg]")
             return
-        if(mob.stat)
+        /*if(mob.stat)
             to_chat(src, "<span class='danger'>You cannot salt in LOOC while unconscious or dead.</span>")
             return
-        if(istype(mob, /mob/dead))
+        if(istype(mob, /mob/dead)) 
             to_chat(src, "<span class='danger'>You cannot use LOOC while ghosting.</span>")
-            return
+            return*/
 
     msg = emoji_parse(msg)
 
