@@ -43,12 +43,12 @@ GLOBAL_VAR_INIT(looc_allowed, 1)
             to_chat(src, "<B>Advertising other servers is not allowed.</B>")
             log_admin("[key_name(src)] has attempted to advertise in LOOC: [msg]")
             return
-        if(mob.stat)
+        /*if(mob.stat)
             to_chat(src, "<span class='danger'>You cannot salt in LOOC while unconscious or dead.</span>")
             return
-        if(istype(mob, /mob/dead))
+        if(istype(mob, /mob/dead)) 
             to_chat(src, "<span class='danger'>You cannot use LOOC while ghosting.</span>")
-            return
+            return*/
 
     msg = emoji_parse(msg)
 
@@ -82,7 +82,7 @@ GLOBAL_VAR_INIT(looc_allowed, 1)
                 prefix = "LOOC"
             to_chat(C,"<font color='#6699CC'><span class='bold'>[ADMIN_FLW(usr)]<span class='prefix'>[prefix]:</span> <EM>[src.key]/[src.mob.name]:</EM> <span class='message'>[msg]</span></span></font>")
 
-    /*for(var/mob/dead/observer/G in world)
+    for(var/mob/dead/observer/G in world)
         if(!G.client)
             continue
         var/client/C = G.client
@@ -92,7 +92,7 @@ GLOBAL_VAR_INIT(looc_allowed, 1)
             var/prefix = "(G)LOOC"
             if (C.mob in heard)
                 prefix = "LOOC"
-        to_chat(C,"<font color='#6699CC'><span class='ooc'><span class='prefix'>[prefix]:</span> <EM>[src.key]/[src.mob.name]:</EM> <span class='message'>[msg]</span></span></font>")*/
+            to_chat(C,"<font color='#6699CC'><span class='bold'><span class='prefix'>[prefix]:</span> <EM>[src.mob.name]:</EM> <span class='message'>[msg]</span></span></font>")
 
 
 /proc/log_looc(text)
