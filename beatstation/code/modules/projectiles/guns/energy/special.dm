@@ -11,7 +11,7 @@
     obj_flags = 0
     overheat_time = 20
     holds_charge = TRUE
-    unieque_frequency = TRUE
+    unique_frequency = TRUE
     can_flashlight = FALSE
     max_mod_capacity = 0
 
