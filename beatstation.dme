@@ -10,4 +10,5 @@
 #include "beatstation\code\init.dm"
 #include "beatstation\code\modules\client\verbs\looc.dm"
 #include "beatstation\code\modules\projectiles\guns\energy\special.dm"
+#include "beatstation\code\modules\uplink\uplink_items.dm"
 // END_INCLUDE

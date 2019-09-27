@@ -9,7 +9,7 @@
     ammo_type = list(/obj/item/ammo_casing/energy/beat_ebolt)
     weapon_weight = WEAPON_LIGHT
     obj_flags = 0
-    overheat_time = 20
+    overheat_time = 40 // double the normal charge time, should balance it a bit
     holds_charge = TRUE
     unique_frequency = TRUE
     can_flashlight = FALSE
