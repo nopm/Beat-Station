@@ -26,7 +26,7 @@ matrix:
         - find . -name "*.json" -not -path "./tgui/node_modules/*" -print0 | xargs -0 python3 ./tools/json_verifier.py
         - tools/travis/build_tgui.sh
         - tools/travis/check_grep.sh
-        - ~/dreamchecker
+        - ~/dreamchecker -e beatstation.dme
 
     - name: "Compile All Maps"
       addons:
@@ -84,7 +84,7 @@ matrix:
         # Travis checks out a hash, try to get back on a branch.
         - git checkout $TRAVIS_BRANCH || true
       script:
-        - ~/dmdoc
+        - ~/dmdoc -e beatstation.dme
         - touch dmdoc/.nojekyll
       deploy:
         provider: pages
