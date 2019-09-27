@@ -20,7 +20,7 @@ matrix:
         - tools/travis/install_build_tools.sh
         - tools/travis/install_spaceman_dmm.sh dreamchecker
       script:
-        - tools/travis/check_filedirs.sh hippiestation.dme
+        - tools/travis/check_filedirs.sh beatstation.dme
         - tools/travis/check_changelogs.sh
         - find . -name "*.php" -print0 | xargs -0 -n1 php -l
         - find . -name "*.json" -not -path "./tgui/node_modules/*" -print0 | xargs -0 python3 ./tools/json_verifier.py
@@ -42,7 +42,7 @@ matrix:
       before_script:
         - tools/travis/template_dm_generator.py
       script:
-        - tools/travis/dm.sh -DTRAVISBUILDING -DTRAVISTESTING -DALL_MAPS hippiestation.dme
+        - tools/travis/dm.sh -DTRAVISBUILDING -DTRAVISTESTING -DALL_MAPS beatstation.dme
 
     - name: "Compile and Run Tests"
       addons:
@@ -73,16 +73,8 @@ matrix:
         - mysql -u root tg_travis_prefixed < SQL/tgstation_schema_prefixed.sql
         - tools/travis/build_bsql.sh
       script:
-        - tools/travis/dm.sh -DTRAVISBUILDING hippiestation.dme || travis_terminate 1
+        - tools/travis/dm.sh -DTRAVISBUILDING beatstation.dme || travis_terminate 1
         - tools/travis/run_server.sh
-
-<<<<<<< HEAD
-script:
-  - tools/travis/check_filedirs.sh beatstation.dme
-  - tools/travis/build_tools.sh || travis_terminate 1
-  - tools/travis/build_dependencies.sh || travis_terminate 1
-  - tools/travis/build_byond.sh
-=======
     - name: "Generate Documentation"
       # Only run for non-PR commits to the real master branch.
       if: branch = master AND head_branch IS blank
@@ -100,4 +92,3 @@ script:
         local_dir: dmdoc
         github_token: $DMDOC_GITHUB_TOKEN
         fqdn: codedocs.tgstation13.org
->>>>>>> 71f05ca440... Travis tools and other code improvements [READY] (#12111)
