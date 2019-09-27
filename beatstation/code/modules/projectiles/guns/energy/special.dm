@@ -32,8 +32,8 @@
         var/mob/living/carbon/M = target
         if(blocked != 100)
             ..()
-		    M.Paralyze(60)
-		    return BULLET_ACT_HIT
+            M.Paralyze(60)
+            return BULLET_ACT_HIT
         else
             target.visible_message("<span class='danger'>\The [src] was deflected!</span>", \
                                     "<span class='userdanger'>You were protected against \the [src]!</span>")
