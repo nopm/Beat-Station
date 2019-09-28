@@ -1,8 +1,10 @@
 /obj/item/clothing/mask/stone
 	name = "stone mask"
 	desc = "A spooky stone mask. Something tells you wearing this a horrible idea."
-	icon_state = "death"
-	item_state = "death"
+	icon_state = "stone_mask"
+	item_state = "stone_mask"
+	icon = 'beatstation/icons/obj/clothing/masks.dmi'
+	alternate_worn_icon = 'beatstation/icons/mob/mask.dmi'
 	var/datum/antagonist/vampire
 
 /obj/item/clothing/mask/stone/equipped(mob/M, slot)
@@ -25,7 +27,7 @@
 	ADD_TRAIT(src, TRAIT_NODROP, ABSTRACT_ITEM_TRAIT)
 	H.visible_message("<span class='hypnophrase big'>[src] sinks 6 needles into [H]'s head, and begins to glow a brilliant light!</span>")
 	START_PROCESSING(SSobj, src)
-	to_chat(H, "<span class='danger bold'>Everything... everything hurts.</span>")
+	to_chat(H, "<span class='danger bold'>Everything... everything hurts</span>")
 	H.SetStun(INFINITY)
 	sleep(25)
 	to_chat(H, "<span class='danger bold'>You feel kind of hungry...</span>")
