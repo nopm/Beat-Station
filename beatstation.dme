@@ -10,6 +10,10 @@
 #include "beatstation\code\init.dm"
 #include "beatstation\code\modules\client\verbs\looc.dm"
 #include "beatstation\code\modules\clothing\masks\stonemask.dm"
+#include "beatstation\code\modules\jobs\job_types\shaft_miner.dm"
+#include "beatstation\code\modules\mining\machine_vending.dm"
+#include "beatstation\code\modules\mining\equipment\explorer_gear.dm"
+#include "beatstation\code\modules\projectiles\guns\energy\kinetic_accelerator.dm"
 #include "beatstation\code\modules\projectiles\guns\energy\special.dm"
 #include "beatstation\code\modules\uplink\uplink_items.dm"
 // END_INCLUDE
