@@ -1,6 +1,6 @@
 /obj/item/clothing/mask/stone
 	name = "stone mask"
-	desc = "A spooky stone mask. Something tells you wearing this a horrible idea."
+	desc = "A spooky stone mask. Something tells you wearing this is a horrible idea."
 	icon_state = "stone_mask"
 	item_state = "stone_mask"
 	icon = 'beatstation/icons/obj/clothing/masks.dmi'
@@ -13,10 +13,12 @@
 		if(M.mind?.has_antag_datum(/datum/antagonist/vampire))
 			M.visible_message("<span class='hypnophrase big'>[src] falls off of [M]'s face!</span>")
 			M.doUnEquip(src, TRUE)
+			src.forceMove(get_turf(M))
 			return
 		if(M.stat)
 			M.visible_message("<span class='hypnophrase big'>[src] falls off of [M]'s face, they don't have enough life force!</span>")
 			M.doUnEquip(src, TRUE)
+			src.forceMove(get_turf(M))
 			return
 		INVOKE_ASYNC(src, .proc/do_the_thing, M)
 
@@ -44,4 +46,4 @@
 	set_light(0, 0)
 	H.visible_message("<span class='hypnophrase'>[src] falls off of [H], it's needles retracting...</span>")
 	H.doUnEquip(src, TRUE)
-	H.forceMove(get_turf(H))
+	src.forceMove(get_turf(H))
