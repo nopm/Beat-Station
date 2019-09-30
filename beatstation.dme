@@ -8,8 +8,10 @@
 // BEGIN_INCLUDE
 #include "hippiestation.dme"
 #include "beatstation\code\init.dm"
+#include "beatstation\code\game\objects\items\miscellaneous.dm"
 #include "beatstation\code\modules\client\verbs\looc.dm"
 #include "beatstation\code\modules\clothing\masks\stonemask.dm"
+#include "beatstation\code\modules\jobs\job_types\botanist.dm"
 #include "beatstation\code\modules\jobs\job_types\shaft_miner.dm"
 #include "beatstation\code\modules\mining\machine_vending.dm"
 #include "beatstation\code\modules\mining\equipment\explorer_gear.dm"
