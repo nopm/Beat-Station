@@ -1,0 +1,4 @@
+author: "Bob Joga"
+delete-after: True
+changes: 
+  - rscadd: "Added a botanical voucher, which when activated, spawns a botanical chem dispenser. These vouchers are given to botanists on roundstart."
