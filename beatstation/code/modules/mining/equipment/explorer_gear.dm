@@ -25,6 +25,16 @@
 	armor = list("melee" = 10, "bullet" = 10, "laser" = 10, "energy" = 10, "bomb" = 25, "bio" = 50, "rad" = 25, "fire" = 100, "acid" = 25)
 	resistance_flags = FIRE_PROOF
 
+/obj/item/clothing/suit/hooded/explorer/seva/Initialize()
+	..()
+	var/datum/component/armor_plate/A = GetComponent(/datum/component/armor_plate)
+	qdel(A)
+
+/obj/item/clothing/head/hooded/explorer/seva/Initialize()
+	..()
+	var/datum/component/armor_plate/A = GetComponent(/datum/component/armor_plate)
+	qdel(A)
+
 /obj/item/clothing/mask/gas/seva
 	name = "SEVA Mask"
 	desc = "A face-covering plate that can be connected to an air supply. Intended for use with the SEVA Suit."
@@ -58,6 +68,16 @@
 	item_state = "exo"
 	armor = list("melee" = 65, "bullet" = 5, "laser" = 5, "energy" = 5, "bomb" = 60, "bio" = 25, "rad" = 10, "fire" = 0, "acid" = 0)
 	resistance_flags = FIRE_PROOF
+
+/obj/item/clothing/suit/hooded/explorer/exo/Initialize()
+	..()
+	var/datum/component/armor_plate/A = GetComponent(/datum/component/armor_plate)
+	qdel(A)
+
+/obj/item/clothing/head/hooded/explorer/exo/Initialize()
+	..()
+	var/datum/component/armor_plate/A = GetComponent(/datum/component/armor_plate)
+	qdel(A)
 
 /obj/item/clothing/mask/gas/exo
 	name = "Exosuit Mask"
