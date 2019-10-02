@@ -1,5 +1,0 @@
-author: "Bob Joga"
-delete-after: True
-changes: 
-  - rscadd: "Added 3 pieces of clothing, which can be found in the ClothesMate. Sprites made by GustinokiBR."
-  - balance: "Buffed the H.E.C.K. suit and helmet, making them spaceproof and a bit more resistant to melee attacks (75 melee resist instead of 70)."
