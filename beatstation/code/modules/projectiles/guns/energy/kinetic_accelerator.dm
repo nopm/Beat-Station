@@ -7,6 +7,18 @@
 	lefthand_file = 'beatstation/icons/mob/inhands/weapons/guns_lefthand.dmi'
 	righthand_file = 'beatstation/icons/mob/inhands/weapons/guns_righthand.dmi'
 	ammo_type = list(/obj/item/ammo_casing/energy/kinetic/premium)
+	max_mod_capacity = 120
+
+/obj/item/gun/energy/kinetic_accelerator/premiumka/adminka
+	name = "administration accelerator"
+	desc = "A premium kinetic accelerator infused with a bluespace mod chamber."
+	icon = 'beatstation/icons/obj/guns/energy.dmi'
+	icon_state = "premiumgun"
+	item_state = "premiumgun"
+	lefthand_file = 'beatstation/icons/mob/inhands/weapons/guns_lefthand.dmi'
+	righthand_file = 'beatstation/icons/mob/inhands/weapons/guns_righthand.dmi'
+	ammo_type = list(/obj/item/ammo_casing/energy/kinetic/premium)
+	max_mod_capacity = 1000
 
 /obj/item/gun/energy/kinetic_accelerator/premiumka/dropped()
 	. = ..()
