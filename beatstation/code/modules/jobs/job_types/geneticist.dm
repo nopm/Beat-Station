@@ -1,4 +1,4 @@
-/datum/job/geneticist/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/geneticist/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return

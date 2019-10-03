@@ -1,5 +1,5 @@
 /datum/martial_art/krav_medical
-	name = "Medical Krav"
+	name = "Krav Medical"
 	id = MARTIALART_KRAVMAGA
 	var/datum/action/neck_chop/neckchop = new/datum/action/neck_chop()
 	var/datum/action/leg_sweep/legsweep = new/datum/action/leg_sweep()
@@ -125,7 +125,7 @@
 		return FALSE
 	if(check_streak(A,D))
 		return 1
-	log_combat(A, D, "grabbed (Medical Krav)")
+	log_combat(A, D, "grabbed (Krav Medical)")
 	..()
 
 /datum/martial_art/krav_medical/harm_act(var/mob/living/carbon/human/A, var/mob/living/carbon/human/D)
@@ -169,10 +169,10 @@
 		D.visible_message("<span class='danger'>[A] attempted to disarm [D]!</span>", \
 							"<span class='userdanger'>[A] attempted to disarm [D]!</span>")
 		playsound(D, 'sound/weapons/punchmiss.ogg', 25, 1, -1)
-	log_combat(A, D, "disarmed (Medical Krav)", "[I ? " removing \the [I]" : ""]")
+	log_combat(A, D, "disarmed (Krav Medical)", "[I ? " removing \the [I]" : ""]")
 	return 1
 
-//Medical Krav Gloves
+//Krav Medical Gloves
 
 /obj/item/clothing/gloves/krav_medical
 	var/datum/martial_art/krav_medical/style = new
@@ -194,8 +194,8 @@
 		style.remove(H)
 
 /obj/item/clothing/gloves/krav_medical/med
-	name = "medical krav gloves"
-	desc = "These gloves can teach you to perform Medical Krav using nanochips."
+	name = "krav medical gloves"
+	desc = "These gloves can teach you to perform Krav Medical using nanochips."
 	icon_state = "fightgloves"
 	item_state = "fightgloves"
 	cold_protection = HANDS
@@ -204,11 +204,11 @@
 	max_heat_protection_temperature = GLOVES_MAX_TEMP_PROTECT
 	resistance_flags = NONE
 
-//Medical Krav implant
+//Krav Medical implant
 
 /obj/item/implant/krav_medical
-	name = "medical krav implant"
-	desc = "Teaches you the arts of Medical Krav in 5 short instructional videos beamed directly into your eyeballs."
+	name = "krav medical implant"
+	desc = "Teaches you the arts of Krav Medical in 5 short instructional videos beamed directly into your eyeballs."
 	icon = 'icons/obj/wizard.dmi'
 	icon_state ="scroll2"
 	activated = 1
@@ -216,10 +216,10 @@
 
 /obj/item/implant/krav_medical/get_data()
 	var/dat = {"<b>Implant Specifications:</b><BR>
-				<b>Name:</b> Medical Krav Implant<BR>
+				<b>Name:</b> Krav Medical Implant<BR>
 				<b>Life:</b> 4 hours after death of host<BR>
 				<b>Implant Details:</b> <BR>
-				<b>Function:</b> Teaches even the clumsiest host the arts of Medical Krav."}
+				<b>Function:</b> Teaches even the clumsiest host the arts of Krav Medical."}
 	return dat
 
 /obj/item/implant/krav_medical/activate()
@@ -235,10 +235,10 @@
 		style.teach(H,1)
 
 /obj/item/implanter/krav_medical
-	name = "implanter (medical krav)"
+	name = "implanter (krav medical)"
 	imp_type = /obj/item/implant/krav_medical
 
 /obj/item/implantcase/krav_medical
-	name = "implant case - 'Medical Krav'"
-	desc = "A glass case containing an implant that can teach the user the arts of Medical Krav."
+	name = "implant case - 'Krav Medical'"
+	desc = "A glass case containing an implant that can teach the user the arts of Krav Medical."
 	imp_type = /obj/item/implant/krav_medical
