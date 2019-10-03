@@ -1,0 +1,5 @@
+author: "Neotw"
+delete-after: True
+changes: 
+  - rscadd: "NT now trains the medical staff with MedMaga. An unique martial art for doctors!"
+  - tweak: "MedMaga has Leg Sweep and Neck Chop, only works at medbay and applies only 1.5/1 brute damage consecutively. Halt the tides!!"
