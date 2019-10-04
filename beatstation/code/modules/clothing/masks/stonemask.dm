@@ -26,6 +26,13 @@
 			return
 	return
 
+/obj/item/clothing/mask/stone/worn_overlays(isinhands = FALSE)
+	. = list()
+	if(!isinhands)
+		if(body_parts_covered & HEAD)
+			if(HAS_BLOOD_DNA(src))
+				. += mutable_appearance('icons/effects/blood.dmi', "maskblood")
+
 /obj/item/clothing/mask/stone/process()
 	set_light(4, 10, rgb(rand(1, 127), rand(1, 127), rand(1, 127))) // random bright color?
 
