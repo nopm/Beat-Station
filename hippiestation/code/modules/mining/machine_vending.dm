@@ -20,7 +20,7 @@
 			new /obj/item/fulton_core(loc)
 			new /obj/item/stack/marker_beacon/thirty(loc)
 		if("Crusher Kit")
-			new /obj/item/twohanded/required/kinetic_crusher(loc)
+			new /obj/item/twohanded/kinetic_crusher(loc)
 			new /obj/item/storage/belt/mining/alt(loc)
 			new /obj/item/extinguisher/mini(loc)
 		if("Mining Conscription Kit")
