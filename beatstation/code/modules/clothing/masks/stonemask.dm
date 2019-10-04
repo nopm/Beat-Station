@@ -20,7 +20,11 @@
 			M.doUnEquip(src, TRUE)
 			src.forceMove(get_turf(M))
 			return
-		INVOKE_ASYNC(src, .proc/do_the_thing, M)
+		if(HAS_BLOOD_DNA(src))
+			INVOKE_ASYNC(src, .proc/do_the_thing, M)
+		else
+			return
+	return
 
 /obj/item/clothing/mask/stone/process()
 	set_light(4, 10, rgb(rand(1, 127), rand(1, 127), rand(1, 127))) // random bright color?
