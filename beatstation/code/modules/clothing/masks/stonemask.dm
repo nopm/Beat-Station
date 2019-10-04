@@ -30,8 +30,16 @@
 	. = list()
 	if(!isinhands)
 		if(body_parts_covered & HEAD)
+			if(damaged_clothes)
+				. += mutable_appearance('icons/effects/item_damage.dmi', "damagedmask")
 			if(HAS_BLOOD_DNA(src))
 				. += mutable_appearance('icons/effects/blood.dmi', "maskblood")
+
+/obj/item/clothing/mask/update_clothes_damaged_state(damaging = TRUE)
+	..()
+	if(ismob(loc))
+		var/mob/M = loc
+		M.update_inv_wear_mask()
 
 /obj/item/clothing/mask/stone/process()
 	set_light(4, 10, rgb(rand(1, 127), rand(1, 127), rand(1, 127))) // random bright color?
