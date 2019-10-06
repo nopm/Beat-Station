@@ -1,0 +1,5 @@
+author: "Neotw"
+delete-after: True
+changes: 
+  - tweak: "The Stone Mask now active only if is blood-stained"
+  - imageadd: "Added a new item sprite to the Stone Mask"
