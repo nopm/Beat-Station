@@ -45,7 +45,7 @@
 //                                      //
 //////////////////////////////////////////
 
-/*/datum/dynamic_ruleset/roundstart/traitorbro
+/datum/dynamic_ruleset/roundstart/traitorbro // beat -- begin -- adds traitorbros back, shouldn't've been removed
 	name = "Blood Brothers"
 	antag_flag = ROLE_BROTHER
 	antag_datum = /datum/antagonist/brother/
@@ -88,15 +88,15 @@
 			M.add_antag_datum(/datum/antagonist/brother, team)
 		team.update_name()
 	mode.brother_teams += pre_brother_teams
-	return TRUE*/
+	return TRUE // beat -- end
 
 //////////////////////////////////////////////
 //                                          //
 //               CHANGELINGS                //
 //                                          //
 //////////////////////////////////////////////
-
-/* hippie -- remove kebab
+// beat -- begin -- hippie is dumb and likes to remove antags. fortunately, im here to fix this
+// hippie -- remove kebab
 /datum/dynamic_ruleset/roundstart/changeling
 	name = "Changelings"
 	antag_flag = ROLE_CHANGELING
@@ -136,7 +136,7 @@
 		var/datum/antagonist/changeling/new_antag = new antag_datum()
 		new_antag.team_mode = team_mode
 		changeling.add_antag_datum(new_antag)
-	return TRUE*/
+	return TRUE // beat -- end
 
 //////////////////////////////////////////////
 //                                          //
@@ -153,7 +153,7 @@
 	restricted_roles = list("Head of Security", "Captain") // Just to be sure that a wizard getting picked won't ever imply a Captain or HoS not getting drafted
 	required_candidates = 1
 	weight = 2
-	cost = 30
+	cost = 45 // beat -- bumping cost, will stop all the wizidiots from thanos-ing every single wiz round
 	requirements = list(90,90,70,40,30,20,10,10,10,10)
 	high_population_requirement = 10
 	var/list/roundstart_wizards = list()
@@ -197,7 +197,7 @@
 	restricted_roles = list("AI", "Cyborg", "Security Officer", "Warden", "Detective", "Head of Security", "Captain", "Chaplain", "Head of Personnel")
 	required_candidates = 2
 	weight = 3
-	cost = 30
+	cost = 60 // beat -- bumps the bloodcult cost up, we get fucking bloodcult EVERY FUCKING ROUND
 	requirements = list(100,90,80,60,40,30,10,10,10,10)
 	high_population_requirement = 10
 	flags = HIGHLANDER_RULESET
@@ -342,14 +342,14 @@
 	minimum_required_age = 14
 	restricted_roles = list("AI", "Cyborg", "Security Officer", "Warden", "Detective", "Head of Security", "Captain", "Head of Personnel", "Chief Engineer", "Chief Medical Officer", "Research Director")
 	required_candidates = 3
-	weight = 2
+	weight = 3 // beat -- bumps rev weight. We never get revs
 	delay = 7 MINUTES
 	cost = 35
-	requirements = list(101,101,70,40,30,20,10,10,10,10)
+	requirements = list(100,90,80,60,40,30,10,10,10,10) // beat -- of course hippiecode, we love you too
 	high_population_requirement = 10
 	flags = HIGHLANDER_RULESET
 	// I give up, just there should be enough heads with 35 players...
-	minimum_players = 35
+	minimum_players = 20 // beat -- haha sorry nope, 20 is more like it
 	var/datum/team/revolution/revolution
 	var/finished = 0
 
@@ -454,9 +454,9 @@
 	restricted_roles = list("AI", "Cyborg", "Security Officer", "Warden", "Detective", "Head of Security", "Captain", "Chaplain", "Head of Personnel")
 	required_candidates = 4
 	weight = 3
-	cost = 0
-	requirements = list(101,101,101,101,101,101,101,101,101,101)
-	high_population_requirement = 101
+	cost = 45 // beat -- why hippie, why
+	requirements = list(100,90,80,60,40,30,10,10,10,10) // beat -- hippiecode be like NOPE
+	//high_population_requirement = 101 // beat -- removing this because i think this is how hippie removes gms from rotation
 	flags = HIGHLANDER_RULESET
 	var/ark_time
 
@@ -581,9 +581,9 @@
 	restricted_roles = list("Lawyer", "Curator", "Chaplain", "Head of Security", "Captain", "AI")
 	required_candidates = 1
 	weight = 3
-	cost = 0
-	requirements = list(101,101,101,101,101,101,101,101,101,101)
-	high_population_requirement = 101
+	cost = 60 // beat -- we already get too many fucking devils on secret mode, but they should at the very least be enabled
+	requirements = list(100,90,80,60,40,30,10,10,10,10) // beat -- fucking hippiecode
+	//high_population_requirement = 101 // beat -- haha, no
 	var/devil_limit = 4 // Hard limit on devils if scaling is turned off
 
 /datum/dynamic_ruleset/roundstart/devil/pre_execute()	

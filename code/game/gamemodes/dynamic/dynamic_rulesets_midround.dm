@@ -278,7 +278,7 @@
 	required_enemies = list(2,2,1,1,1,1,1,0,0,0)
 	required_candidates = 1
 	weight = 1
-	cost = 20
+	cost = 35 // beat -- no more surprise infinity war on a cult round
 	requirements = list(90,90,70,40,30,20,10,10,10,10)
 	high_population_requirement = 50
 	repeatable = TRUE
@@ -367,8 +367,8 @@
 //           XENOMORPH (GHOST)              //
 //                                          //
 //////////////////////////////////////////////
-
-/datum/dynamic_ruleset/midround/from_ghosts/xenomorph
+// beat -- begin -- haha xenos, everyone fucking hates them, most xeno players are unrobust shits
+/*/datum/dynamic_ruleset/midround/from_ghosts/xenomorph
 	name = "Alien Infestation"
 	antag_datum = /datum/antagonist/xeno
 	antag_flag = ROLE_ALIEN
@@ -406,7 +406,7 @@
 	new_xeno.key = applicant.key
 	message_admins("[ADMIN_LOOKUPFLW(new_xeno)] has been made into an alien by the midround ruleset.")
 	log_game("DYNAMIC: [key_name(new_xeno)] was spawned as an alien by the midround ruleset.")
-	return new_xeno
+	return new_xeno */ // beat -- end
 
 //////////////////////////////////////////////
 //                                          //

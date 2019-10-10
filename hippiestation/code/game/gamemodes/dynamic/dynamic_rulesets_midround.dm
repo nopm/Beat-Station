@@ -7,7 +7,8 @@
 		mode.executed_rules -= src
 		return FALSE
 	return ..()
-
+// beat -- begin -- did i ever tell you i FUCKING HATE abductors?
+/*
 /datum/dynamic_ruleset/midround/from_ghosts/abductor
 	name = "Abductors"
 	antag_flag = ROLE_ABDUCTOR
@@ -32,3 +33,4 @@
 		new_character.mind.add_antag_datum(/datum/antagonist/abductor/scientist, team)
 	else
 		new_character.mind.add_antag_datum(/datum/antagonist/abductor/agent, team)
+*/ // beat -- end
