@@ -1,0 +1,6 @@
+author: "Nopm"
+delete-after: True
+changes: 
+  - rscdel: "Removed abductors, hivemind and xeno rulesets from the dynamic rotation"
+  - tweak: "Tweaked dynamic ruleset costs and requirements to better fit our server"
+  - rscadd: "Added traitorbros, devils and linglings back into the rotation, revs too, other GMs I may have forgotten"
