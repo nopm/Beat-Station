@@ -30,6 +30,8 @@
 #include "beatstation\code\modules\mining\equipment\explorer_gear.dm"
 #include "beatstation\code\modules\projectiles\guns\energy\kinetic_accelerator.dm"
 #include "beatstation\code\modules\projectiles\guns\energy\special.dm"
+#include "beatstation\code\modules\research\designs\nanite_designs.dm"
+#include "beatstation\code\modules\research\techweb\all_nodes.dm"
 #include "beatstation\code\modules\uplink\uplink_items.dm"
 #include "beatstation\code\modules\vending\clothesmate.dm"
 #include "beatstation\code\modules\vending\wardrobes.dm"
