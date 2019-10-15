@@ -1,0 +1,5 @@
+author: "MadoFrog"
+delete-after: True
+changes: 
+  - rscadd: "The shrine maiden's outfit and wig is now available in the chaplain's autodrobe"
+  - rscadd: "The chaplain's null rod can now transform into a gohei"
