@@ -13,6 +13,7 @@
 #include "beatstation\code\game\objects\items\miscellaneous.dm"
 #include "beatstation\code\modules\antagonists\cult\blood_magic.dm"
 #include "beatstation\code\modules\client\verbs\looc.dm"
+#include "beatstation\code\modules\client\verbs\ooc.dm"
 #include "beatstation\code\modules\clothing\head\head.dm"
 #include "beatstation\code\modules\clothing\head\jobs.dm"
 #include "beatstation\code\modules\clothing\masks\stonemask.dm"

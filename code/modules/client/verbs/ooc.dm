@@ -275,7 +275,7 @@ GLOBAL_VAR_INIT(normal_ooc_colour, "#002eb8")
 	body += get_exp_report()
 	body += "</BODY></HTML>"
 	usr << browse(body.Join(), "window=playerplaytime[ckey];size=550x615")
-
+/* beat begin -- moved to beatstation/code/modules/client/verbs/ooc.dm
 /client/proc/ignore_key(client)
 	var/client/C = client
 	if(C.key in prefs.ignoring)
@@ -307,7 +307,7 @@ GLOBAL_VAR_INIT(normal_ooc_colour, "#002eb8")
 		to_chat(src, "You can't ignore yourself.")
 		return
 	ignore_key(selection)
-
+beat -- end */
 /client/proc/show_previous_roundend_report()
 	set name = "Your Last Round"
 	set category = "OOC"
