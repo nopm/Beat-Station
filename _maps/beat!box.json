@@ -1,0 +1,11 @@
+{
+    "map_name": "Beat!Box",
+    "map_path": "map_files/Beat!Box",
+    "map_file": "Beat!Box.dmm",
+    "shuttles": {
+        "emergency": "emergency_box",
+        "ferry": "ferry_fancy",
+        "cargo": "cargo_box",
+        "whiteship": "whiteship_meta"
+    }
+}
