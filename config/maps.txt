@@ -13,8 +13,13 @@ Format:
 	votable (is this map votable)
 endmap
 
-map hippiestation
+map beat!box
 	default
+	#voteweight 1.5
+	votable
+endmap
+
+map hippiestation
 	#voteweight 1.5
 	votable
 endmap
