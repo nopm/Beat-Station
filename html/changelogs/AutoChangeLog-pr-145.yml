@@ -1,0 +1,4 @@
+author: "Neotw"
+delete-after: True
+changes: 
+  - bugfix: "Cargo techs no longer have access to QM office"
