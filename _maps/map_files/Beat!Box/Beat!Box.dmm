@@ -26929,11 +26929,12 @@
 	departmentType = 2;
 	pixel_x = -30
 	},
-/obj/item/multitool,
 /obj/machinery/camera{
 	c_tag = "Cargo Office";
 	dir = 4
 	},
+/obj/item/storage/firstaid,
+/obj/item/multitool,
 /turf/open/floor/plasteel,
 /area/quartermaster/office)
 "bzk" = (
@@ -27780,12 +27781,13 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "bCc" = (
-/obj/structure/table,
 /obj/machinery/airalarm{
 	dir = 4;
 	pixel_x = -22
 	},
-/obj/item/storage/firstaid,
+/obj/machinery/computer/bounty{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/quartermaster/office)
 "bCe" = (
@@ -28251,9 +28253,7 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "bDu" = (
-/obj/machinery/computer/bounty{
-	dir = 4
-	},
+/obj/machinery/computer/stockexchange,
 /turf/open/floor/plasteel,
 /area/quartermaster/office)
 "bDv" = (
@@ -49023,6 +49023,12 @@
 /obj/machinery/door/firedoor/heavy,
 /turf/open/floor/plating,
 /area/engine/engineering)
+"ddS" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/quartermaster/office)
 "der" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -51083,6 +51089,13 @@
 	},
 /turf/open/space/basic,
 /area/space/nearstation)
+"gvs" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 8
+	},
+/obj/structure/beebox/premade,
+/turf/open/floor/plasteel,
+/area/hydroponics)
 "gvw" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -83538,7 +83551,7 @@ buQ
 buQ
 bAE
 buQ
-buQ
+ddS
 bEX
 bGc
 bHt
@@ -102276,7 +102289,7 @@ aQJ
 aLR
 aTq
 aUI
-kWp
+gvs
 aXV
 aZB
 aWv
@@ -102533,7 +102546,7 @@ aQK
 aLR
 aTp
 aUI
-kWp
+gvs
 aXW
 aZC
 aWv
