@@ -1,17 +1,15 @@
-## HippieStation 13 [![GitHub forks](https://img.shields.io/github/forks/HippieStation/HippieStation.svg?style=social&label=Fork)](https://github.com/HippieStation/HippieStation#fork-destination-box)
+## HippieStation 13 [![GitHub forks](https://img.shields.io/github/forks/Nopm/Beat-Station.svg?style=social&label=Fork)](https://github.com/Nopm/Beat-Station#fork-destination-box)
 
-**Website:** http://www.hippiestation.com <BR>
-**Code:** https://github.com/hippiestation/hippiestation <BR>
-**Wiki** https://wiki.hippiestation.com/index.php?title=Main_Page <BR>
-**Discord:** [Request access here.](https://hippiestation.com/threads/discord-invites.6055) <BR>
+**Website:** http://www.beatstation.com.br <BR>
+**Code:** https://github.com/Nopm/Beat-Station <BR>
 
-[![Build Status](https://travis-ci.org/HippieStation/HippieStation.png)](https://travis-ci.org/HippieStation/HippieStation/) [![Krihelimeter](http://www.krihelinator.xyz/badge/HippieStation/HippieStation)](http://www.krihelinator.xyz/repositories/HippieStation/HippieStation)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/HippieStation/HippieStation.svg)](https://isitmaintained.com/project/HippieStation/HippieStation "Percentage of issues still open") [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/HippieStation/HippieStation.svg)](https://isitmaintained.com/project/HippieStation/HippieStation "Average time to resolve an issue") ![Coverage](https://img.shields.io/badge/coverage---777%25-red.svg)
+[![Build Status](https://travis-ci.org/Nopm/Beat-Station.png)](https://travis-ci.org/Nopm/Beat-Station/) [![Krihelimeter](http://www.krihelinator.xyz/badge/Nopm/Beat-Station)](http://www.krihelinator.xyz/repositories/Nopm/Beat-Station)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/Nopm/Beat-Station.svg)](https://isitmaintained.com/project/Nopm/Beat-Station "Percentage of issues still open") [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/Nopm/Beat-Station.svg)](https://isitmaintained.com/project/Nopm/Beat-Station "Average time to resolve an issue") ![Coverage](https://img.shields.io/badge/coverage---777%25-red.svg)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-resentment.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-technical-debt.svg)](https://forthebadge.com) [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
 ## ABOUT
 
-This is the Github page for the HippieStation codebase, used on the Space Station 13 server. This codebase is built off the work of many different servers, primarily that of /tg/station 13.
+This is the Github page for the Beat!Station codebase, used on the Space Station 13 server. This codebase is built off the work of many different servers, primarily that of HippieStation.
 Because of this, the repository inherits /tg/station's licensing, among other things.
 For a full guide on how to set up your own Space Station 13 server, please see the [/tg/station README.md](https://github.com/tgstation/tgstation/blob/master/README.md).
 If you would like to contribute to this codebase, first take a look at the [CONTRIBUTING.md](.github/CONTRIBUTING.md).
@@ -48,7 +46,7 @@ that, extract the game files to wherever you want to keep them. This is a
 sourcecode-only release, so the next step is to compile the server files. Open hippiestation.dme by double-clicking it, open the Build menu, and click compile. This'll take a little while, and if everything's done right you'll get a message like this:
 
 ```
-saving hippiestation.dmb (DEBUG mode)
+saving beatstation.dmb (DEBUG mode)
 hippiestation.dmb - 0 errors, 0 warnings
 ```
 
