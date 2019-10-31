@@ -47,7 +47,7 @@ sourcecode-only release, so the next step is to compile the server files. Open h
 
 ```
 saving beatstation.dmb (DEBUG mode)
-hippiestation.dmb - 0 errors, 0 warnings
+beatstation.dmb - 0 errors, 0 warnings
 ```
 
 If you see any errors or warnings, something has gone wrong - possibly a corrupt
