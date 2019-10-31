@@ -51089,13 +51089,6 @@
 	},
 /turf/open/space/basic,
 /area/space/nearstation)
-"gvs" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 8
-	},
-/obj/structure/beebox/premade,
-/turf/open/floor/plasteel,
-/area/hydroponics)
 "gvw" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -102289,7 +102282,7 @@ aQJ
 aLR
 aTq
 aUI
-gvs
+kWp
 aXV
 aZB
 aWv
@@ -102546,7 +102539,7 @@ aQK
 aLR
 aTp
 aUI
-gvs
+kWp
 aXW
 aZC
 aWv
