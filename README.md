@@ -1,4 +1,4 @@
-## HippieStation 13 [![GitHub forks](https://img.shields.io/github/forks/Nopm/Beat-Station.svg?style=social&label=Fork)](https://github.com/Nopm/Beat-Station#fork-destination-box)
+## Beat!Station 13 [![GitHub forks](https://img.shields.io/github/forks/Nopm/Beat-Station.svg?style=social&label=Fork)](https://github.com/Nopm/Beat-Station#fork-destination-box)
 
 **Website:** http://www.beatstation.com.br <BR>
 **Code:** https://github.com/Nopm/Beat-Station <BR>
