@@ -53332,6 +53332,13 @@
 /obj/effect/landmark/carpspawn,
 /turf/open/space/basic,
 /area/space)
+"kiV" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 8
+	},
+/obj/structure/beebox/premade,
+/turf/open/floor/plasteel,
+/area/hydroponics)
 "klU" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 27
@@ -102282,7 +102289,7 @@ aQJ
 aLR
 aTq
 aUI
-kWp
+kiV
 aXV
 aZB
 aWv
@@ -102539,7 +102546,7 @@ aQK
 aLR
 aTp
 aUI
-kWp
+kiV
 aXW
 aZC
 aWv
