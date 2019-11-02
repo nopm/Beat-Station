@@ -110,10 +110,6 @@
 // If you're wondering what's with the backslashes, the backslashes cause BYOND to not automatically end the line.
 // As such this all gets counted as a single line.
 // The braces and semicolons are there to be able to do this on a single line.
-<<<<<<< HEAD
-#define LUM_FALLOFF(C, T) (1 - CLAMP01(sqrt((C.x - T.x) ** 2 + (C.y - T.y) ** 2 + LIGHTING_HEIGHT) / max(1, light_range)))
-=======
-
 //Original lighting falloff calculation. This looks the best out of the three. However, this is also the most expensive.
 //#define LUM_FALLOFF(C, T) (1 - CLAMP01(sqrt((C.x - T.x) ** 2 + (C.y - T.y) ** 2 + LIGHTING_HEIGHT) / max(1, light_range)))
 
@@ -126,7 +122,6 @@
 //Linear lighting falloff but with an octagonal shape in place of a diamond shape. Lummox JR please add pointer support.
 #define GET_LUM_DIST(DISTX, DISTY) (DISTX + DISTY)
 #define LUM_FALLOFF(C, T) (1 - CLAMP01(max(GET_LUM_DIST(abs(C.x - T.x), abs(C.y - T.y)),LIGHTING_HEIGHT) / max(1, light_range+1)))
->>>>>>> f318a836fe... Makes it less dark
 
 #define APPLY_CORNER(C)                      \
 	. = LUM_FALLOFF(C, pixel_turf);          \
