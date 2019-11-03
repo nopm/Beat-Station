@@ -117,10 +117,7 @@
   * Returns TRUE if the NOPOWER flag was toggled
   */
 /obj/machinery/proc/power_change()
-<<<<<<< HEAD
-=======
 	SHOULD_CALL_PARENT(1)
->>>>>>> 069df172fc... Adds cable layers + fixes SMES wiring (#12254)
 	if(stat & BROKEN)
 		return
 	if(powered(power_channel))
