@@ -2740,7 +2740,7 @@
 	},
 /obj/effect/turf_decal/bot,
 /obj/machinery/portable_atmospherics/canister,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
 "agu" = (
@@ -19760,7 +19760,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating/airless,
 /area/engine/port_engineering)
 "beR" = (
@@ -42198,7 +42198,6 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "ctG" = (
-/obj/structure/cable,
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
@@ -43311,6 +43310,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel/dark,
 /area/engine/engine_smes)
 "cwy" = (
@@ -43930,7 +43930,7 @@
 	name = "SMES Chamber";
 	req_access_txt = "32"
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel/dark,
 /area/engine/engine_smes)
 "cyN" = (
@@ -44192,6 +44192,7 @@
 	dir = 1
 	},
 /obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engine_smes)
 "czz" = (
@@ -44204,7 +44205,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engine_smes)
 "czA" = (
@@ -44215,7 +44216,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engine_smes)
 "czB" = (
@@ -44233,7 +44234,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engine_smes)
 "czC" = (
@@ -44246,7 +44247,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 1
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engine_smes)
 "czD" = (
@@ -44263,7 +44264,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engine_smes)
 "czE" = (
@@ -44281,7 +44282,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engine_smes)
 "czF" = (
@@ -44294,7 +44295,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "czG" = (
@@ -44304,7 +44305,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "czH" = (
@@ -44313,14 +44314,14 @@
 	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden/layer1,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "czI" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "czL" = (
@@ -44329,7 +44330,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "czM" = (
@@ -44342,7 +44343,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "czN" = (
@@ -44476,6 +44477,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 1
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engine_smes)
 "cAm" = (
@@ -44562,31 +44564,22 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
-"cAy" = (
-/obj/machinery/door/airlock/engineering/glass{
-	name = "Supermatter Engine Room";
-	req_access_txt = "10"
-	},
-/obj/machinery/door/firedoor/heavy,
-/obj/structure/cable,
-/turf/open/floor/engine,
 /area/engine/engineering)
 "cAz" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "cAA" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "cAB" = (
@@ -44762,6 +44755,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engine_smes)
 "cBk" = (
@@ -44773,6 +44767,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engine_smes)
 "cBl" = (
@@ -44791,6 +44786,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engine_smes)
 "cBm" = (
@@ -44846,7 +44842,7 @@
 /obj/machinery/atmospherics/pipe/simple/green/visible{
 	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "cBu" = (
@@ -44855,7 +44851,7 @@
 /obj/machinery/atmospherics/pipe/simple/green/visible{
 	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "cBv" = (
@@ -44873,7 +44869,7 @@
 /obj/machinery/atmospherics/pipe/manifold/green/visible{
 	dir = 1
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "cBw" = (
@@ -44882,7 +44878,7 @@
 	dir = 8;
 	name = "Gas to Filter"
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "cBx" = (
@@ -44896,7 +44892,7 @@
 /obj/machinery/atmospherics/pipe/manifold/cyan/visible{
 	dir = 1
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "cBy" = (
@@ -44906,7 +44902,7 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/visible{
 	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "cBB" = (
@@ -44964,6 +44960,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
 /obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "cBK" = (
@@ -45303,6 +45300,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "cCR" = (
@@ -45596,7 +45594,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "cDN" = (
@@ -45697,7 +45695,7 @@
 /obj/machinery/atmospherics/components/binary/pump{
 	name = "Emergency Cooling Loop Bypass"
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "cEg" = (
@@ -48995,6 +48993,16 @@
 /area/vacant_room/office{
 	name = "Vacant Office B"
 	})
+"dbA" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 1
+	},
+/obj/structure/cable/layer1,
+/turf/open/floor/plasteel,
+/area/engine/port_engineering)
 "dcn" = (
 /obj/effect/turf_decal/loading_area/white{
 	dir = 4
@@ -49133,6 +49141,12 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
+"doi" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/engine/port_engineering)
 "doB" = (
 /obj/structure/disposalpipe/segment,
 /obj/item/lighter,
@@ -49151,6 +49165,17 @@
 /obj/machinery/gibber,
 /turf/open/floor/plating,
 /area/maintenance/strangeroom)
+"dqI" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/end{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 1
+	},
+/obj/structure/cable/layer1,
+/turf/open/floor/plasteel,
+/area/engine/port_engineering)
 "dqX" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
@@ -49451,7 +49476,8 @@
 	},
 /obj/machinery/power/rad_collector/anchored,
 /obj/effect/turf_decal/bot,
-/obj/structure/cable,
+/obj/structure/cable_bridge,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating/airless,
 /area/engine/port_engineering)
 "dLD" = (
@@ -49477,7 +49503,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "dNP" = (
@@ -49785,16 +49811,6 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
-"eqR" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 1
-	},
-/obj/structure/cable,
-/turf/open/floor/plasteel,
-/area/engine/port_engineering)
 "eri" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 5
@@ -49964,7 +49980,8 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/power/rad_collector/anchored,
 /obj/effect/turf_decal/bot,
-/obj/structure/cable,
+/obj/structure/cable_bridge,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating/airless,
 /area/engine/port_engineering)
 "eHF" = (
@@ -50470,7 +50487,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "fyF" = (
@@ -50605,7 +50622,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "fKh" = (
@@ -50770,7 +50787,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "fZv" = (
@@ -51097,6 +51114,7 @@
 	dir = 9
 	},
 /obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "gxm" = (
@@ -51481,7 +51499,8 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/bot,
-/obj/structure/cable,
+/obj/structure/cable_bridge,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/port_engineering)
 "hkb" = (
@@ -51495,7 +51514,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "hkd" = (
@@ -51583,7 +51602,7 @@
 	network = list("engine");
 	pixel_x = 11
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "hqn" = (
@@ -51763,6 +51782,13 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"hLm" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/structure/cable/layer1,
+/turf/open/floor/plasteel,
+/area/engine/port_engineering)
 "hLq" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/line{
@@ -52028,6 +52054,7 @@
 	req_access_txt = "10"
 	},
 /obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engine_smes)
 "ifh" = (
@@ -52251,7 +52278,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/port_engineering)
 "izE" = (
@@ -52286,7 +52313,7 @@
 	dir = 8;
 	network = list("SS13","Singularity")
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/port_engineering)
 "iBJ" = (
@@ -52315,6 +52342,14 @@
 /obj/item/stack/sheet/glass/fifty,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
+/area/engine/port_engineering)
+"iFd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/structure/cable/layer1,
+/turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "iFe" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -52377,7 +52412,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "iKM" = (
@@ -52463,7 +52498,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/port_engineering)
 "iUf" = (
@@ -52545,7 +52580,8 @@
 /obj/machinery/power/tesla_coil,
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/bot,
-/obj/structure/cable,
+/obj/structure/cable_bridge,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating/airless,
 /area/engine/port_engineering)
 "iZv" = (
@@ -52636,7 +52672,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "jhA" = (
@@ -52757,7 +52793,7 @@
 /obj/machinery/atmospherics/pipe/simple/green/visible{
 	dir = 6
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "jrL" = (
@@ -52819,7 +52855,7 @@
 /obj/machinery/atmospherics/pipe/manifold/cyan/visible{
 	dir = 1
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "jwq" = (
@@ -52853,7 +52889,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "jxw" = (
@@ -52920,6 +52956,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
+"jzY" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable/layer1,
+/turf/open/floor/plating/airless,
+/area/engine/port_engineering)
 "jAo" = (
 /obj/structure/table/reinforced,
 /obj/item/tank/internals/emergency_oxygen/engi{
@@ -53333,7 +53374,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating/airless,
 /area/engine/port_engineering)
 "kmr" = (
@@ -53847,7 +53888,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "lfl" = (
@@ -54149,7 +54190,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/plating/airless,
 /area/engine/port_engineering)
 "lGt" = (
@@ -54195,6 +54235,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "lKo" = (
@@ -54330,6 +54371,16 @@
 /obj/structure/chair/stool,
 /turf/open/floor/plasteel,
 /area/security/prison)
+"lRO" = (
+/obj/machinery/door/airlock/external{
+	name = "Engineering External Access";
+	req_access_txt = "10;13"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/engine/port_engineering)
 "lSO" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -54505,7 +54556,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "mht" = (
@@ -54558,7 +54609,7 @@
 /area/hallway/secondary/entry)
 "mkS" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/port_engineering)
 "mlA" = (
@@ -54579,7 +54630,7 @@
 /obj/machinery/atmospherics/components/trinary/filter/flipped/critical{
 	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "mmP" = (
@@ -54735,7 +54786,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "mDV" = (
@@ -54796,6 +54847,13 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port)
+"mGm" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/cable/layer1,
+/turf/open/floor/plating/airless,
+/area/engine/port_engineering)
 "mGZ" = (
 /obj/machinery/camera{
 	c_tag = "Atmospherics CO2 Tank"
@@ -54963,7 +55021,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/port_engineering)
 "mRY" = (
@@ -55193,7 +55251,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "nmg" = (
@@ -55242,7 +55300,7 @@
 	name = "Radiation Chamber Shutters"
 	},
 /obj/item/tank/internals/plasma,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "nsr" = (
@@ -55323,6 +55381,14 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/disposal)
+"nyp" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/maintenance/port/aft)
 "nyG" = (
 /obj/machinery/computer/mecha{
 	dir = 8
@@ -55340,6 +55406,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "nzH" = (
@@ -55467,13 +55534,14 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/structure/cable,
 /obj/machinery/power/terminal{
 	dir = 4
 	},
 /obj/machinery/power/terminal{
 	dir = 8
 	},
+/obj/structure/cable_bridge,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel/dark,
 /area/engine/engine_smes)
 "nNq" = (
@@ -55539,7 +55607,7 @@
 /turf/open/floor/plasteel,
 /area/science/storage)
 "nTb" = (
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/port_engineering)
 "nTF" = (
@@ -55641,6 +55709,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 1
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "ojW" = (
@@ -55747,7 +55816,7 @@
 /area/hallway/secondary/entry)
 "opM" = (
 /obj/effect/turf_decal/delivery,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "oqz" = (
@@ -55769,6 +55838,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
+"osa" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/layer1,
+/turf/open/floor/plasteel,
+/area/engine/port_engineering)
 "osF" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -56605,6 +56679,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "pLR" = (
@@ -56829,7 +56904,6 @@
 /area/engine/engineering)
 "qhG" = (
 /obj/effect/turf_decal/stripes/line,
-/obj/structure/cable,
 /turf/open/floor/plating/airless,
 /area/engine/port_engineering)
 "qhL" = (
@@ -57051,7 +57125,7 @@
 /area/science/mixing)
 "qwV" = (
 /obj/effect/turf_decal/stripes/corner,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "qxN" = (
@@ -57092,6 +57166,7 @@
 "qFn" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "qFp" = (
@@ -57246,6 +57321,10 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel,
 /area/engine/atmos)
+"qTj" = (
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plating,
+/area/engine/port_engineering)
 "qUO" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -57748,7 +57827,7 @@
 	name = "Security Checkpoint - Arrivals"
 	})
 "rSk" = (
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "rUq" = (
@@ -57791,6 +57870,7 @@
 	req_access_txt = "10"
 	},
 /obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "rXs" = (
@@ -57812,7 +57892,7 @@
 /area/engine/engineering)
 "rYX" = (
 /obj/effect/turf_decal/delivery,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/port_engineering)
 "rZX" = (
@@ -57826,7 +57906,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "sbm" = (
@@ -57994,6 +58074,7 @@
 	dir = 6
 	},
 /obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "stg" = (
@@ -58121,7 +58202,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating/airless,
 /area/engine/port_engineering)
 "sHO" = (
@@ -58198,7 +58279,6 @@
 	req_access_txt = "11"
 	},
 /obj/machinery/light,
-/obj/structure/cable,
 /turf/open/floor/plating,
 /area/engine/port_engineering)
 "sMx" = (
@@ -58470,7 +58550,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engine/engineering)
 "tcZ" = (
@@ -58555,6 +58635,17 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/heads/hop)
+"tlz" = (
+/obj/machinery/door/airlock/external{
+	name = "Engineering External Access";
+	req_access_txt = "10;13"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/engine/port_engineering)
 "tlY" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
@@ -58624,6 +58715,10 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/crew_quarters/heads/hor)
+"tsP" = (
+/obj/structure/cable/layer1,
+/turf/open/floor/plasteel/dark,
+/area/engine/engine_smes)
 "tta" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
 /obj/machinery/door/airlock/engineering/glass{
@@ -59508,7 +59603,7 @@
 	id = "engsm";
 	name = "Radiation Chamber Shutters"
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "uRY" = (
@@ -59656,6 +59751,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 1
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "vdQ" = (
@@ -60086,7 +60182,7 @@
 	dir = 6
 	},
 /obj/effect/turf_decal/delivery,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
 "vXF" = (
@@ -60213,6 +60309,7 @@
 /area/hallway/primary/central)
 "wjF" = (
 /obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "wjM" = (
@@ -60251,7 +60348,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "wow" = (
@@ -60308,7 +60405,7 @@
 	pixel_y = 24;
 	req_access_txt = "11"
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/port_engineering)
 "wqy" = (
@@ -60508,7 +60605,7 @@
 	},
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/effect/turf_decal/bot,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
 "wEt" = (
@@ -60646,7 +60743,7 @@
 /area/science/nanite)
 "wNs" = (
 /obj/effect/turf_decal/bot,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "wOI" = (
@@ -60670,7 +60767,8 @@
 	},
 /obj/machinery/power/tesla_coil,
 /obj/effect/turf_decal/bot,
-/obj/structure/cable,
+/obj/structure/cable_bridge,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating/airless,
 /area/engine/port_engineering)
 "wPK" = (
@@ -61139,7 +61237,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "xBF" = (
@@ -61211,7 +61309,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/delivery,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
 "xIy" = (
@@ -61229,7 +61327,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/bot,
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/port_engineering)
 "xJc" = (
@@ -61400,7 +61498,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/engine/port_engineering)
 "xXW" = (
@@ -61423,7 +61521,8 @@
 /obj/effect/turf_decal/stripes/end{
 	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/cable_bridge,
+/obj/structure/cable/layer1,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "xZi" = (
@@ -61514,7 +61613,8 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/bot,
-/obj/structure/cable,
+/obj/structure/cable_bridge,
+/obj/structure/cable/layer1,
 /turf/open/floor/plating/airless,
 /area/engine/port_engineering)
 "yku" = (
@@ -77156,7 +77256,7 @@ oUK
 vzq
 dBI
 wHh
-qhG
+jzY
 eVs
 aad
 aad
@@ -77680,7 +77780,7 @@ yig
 aad
 aad
 eVs
-lGi
+mGm
 wHh
 icl
 vzq
@@ -78441,7 +78541,7 @@ vzq
 oln
 mqf
 wHh
-qhG
+jzY
 eVs
 fTz
 fTz
@@ -78451,7 +78551,7 @@ fTz
 fTz
 fTz
 eVs
-lGi
+mGm
 wHh
 pXs
 sRu
@@ -78712,7 +78812,7 @@ kmg
 wHh
 mqf
 wHh
-vzq
+iFO
 oUK
 aaa
 aaj
@@ -78968,8 +79068,8 @@ dBI
 wHh
 wHh
 hQn
-wzO
-vzq
+wHh
+iFO
 oUK
 aaa
 aaj
@@ -79218,14 +79318,14 @@ cQZ
 rYX
 rYX
 rYX
-rYX
-rYX
+qTj
+qTj
 cQZ
 cQZ
 cQZ
 cQZ
 oUK
-pWN
+lRO
 oUK
 oUK
 aaa
@@ -79476,13 +79576,13 @@ nTb
 drq
 giH
 mNz
-nTb
+ncA
 cQZ
 hka
 hka
 hka
 oUK
-stN
+doi
 cXm
 oUK
 aad
@@ -79733,13 +79833,13 @@ iTx
 dxg
 sSz
 ncA
-nTb
+ncA
 oUK
 mga
 mRX
 mga
 oUK
-nqz
+tlz
 oUK
 oUK
 aad
@@ -79996,7 +80096,7 @@ lZN
 xBh
 hgw
 kfK
-uJG
+tbT
 sNr
 oUK
 aad
@@ -80249,7 +80349,7 @@ fho
 ncA
 nTb
 xWR
-uPT
+hLm
 wom
 yee
 yee
@@ -81013,9 +81113,9 @@ ojK
 ojK
 lKd
 vdN
-oGE
-rOt
-eqR
+dqI
+dbA
+dbA
 qoi
 rOt
 vcY
@@ -81266,7 +81366,7 @@ taq
 mQv
 hwl
 jEw
-uJZ
+osa
 uJZ
 uJZ
 uJZ
@@ -81523,7 +81623,7 @@ xit
 oUK
 gEC
 cLV
-vkT
+iFd
 vkT
 vkT
 dmH
@@ -84342,7 +84442,7 @@ eYO
 eZv
 cvu
 nLO
-vcQ
+tsP
 nLO
 cyL
 czy
@@ -86652,9 +86752,9 @@ ccE
 fNC
 csC
 ctG
-iyH
-iyH
-iyH
+nyp
+nyp
+nyp
 cxA
 cym
 cyT
@@ -88458,7 +88558,7 @@ ctP
 cyo
 cza
 czN
-cAy
+czg
 xxi
 iLK
 cxz

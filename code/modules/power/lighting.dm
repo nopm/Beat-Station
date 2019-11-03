@@ -730,6 +730,10 @@
 
 // called when area power state changes
 /obj/machinery/light/power_change()
+<<<<<<< HEAD
+=======
+	SHOULD_CALL_PARENT(0)
+>>>>>>> 069df172fc... Adds cable layers + fixes SMES wiring (#12254)
 	var/area/A = get_area(src)
 	seton(A.lightswitch && A.power_light)
 
