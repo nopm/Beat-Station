@@ -265,6 +265,7 @@ hippie end*/
 	knockdown = 20
 
 /obj/item/restraints/legcuffs/bola/cult/pickup(mob/living/user)
+	. = ..()
 	if(!iscultist(user))
 		to_chat(user, "<span class='warning'>The bola seems to take on a life of its own!</span>")
 		throw_impact(user)
