@@ -65,7 +65,7 @@ FROM dm_base as build
 
 COPY . .
 
-RUN DreamMaker -max_errors 0 hippiestation.dme && tools/deploy.sh /deploy
+RUN DreamMaker -max_errors 0 beatstation.dme && tools/deploy.sh /deploy
 
 FROM dm_base
 
@@ -87,4 +87,4 @@ RUN ln -s /tgstation/libBSQL.so /root/.byond/bin/libBSQL.so
 
 VOLUME [ "/tgstation/config", "/tgstation/data" ]
 
-ENTRYPOINT [ "DreamDaemon", "hippiestation.dmb", "-port", "1337", "-trusted", "-close", "-verbose" ]
+ENTRYPOINT [ "DreamDaemon", "beatstation.dmb", "-port", "1337", "-trusted", "-close", "-verbose" ]
