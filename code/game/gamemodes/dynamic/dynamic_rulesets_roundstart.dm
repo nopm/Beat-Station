@@ -197,11 +197,7 @@
 	restricted_roles = list("AI", "Cyborg", "Security Officer", "Warden", "Detective", "Head of Security", "Captain", "Chaplain", "Head of Personnel")
 	required_candidates = 2
 	weight = 3
-<<<<<<< HEAD
 	cost = 60 // beat -- bumps the bloodcult cost up, we get fucking bloodcult EVERY FUCKING ROUND
-=======
-	cost = 35
->>>>>>> 23907685b2... Merge pull request #12240 from steamp0rt/fix-dynamic-more
 	requirements = list(100,90,80,60,40,30,10,10,10,10)
 	high_population_requirement = 10
 	flags = HIGHLANDER_RULESET
@@ -617,17 +613,11 @@
 	restricted_roles = list("Lawyer", "Curator", "Chaplain", "Head of Security", "Captain", "AI")
 	required_candidates = 1
 	weight = 3
-<<<<<<< HEAD
 	cost = 60 // beat -- we already get too many fucking devils on secret mode, but they should at the very least be enabled
 	requirements = list(100,90,80,60,40,30,10,10,10,10) // beat -- fucking hippiecode
 	//high_population_requirement = 101 // beat -- haha, no
 	var/devil_limit = 4 // Hard limit on devils if scaling is turned off
-=======
-	cost = 0
-	requirements = list(101,101,101,101,101,101,101,101,101,101)
-	high_population_requirement = 101
 	antag_cap = list(1,1,1,2,2,2,3,3,3,4)
->>>>>>> 23907685b2... Merge pull request #12240 from steamp0rt/fix-dynamic-more
 
 /datum/dynamic_ruleset/roundstart/devil/pre_execute()	
 	var/num_devils = antag_cap[indice_pop]
