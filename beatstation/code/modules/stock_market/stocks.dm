@@ -251,7 +251,7 @@
 		cred = D.account_balance
 		if (by < 0 && cred + by < 0 && !force)
 			return 0
-		D.adjust_money(by)
+		cred += by
 		GLOB.stockExchange.balanceLog(whose, by)
 		return 1
 	return 0
