@@ -20,7 +20,7 @@
 	. = ..()
 
 	if (!.)
-
+		return
 	if(findtext(message, "rouge"))
 		var/mob/living/carbon/human/H = src
 		to_chat(src, "<span class='warning'><b>You feel like a fucking idiot.</b></span>")
