@@ -216,6 +216,12 @@
 	var/input_module = input("Please, select a module!", "Robot", null, null) as null|anything in modulelist
 	if(!input_module || module.type != /obj/item/robot_module)
 		return
+	var/mob/living/silicon/robot/R = usr	//beat begin -- no clown borgs allowed
+	if(input_module == "Clown")
+		var/turf/T = get_turf(R)
+		message_admins("<span class='notice'>[ADMIN_LOOKUPFLW(R)] detonated himself by choosing the clown module at [ADMIN_VERBOSEJMP(T)]!</span>")
+		log_game("<span class='notice'>[key_name(R)] detonated himself by choosing the clown module!</span>")
+		R.self_destruct()	//beat end
 
 	module.transform_to(modulelist[input_module])
 
