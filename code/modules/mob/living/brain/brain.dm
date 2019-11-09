@@ -44,6 +44,7 @@
 	return
 
 /mob/living/brain/blob_act(obj/structure/blob/B)
+	SHOULD_CALL_PARENT(FALSE)
 	return
 
 /mob/living/brain/get_eye_protection()//no eyes

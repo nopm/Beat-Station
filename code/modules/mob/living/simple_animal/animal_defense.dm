@@ -105,6 +105,7 @@
 		return TRUE
 
 /mob/living/simple_animal/bullet_act(obj/item/projectile/Proj)
+	. = ..()
 	apply_damage(Proj.damage, Proj.damage_type)
 	Proj.on_hit(src)
 	return BULLET_ACT_HIT
@@ -134,6 +135,7 @@
 			adjustBruteLoss(bloss)
 
 /mob/living/simple_animal/blob_act(obj/structure/blob/B)
+	. = ..()
 	adjustBruteLoss(20)
 	return
 
