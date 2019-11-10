@@ -5,6 +5,7 @@
 	circuit = /obj/item/circuitboard/computer/cargo
 	var/requestonly = FALSE
 	var/contraband = FALSE
+	var/self_paid = FALSE
 	var/safety_warning = "For safety reasons, the automated supply shuttle \
 		cannot transport live organisms, human remains, classified nuclear weaponry \
 		or homing beacons."
@@ -64,6 +65,10 @@
 	if(D)
 		data["points"] = D.account_balance
 	data["away"] = SSshuttle.supply.getDockedId() == "supply_away"
+<<<<<<< HEAD
+=======
+	data["self_paid"] = self_paid
+>>>>>>> 1f791357f2... Merge pull request #12295 from HippieStation/steamp0rt-patch-2
 	data["docked"] = SSshuttle.supply.mode == SHUTTLE_IDLE
 	data["loan"] = !!SSshuttle.shuttle_loan
 	data["loan_dispatched"] = SSshuttle.shuttle_loan && SSshuttle.shuttle_loan.dispatched
@@ -153,7 +158,6 @@
 				. = TRUE
 		if("add")
 			var/id = text2path(params["id"])
-			var/self_paid = text2num(params["self_paid"])
 			var/datum/supply_pack/pack = SSshuttle.supply_packs[id]
 			if(!istype(pack))
 				return
@@ -227,6 +231,12 @@
 		if("denyall")
 			SSshuttle.requestlist.Cut()
 			. = TRUE
+<<<<<<< HEAD
+=======
+		if("toggleprivate")
+			self_paid = !self_paid
+			. = TRUE
+>>>>>>> 1f791357f2... Merge pull request #12295 from HippieStation/steamp0rt-patch-2
 	if(.)
 		post_signal("supply")
 
