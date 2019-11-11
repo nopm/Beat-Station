@@ -12,13 +12,9 @@
 	active_power_usage = 0
 	var/id = 0
 	max_integrity = 150
-<<<<<<< HEAD
-	integrity_failure = 50
-=======
 	integrity_failure = 0.33
 
 	var/id = 0
->>>>>>> 7029b5c080... Merge pull request #12298 from steamp0rt/tgui-super-jumbo-extra
 	var/obscured = 0
 	var/sunfrac = 0
 	var/adir = SOUTH // actual dir
