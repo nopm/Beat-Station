@@ -65,10 +65,7 @@
 	if(D)
 		data["points"] = D.account_balance
 	data["away"] = SSshuttle.supply.getDockedId() == "supply_away"
-<<<<<<< HEAD
-=======
 	data["self_paid"] = self_paid
->>>>>>> 1f791357f2... Merge pull request #12295 from HippieStation/steamp0rt-patch-2
 	data["docked"] = SSshuttle.supply.mode == SHUTTLE_IDLE
 	data["loan"] = !!SSshuttle.shuttle_loan
 	data["loan_dispatched"] = SSshuttle.shuttle_loan && SSshuttle.shuttle_loan.dispatched
@@ -231,12 +228,9 @@
 		if("denyall")
 			SSshuttle.requestlist.Cut()
 			. = TRUE
-<<<<<<< HEAD
-=======
 		if("toggleprivate")
 			self_paid = !self_paid
 			. = TRUE
->>>>>>> 1f791357f2... Merge pull request #12295 from HippieStation/steamp0rt-patch-2
 	if(.)
 		post_signal("supply")
 
