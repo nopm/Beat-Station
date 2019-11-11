@@ -347,11 +347,7 @@
 												datum/tgui/master_ui = null, datum/ui_state/state = GLOB.default_state)
 	ui = SStgui.try_update_ui(user, src, ui_key, ui, force_open)
 	if(!ui)
-<<<<<<< HEAD
-		ui = new(user, src, ui_key, "solar_control", name, 500, 400, master_ui, state)
-=======
 		ui = new(user, src, ui_key, "solar_control", name, 380, 230, master_ui, state)
->>>>>>> 7029b5c080... Merge pull request #12298 from steamp0rt/tgui-super-jumbo-extra
 		ui.open()
 
 /obj/machinery/power/solar_control/ui_data()
