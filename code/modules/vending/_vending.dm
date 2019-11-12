@@ -354,6 +354,7 @@ GLOBAL_LIST_EMPTY(vending_products)
 			return
 	return ..()
 
+/* hippie start -- tgui-next vendors
 /obj/machinery/vending/ui_interact(mob/user)
 	var/list/dat = list()
 	var/datum/bank_account/account
@@ -533,6 +534,7 @@ GLOBAL_LIST_EMPTY(vending_products)
 		shut_up = !shut_up
 
 	updateUsrDialog()
+hippie end*/
 
 
 /obj/machinery/vending/process()
@@ -620,6 +622,7 @@ GLOBAL_LIST_EMPTY(vending_products)
 /obj/machinery/vending/proc/compartmentLoadAccessCheck(mob/user)
 	if(!canload_access_list)
 		return TRUE
+<<<<<<< HEAD
 	else
 		var/do_you_have_access = FALSE
 		var/req_access_txt_holder = req_access_txt
@@ -639,3 +642,175 @@ GLOBAL_LIST_EMPTY(vending_products)
 
 /obj/machinery/vending/onTransitZ()
 	return
+=======
+
+/*/obj/machinery/vending/custom/Topic(href, href_list)
+	usr.set_machine(src)
+	///what we are selling
+	var/obj/S
+
+	if(href_list["dispense"] && vend_ready)
+		var/N = href_list["dispense"]
+		vend_ready = 0
+		if(ishuman(usr))
+			var/mob/living/carbon/human/H = usr
+			var/obj/item/card/id/C = H.get_idcard(TRUE)
+
+			if(!C)
+				say("No card found.")
+				flick(icon_deny,src)
+				vend_ready = 1
+				return
+			else if (!C.registered_account)
+				say("No account found.")
+				flick(icon_deny,src)
+				vend_ready = 1
+				return
+			var/datum/bank_account/account = C.registered_account
+			for(var/obj/O in contents)
+				if(O.name == N)
+					S = O
+					break
+			if(S)
+				if(compartmentLoadAccessCheck(usr))
+					vending_machine_input[N] = max(vending_machine_input[N] - 1, 0)
+					S.forceMove(drop_location())
+					loaded_items--
+					use_power(5)
+					vend_ready = 1
+					updateUsrDialog()
+					return
+				if(account.has_money(S.custom_price))
+					account.adjust_money(-S.custom_price)
+					var/datum/bank_account/owner = private_a
+					if(owner)
+						owner.adjust_money(S.custom_price)
+					vending_machine_input[N] = max(vending_machine_input[N] - 1, 0)
+					S.forceMove(drop_location())
+					loaded_items--
+					use_power(5)
+					if(last_shopper != usr || purchase_message_cooldown < world.time)
+						say("Thank you for buying local and purchasing [S]!")
+						purchase_message_cooldown = world.time + 5 SECONDS
+						last_shopper = usr
+					vend_ready = 1
+					updateUsrDialog()
+					return
+				else
+					say("You do not possess the funds to purchase this.")
+		vend_ready = 1
+
+/obj/machinery/vending/custom/ui_interact(mob/user)
+	var/list/dat = list()
+	var/datum/bank_account/account
+	var/mob/living/carbon/human/H
+	var/obj/item/card/id/C
+	if(ishuman(user))
+		H = user
+		C = H.get_idcard(TRUE)
+	///temp var to set the shown price
+	var/price = 1
+
+	if(!C)
+		dat += "<font color = 'red'><h3>No ID Card detected!</h3></font>"
+	else if (!C.registered_account)
+		dat += "<font color = 'red'><h3>No account on registered ID card!</h3></font>"
+	else
+		account = C.registered_account
+	if(vending_machine_input.len)
+		dat += "<h3>[input_display_header]</h3>"
+		dat += "<div class='statusDisplay'>"
+		for (var/O in vending_machine_input)
+			if(vending_machine_input[O] > 0)
+				var/N = vending_machine_input[O]
+				dat += "<a href='byond://?src=[REF(src)];dispense=[sanitize(O)]'>Dispense</A> "
+				if(compartmentLoadAccessCheck(user))
+					price = "FREE"
+				else
+					for(var/obj/T in contents)
+						if(T.name == O)
+							price = "$[T.custom_price]"
+							break
+				dat += "<B>[O] ([price]): [N]</B><br>"
+		dat += "</div>"
+		if(account && account.account_balance)
+			dat += "<b>Balance: $[account.account_balance]</b>"
+
+	var/datum/browser/popup = new(user, "vending", (name))
+	popup.add_stylesheet(get_asset_datum(/datum/asset/spritesheet/vending))
+	popup.set_content(dat.Join(""))
+	popup.set_title_image(user.browse_rsc_icon(icon, icon_state))
+	popup.open()*/
+
+/obj/machinery/vending/custom/attackby(obj/item/I, mob/user, params)
+	if(!private_a)
+		var/mob/living/carbon/human/H
+		var/obj/item/card/id/C
+		if(ishuman(user))
+			H = user
+			C = H.get_idcard(TRUE)
+			if(C?.registered_account)
+				private_a = C.registered_account
+				say("\The [src] has been linked to [C].")
+
+	if(compartmentLoadAccessCheck(user))
+		if(istype(I, /obj/item/pen))
+			name = stripped_input(user,"Set name","Name", name, 20)
+			desc = stripped_input(user,"Set description","Description", desc, 60)
+			slogan_list += stripped_input(user,"Set slogan","Slogan","Epic", 60)
+			last_slogan = world.time + rand(0, slogan_delay)
+			return
+
+		if(canLoadItem(I))
+			loadingAttempt(I,user)
+			updateUsrDialog()
+			return
+
+	if(panel_open && is_wire_tool(I))
+		wires.interact(user)
+		return
+
+	return ..()
+
+/obj/machinery/vending/custom/crowbar_act(mob/living/user, obj/item/I)
+	return FALSE
+
+/obj/machinery/vending/custom/Destroy()
+	var/turf/T = get_turf(src)
+	if(T)
+		for(var/obj/item/I in contents)
+			I.forceMove(T)
+		explosion(T, -1, 0, 3)
+	return ..()
+
+/obj/machinery/vending/custom/unbreakable
+	name = "Indestructible Vendor"
+	resistance_flags = INDESTRUCTIBLE
+
+/obj/item/vending_refill/custom
+	machine_name = "Custom Vendor"
+	icon_state = "refill_custom"
+	custom_premium_price = 30
+
+/obj/item/price_tagger
+	name = "price tagger"
+	desc = "This tool is used to set a price for items used in custom vendors."
+	icon = 'icons/obj/device.dmi'
+	icon_state = "pricetagger"
+	custom_premium_price = 25
+	///the price of the item
+	var/price = 1
+
+/obj/item/price_tagger/attack_self(mob/user)
+	price = max(1, round(input(user,"set price","price") as num|null, 1))
+	to_chat(user, "<span class='notice'> The [src] will now give things an $[price] tag.</span>")
+
+/obj/item/price_tagger/afterattack(atom/target, mob/user, proximity)
+	. = ..()
+	if(!proximity)
+		return
+	if(isitem(target))
+		var/obj/item/I = target
+		I.custom_price = price
+		to_chat(user, "<span class='notice'>You set the price of [I] to $[price].</span>")
+>>>>>>> 4dd2ab9682... Merge pull request #12304 from steamp0rt/vending-tgui
