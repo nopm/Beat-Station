@@ -1,4 +1,0 @@
-author: "Neotw"
-delete-after: True
-changes: 
-  - rscadd: "Ported tgui-next"
