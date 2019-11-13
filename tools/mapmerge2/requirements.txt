@@ -1,7 +1,3 @@
 pygit2==0.28.2
 bidict==0.18.3
-<<<<<<< HEAD
-Pillow==6.1.0
-=======
 Pillow==6.2.1
->>>>>>> d66034d9fc... Merge pull request #12198 from HippieStation/dependabot/pip/tools/pillow-6.2.1
