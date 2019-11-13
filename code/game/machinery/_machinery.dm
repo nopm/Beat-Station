@@ -376,7 +376,8 @@ Class Procs:
 	. = ..()
 	if(!(stat & BROKEN) && !(flags_1 & NODECONSTRUCT_1))
 		stat |= BROKEN
-
+		SEND_SIGNAL(src, COMSIG_MACHINERY_BROKEN, damage_flag)
+		
 /obj/machinery/contents_explosion(severity, target)
 	if(occupant)
 		occupant.ex_act(severity, target)
