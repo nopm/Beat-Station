@@ -17,4 +17,14 @@ export RUST_G_VERSION=0.4.2
 export BSQL_VERSION=v1.4.0.0
 
 #node version
+<<<<<<< HEAD
 export NODE_VERSION=8
+=======
+export NODE_VERSION=12
+
+# PHP version
+export PHP_VERSION=5.6
+
+# SpacemanDMM git tag
+export SPACEMAN_DMM_VERSION=suite-1.1
+>>>>>>> 34aad76b97... Merge pull request #12296 from steamp0rt/513-stuff

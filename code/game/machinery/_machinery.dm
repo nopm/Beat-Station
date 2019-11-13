@@ -373,7 +373,12 @@ Class Procs:
 	M.icon_state = "box_1"
 
 /obj/machinery/obj_break(damage_flag)
+<<<<<<< HEAD
 	if(!(flags_1 & NODECONSTRUCT_1))
+=======
+	. = ..()
+	if(!(stat & BROKEN) && !(flags_1 & NODECONSTRUCT_1))
+>>>>>>> 34aad76b97... Merge pull request #12296 from steamp0rt/513-stuff
 		stat |= BROKEN
 
 /obj/machinery/contents_explosion(severity, target)
