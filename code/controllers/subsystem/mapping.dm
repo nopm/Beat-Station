@@ -247,7 +247,7 @@ SUBSYSTEM_DEF(mapping)
 	if(config.minetype == "lavaland")
 		LoadGroup(FailedZs, "Lavaland", "map_files/Mining", "Lavaland.dmm", default_traits = ZTRAITS_LAVALAND)
 	//beat begin -- adds updated lavaland map of /tg/ to kilo station and any other map we want, map loc: _maps/map_files/Mining/tgLavaland.dmm
-	if(config.minetype == "tglavaland")
+	else if(config.minetype == "tglavaland")
 		LoadGroup(FailedZs, "Lavaland", "map_files/Mining", "tgLavaland.dmm", default_traits = ZTRAITS_LAVALAND)
 	//beat -- end
 	else if (!isnull(config.minetype))
