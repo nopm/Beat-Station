@@ -6,3 +6,6 @@
 
 /datum/techweb_node/comptech
 	design_ids = list("cargo", "cargorequest", "stockexchange", "libraryconsole", "mining", "crewconsole", "rdcamera", "comconsole", "idcardconsole", "seccamera")
+
+/datum/techweb_node/biotech
+	design_ids = list("chem_heater", "chem_master", "chem_dispenser", "pandemic", "defibrillator", "defibmount", "operating", "soda_dispenser", "beer_dispenser", "healthanalyzer", "medspray","genescanner", "medical_kiosk")
