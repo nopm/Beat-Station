@@ -51,6 +51,8 @@ import { Wires } from './interfaces/Wires';
 import { Guardian } from './interfaces/Guardian';
 import { Vending } from './interfaces/Vending';
 // hippie end
+// beat -- medical kiosk
+import { MedicalKiosk } from './interfaces/MedicalKiosk';
 
 const ROUTES = {
   achievements: {
@@ -263,6 +265,12 @@ const ROUTES = {
     scrollable: true,
   },
   // hippie end
+  // beat begin -- medical kiosk
+  medical_kiosk: {
+    component: () => MedicalKiosk,
+    scrollable: false,
+  },
+  // beat end
 };
 
 export const getRoute = state => {
