@@ -7311,7 +7311,7 @@
 /obj/effect/turf_decal/bot,
 /obj/structure/rack,
 /obj/item/clothing/gloves/color/brown,
-/obj/item/clothing/under/misc/overalls,
+/obj/item/clothing/under/overalls,
 /obj/item/clothing/mask/gas{
 	pixel_x = 4;
 	pixel_y = 4
@@ -7675,7 +7675,7 @@
 	},
 /obj/effect/turf_decal/bot,
 /obj/structure/cable,
-/obj/machinery/computer/prisoner/management,
+/obj/machinery/computer/prisoner,
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "amf" = (
@@ -8280,11 +8280,11 @@
 	},
 /obj/structure/table,
 /obj/effect/decal/cleanable/cobweb,
-/obj/item/clothing/under/rank/civilian/lawyer/black{
+/obj/item/clothing/under/lawyer/black{
 	pixel_x = 4;
 	pixel_y = 4
 	},
-/obj/item/clothing/under/rank/civilian/lawyer/black,
+/obj/item/clothing/under/lawyer/black,
 /obj/item/clothing/neck/tie/black{
 	pixel_x = 6
 	},
@@ -9733,7 +9733,7 @@
 /obj/structure/closet{
 	name = "science locker"
 	},
-/obj/item/clothing/under/rank/rnd/scientist{
+/obj/item/clothing/under/rank/scientist{
 	pixel_x = 4;
 	pixel_y = 4
 	},
@@ -14934,7 +14934,7 @@
 	dir = 4
 	},
 /obj/item/clipboard,
-/obj/item/reagent_containers/pill/patch/aiuri,
+/obj/item/reagent_containers/pill/patch/silver_sulf,
 /obj/item/clothing/glasses/meson/engine,
 /turf/open/floor/plasteel/dark,
 /area/engine/break_room)
@@ -15266,7 +15266,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
-/obj/machinery/computer/prisoner/management{
+/obj/machinery/computer/prisoner{
 	icon_state = "computer";
 	dir = 4
 	},
@@ -20636,7 +20636,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/general/visible,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/computer/atmos_control/incinerator{
+/obj/machinery/computer/atmos_control/tank/incinerator{
 	icon_state = "computer";
 	dir = 1
 	},
@@ -28875,7 +28875,7 @@
 /obj/structure/grille/broken,
 /obj/item/clothing/gloves/color/latex,
 /obj/item/clothing/mask/surgical,
-/obj/item/clothing/under/rank/medical/doctor,
+/obj/item/clothing/under/rank/medical,
 /turf/open/floor/plating,
 /area/maintenance/port)
 "aRQ" = (
@@ -39184,7 +39184,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/bot,
-/obj/machinery/computer/prisoner/gulag_teleporter_computer{
+/obj/machinery/computer/gulag_teleporter_computer{
 	icon_state = "computer";
 	dir = 4
 	},
@@ -44070,7 +44070,7 @@
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/blood/old,
-/obj/item/storage/photo_album/prison,
+/obj/item/storage/photo_album,
 /obj/item/camera{
 	pixel_x = -2;
 	pixel_y = -2
@@ -45116,7 +45116,7 @@
 	},
 /obj/item/clothing/shoes/sneakers/brown,
 /obj/effect/spawner/lootdrop/maintenance,
-/obj/item/clothing/under/rank/cargo/tech,
+/obj/item/clothing/under/rank/cargotech,
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "bop" = (
@@ -52797,7 +52797,7 @@
 /obj/machinery/newscaster/security_unit{
 	pixel_x = -28
 	},
-/obj/machinery/computer/prisoner/management{
+/obj/machinery/computer/prisoner{
 	icon_state = "computer";
 	dir = 4
 	},
@@ -66323,7 +66323,7 @@
 	pixel_y = 4
 	},
 /obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/shoes/cowboy/black,
+/obj/item/clothing/shoes/winterboots,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "bTh" = (
@@ -70988,7 +70988,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
-/obj/item/clothing/under/rank/security/officer,
+/obj/item/clothing/under/rank/security,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "bZY" = (
@@ -72354,7 +72354,7 @@
 	},
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/effect/decal/cleanable/vomit/old,
-/mob/living/simple_animal/hostile/retaliate/goose/vomit,
+/mob/living/simple_animal/hostile/retaliate/goose,
 /turf/open/floor/plating{
 	icon_state = "panelscorched"
 	},
@@ -80572,7 +80572,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/item/clothing/under/costume/lobster,
+/obj/item/clothing/under/lobster,
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/theatre)
 "cpl" = (
@@ -86078,7 +86078,7 @@
 /obj/item/clothing/shoes/workboots,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/under/rank/engineering/engineer,
+/obj/item/clothing/under/rank/engineer,
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "cxM" = (
