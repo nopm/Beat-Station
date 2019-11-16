@@ -11,6 +11,11 @@
 		/obj/structure/table/wood/fancy/royalblack,
 		/obj/structure/table/wood/fancy/royalblue)
 
+/obj/structure/table/wood/fancy/black
+	icon_state = "fancy_table_black"
+	buildstack = /obj/item/stack/tile/carpet/black
+	smooth_icon = 'icons/obj/smooth_structures/fancy_table_black.dmi'
+
 /obj/structure/table/wood/fancy/blue
 	icon_state = "fancy_table_blue"
 	buildstack = /obj/item/stack/tile/carpet/blue
