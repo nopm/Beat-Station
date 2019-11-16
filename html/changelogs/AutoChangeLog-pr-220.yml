@@ -1,7 +1,0 @@
-author: "Twaticus / Mickyan / ArcaneMusic"
-delete-after: True
-changes: 
-  - rscadd: "Plastic can now be used to make cheap, plastic floor tiles."
-  - rscadd: "Added exotic carpet crate"
-  - imageadd: "Added 8 new carpets and fancy tables"
-  - imageadd: "Added new floor line decals for mappers to decorate the station"
