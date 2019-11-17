@@ -10,6 +10,7 @@
 		#include "map_files\debug\runtimestation.dmm"
 		#include "map_files\Deltastation\DeltaStation2.dmm"
 		#include "map_files\KiloStation\KiloStation.dmm"
+		#include "map_files\Beat!Kilo\Beat!Kilo.dmm"
 		#include "map_files\MetaStation\MetaStation.dmm"
 		#include "map_files\MetaLake\MetaLake.dmm"
 		#include "map_files\PubbyStation\PubbyStation.dmm"

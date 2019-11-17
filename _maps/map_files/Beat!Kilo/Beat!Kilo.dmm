@@ -2838,8 +2838,10 @@
 /turf/open/floor/plating,
 /area/maintenance/central)
 "aeE" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
+/obj/structure/flora/rock/pile,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
 /area/hallway/secondary/command)
 "aeF" = (
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -3125,7 +3127,11 @@
 /turf/open/floor/plating,
 /area/science/xenobiology)
 "afh" = (
-/turf/open/space/basic,
+/obj/structure/flora/ausbushes/sunnybush,
+/obj/structure/flora/ausbushes/grassybush,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
 /area/hallway/secondary/command)
 "afi" = (
 /obj/structure/table/glass,
@@ -9743,7 +9749,9 @@
 /area/maintenance/starboard/fore)
 "app" = (
 /obj/machinery/light,
-/turf/open/space,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
 /area/hallway/secondary/command)
 "apq" = (
 /obj/structure/table,
@@ -21899,7 +21907,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/ai_monitored/turret_protected/ai_upload)
 "aHR" = (
 /obj/effect/turf_decal/tile/yellow,
@@ -24587,8 +24595,9 @@
 	name = "upload camera";
 	network = list("aiupload")
 	},
-/obj/structure/lattice,
-/turf/open/space/basic,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
 /area/hallway/secondary/command)
 "aLX" = (
 /obj/effect/turf_decal/stripes/line{
@@ -24604,7 +24613,7 @@
 /obj/structure/window/reinforced,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/ai_monitored/turret_protected/ai_upload)
 "aLY" = (
 /obj/effect/turf_decal/tile/red,
@@ -26182,8 +26191,11 @@
 	name = "upload camera";
 	network = list("aiupload")
 	},
-/obj/structure/lattice,
-/turf/open/space/basic,
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/grass/jungle/b,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
 /area/hallway/secondary/command)
 "aOl" = (
 /obj/machinery/computer/scan_consolenew{
@@ -65340,7 +65352,9 @@
 /area/hallway/primary/central)
 "bRJ" = (
 /obj/effect/turf_decal/sand/plating,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/airless{
+	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	},
 /area/maintenance/port)
 "bRK" = (
 /obj/effect/turf_decal/tile/neutral,
@@ -94483,6 +94497,13 @@
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
 /area/solar/starboard/fore)
+"cLO" = (
+/obj/structure/flora/ausbushes/stalkybush,
+/obj/structure/flora/ausbushes/palebush,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
+/area/hallway/secondary/command)
 "cLR" = (
 /obj/docking_port/stationary{
 	dir = 4;
@@ -95811,6 +95832,98 @@
 	},
 /turf/open/space/basic,
 /area/space/nearstation)
+"dQy" = (
+/obj/structure/flora/grass/jungle/b,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
+/area/hallway/secondary/command)
+"etx" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/decal/cleanable/blood/gibs/old,
+/turf/open/floor/plating/asteroid/airless,
+/area/space/nearstation)
+"gDE" = (
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
+/area/hallway/secondary/command)
+"hjA" = (
+/obj/structure/flora/ausbushes/sunnybush,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
+/area/hallway/secondary/command)
+"iEV" = (
+/obj/structure/flora/ausbushes/sunnybush,
+/obj/structure/flora/ausbushes/stalkybush,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
+/area/hallway/secondary/command)
+"iTH" = (
+/obj/structure/flora/ausbushes/sunnybush,
+/obj/structure/flora/ausbushes/stalkybush,
+/obj/structure/flora/ausbushes/grassybush,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
+/area/hallway/secondary/command)
+"lAP" = (
+/obj/machinery/light,
+/obj/structure/flora/rock/pile,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
+/area/hallway/secondary/command)
+"lXs" = (
+/obj/structure/flora/ausbushes,
+/obj/structure/flora/ausbushes/fernybush,
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
+/area/hallway/secondary/command)
+"myB" = (
+/obj/structure/flora/ausbushes/stalkybush,
+/obj/structure/flora/ausbushes/grassybush,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
+/area/hallway/secondary/command)
+"mJx" = (
+/obj/structure/flora/ausbushes/stalkybush,
+/obj/structure/flora/grass/both,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
+/area/hallway/secondary/command)
+"rEa" = (
+/obj/effect/decal/remains/human,
+/obj/effect/decal/cleanable/blood/old,
+/obj/item/pickaxe,
+/turf/open/floor/plating/asteroid/airless,
+/area/space/nearstation)
+"tgA" = (
+/obj/structure/flora/grass/jungle/b,
+/obj/structure/flora/ausbushes/fernybush,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
+/area/hallway/secondary/command)
+"vuF" = (
+/obj/structure/flora/ausbushes/sunnybush,
+/obj/structure/flora/grass/jungle/b,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
+/area/hallway/secondary/command)
+"xKi" = (
+/obj/structure/flora/bush,
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "TEMP=2.7"
+	},
+/area/hallway/secondary/command)
 
 (1,1,1) = {"
 aaa
@@ -124210,12 +124323,12 @@ aox
 aeD
 apX
 aox
-aeE
-afh
+lXs
+xKi
 aLW
 aeE
-afh
-aeE
+vuF
+myB
 aox
 bqZ
 aox
@@ -124465,7 +124578,7 @@ aPv
 aKe
 aTR
 aeE
-aeE
+iEV
 asj
 axf
 axf
@@ -124978,7 +125091,7 @@ aRl
 aPz
 aKg
 aTR
-aeE
+dQy
 arl
 arl
 boi
@@ -125756,7 +125869,7 @@ byH
 byK
 byT
 bdQ
-afh
+tgA
 axf
 bpf
 brs
@@ -126520,7 +126633,7 @@ aRv
 aQf
 aLk
 aTR
-aeE
+iTH
 arl
 arl
 byM
@@ -126777,8 +126890,8 @@ aRw
 aPw
 aSn
 aTR
-afh
-app
+dQy
+lAP
 bha
 arl
 aZQ
@@ -127034,8 +127147,8 @@ aRy
 aQg
 aKe
 aTR
-aeE
-aeE
+mJx
+hjA
 asj
 aHz
 aHQ
@@ -127294,12 +127407,12 @@ aox
 aeD
 aox
 aox
-afh
-aeE
+mJx
+hjA
 aOk
-afh
-aeE
-afh
+cLO
+gDE
+myB
 aeE
 bgP
 baa
@@ -144698,7 +144811,7 @@ aeu
 aeU
 aeU
 aoz
-bQN
+rEa
 aeU
 aap
 aeu
@@ -145466,7 +145579,7 @@ aeu
 aeu
 aeu
 aeU
-bRy
+etx
 aeU
 aeU
 aeu

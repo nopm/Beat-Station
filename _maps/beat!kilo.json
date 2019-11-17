@@ -1,0 +1,12 @@
+{
+    "map_name": "Beat!Kilo",
+    "map_path": "map_files/Beat!Kilo",
+	"map_file": "Beat!Kilo.dmm",
+	"minetype": "tglavaland",
+    "shuttles": {
+	    "emergency": "emergency_kilo",
+	    "ferry": "ferry_kilo",
+	    "cargo": "cargo_kilo",
+	    "whiteship": "whiteship_kilo"
+    }
+}

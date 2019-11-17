@@ -19,7 +19,7 @@ map beat!box
 	votable
 endmap
 
-map kilostation
+map beat!kilo
 	#voteweight 1.5
 	votable
 endmap
