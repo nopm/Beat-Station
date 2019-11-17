@@ -19,6 +19,11 @@ map beat!box
 	votable
 endmap
 
+map kilostation
+	#voteweight 1.5
+	votable
+endmap
+
 map hippiestation
 	#voteweight 1.5
 	votable
