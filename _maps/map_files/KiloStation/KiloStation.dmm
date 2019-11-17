@@ -2840,7 +2840,7 @@
 "aeE" = (
 /obj/structure/flora/rock/pile,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 "aeF" = (
@@ -3130,7 +3130,7 @@
 /obj/structure/flora/ausbushes/sunnybush,
 /obj/structure/flora/ausbushes/grassybush,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 "afi" = (
@@ -9750,7 +9750,7 @@
 "app" = (
 /obj/machinery/light,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 "apq" = (
@@ -21907,7 +21907,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/ai_monitored/turret_protected/ai_upload)
 "aHR" = (
 /obj/effect/turf_decal/tile/yellow,
@@ -24596,7 +24596,7 @@
 	network = list("aiupload")
 	},
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 "aLX" = (
@@ -24613,7 +24613,7 @@
 /obj/structure/window/reinforced,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/ai_monitored/turret_protected/ai_upload)
 "aLY" = (
 /obj/effect/turf_decal/tile/red,
@@ -26194,7 +26194,7 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/grass/jungle/b,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 "aOl" = (
@@ -65352,7 +65352,9 @@
 /area/hallway/primary/central)
 "bRJ" = (
 /obj/effect/turf_decal/sand/plating,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/airless{
+	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	},
 /area/maintenance/port)
 "bRK" = (
 /obj/effect/turf_decal/tile/neutral,
@@ -94499,7 +94501,7 @@
 /obj/structure/flora/ausbushes/stalkybush,
 /obj/structure/flora/ausbushes/palebush,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 "cLR" = (
@@ -95833,25 +95835,30 @@
 "dQy" = (
 /obj/structure/flora/grass/jungle/b,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
+"etx" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/decal/cleanable/blood/gibs/old,
+/turf/open/floor/plating/asteroid/airless,
+/area/space/nearstation)
 "gDE" = (
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 "hjA" = (
 /obj/structure/flora/ausbushes/sunnybush,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 "iEV" = (
 /obj/structure/flora/ausbushes/sunnybush,
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 "iTH" = (
@@ -95859,14 +95866,14 @@
 /obj/structure/flora/ausbushes/stalkybush,
 /obj/structure/flora/ausbushes/grassybush,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 "lAP" = (
 /obj/machinery/light,
 /obj/structure/flora/rock/pile,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 "lXs" = (
@@ -95874,41 +95881,47 @@
 /obj/structure/flora/ausbushes/fernybush,
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 "myB" = (
 /obj/structure/flora/ausbushes/stalkybush,
 /obj/structure/flora/ausbushes/grassybush,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 "mJx" = (
 /obj/structure/flora/ausbushes/stalkybush,
 /obj/structure/flora/grass/both,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
+"rEa" = (
+/obj/effect/decal/remains/human,
+/obj/effect/decal/cleanable/blood/old,
+/obj/item/pickaxe,
+/turf/open/floor/plating/asteroid/airless,
+/area/space/nearstation)
 "tgA" = (
 /obj/structure/flora/grass/jungle/b,
 /obj/structure/flora/ausbushes/fernybush,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 "vuF" = (
 /obj/structure/flora/ausbushes/sunnybush,
 /obj/structure/flora/grass/jungle/b,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 "xKi" = (
 /obj/structure/flora/bush,
 /turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
 
@@ -144798,7 +144811,7 @@ aeu
 aeU
 aeU
 aoz
-bQN
+rEa
 aeU
 aap
 aeu
@@ -145566,7 +145579,7 @@ aeu
 aeu
 aeu
 aeU
-bRy
+etx
 aeU
 aeU
 aeu
