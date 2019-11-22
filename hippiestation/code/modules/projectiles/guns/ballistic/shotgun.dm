@@ -29,6 +29,7 @@
 	with the disabler shots, which take half a clip just to bring someone down, or with the tazer bolts which are slow as balls, \
 	impossible to aim and do about next to jack shit, fuck all. The shotgun is the superior law enforcement weapon. Because it stops crime. \
 	And it stops crime by reducing the number of criminals roaming the fucking halls."
+
 /obj/item/gun/ballistic/shotgun/triplebarrel
 	name = "triple-barreled shotgun"
 	desc = "Say goobye to your wrists, knucklehead."
