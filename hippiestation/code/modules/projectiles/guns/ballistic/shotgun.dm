@@ -29,9 +29,6 @@
 	with the disabler shots, which take half a clip just to bring someone down, or with the tazer bolts which are slow as balls, \
 	impossible to aim and do about next to jack shit, fuck all. The shotgun is the superior law enforcement weapon. Because it stops crime. \
 	And it stops crime by reducing the number of criminals roaming the fucking halls."
-<<<<<<< HEAD
-=======
-
 /obj/item/gun/ballistic/shotgun/triplebarrel
 	name = "triple-barreled shotgun"
 	desc = "Say goobye to your wrists, knucklehead."
@@ -53,4 +50,3 @@ obj/item/gun/ballistic/shotgun/triplebarrel/sawoff(mob/user)
 /obj/item/ammo_box/magazine/internal/shot/triplebarrel
 	name = "triple-barrel shotgun internal magazine"
 	max_ammo = 3
->>>>>>> 2e0aa8acd5... Fixes triple barrel shotty not firing all 3 rounds (#12335)
