@@ -6,14 +6,14 @@
 
 //Originally stolen from paradise. Credits to tigercat2000.
 //Modified a lot by Kokojo and Tortellini Tony.
+//Modified even more and completely rebuilt ui by YoYoBatty.
 /obj/machinery/poolcontroller
 	name = "\improper Pool Controller"
 	desc = "A controller for the nearby pool."
 	icon = 'hippiestation/icons/turf/pool.dmi'
 	icon_state = "poolc_3"
-	anchored = TRUE
 	density = TRUE
-	use_power = TRUE
+	use_power = IDLE_POWER_USE
 	idle_power_usage = 75
 	var/list/linkedturfs //List contains all of the linked pool turfs to this controller, assignment happens on initialize
 	var/temperature = NORMAL //1-5 Frigid Cool Normal Warm Scalding
@@ -50,7 +50,7 @@
 	linkedturfs.Cut()
 	return ..()
 
-/obj/machinery/poolcontroller/emag_act(user as mob) //Emag_act, this is called when it is hit with a cryptographic sequencer.
+/obj/machinery/poolcontroller/emag_act(mob/user) //Emag_act, this is called when it is hit with a cryptographic sequencer.
 	if(!(obj_flags & EMAGGED)) //If it is not already emagged, emag it.
 		to_chat(user, "<span class='warning'>You disable the [src]'s safety features.</span>")
 		do_sparks(5, TRUE, src)
@@ -305,7 +305,24 @@
 		if(SCALDING)
 			return "<span class='bad'>Scalding</span>"
 		else
+<<<<<<< HEAD
 			return "Outside of possible range."
+=======
+			new /obj/effect/effect/waterspout(linkeddrain.loc)
+			temperature = NORMAL
+		bloody = FALSE
+
+/obj/machinery/poolcontroller/proc/isDrainable(mob/user)
+	return (drainable || issilicon(user) || IsAdminGhost(user))
+
+/obj/machinery/poolcontroller/ui_interact(mob/user, ui_key = "main", datum/tgui/ui = null, force_open = FALSE, \
+												datum/tgui/master_ui = null, datum/ui_state/state = GLOB.default_state)
+	ui = SStgui.try_update_ui(user, src, ui_key, ui, force_open)
+	if(!ui)
+		ui = new(user, src, ui_key, "pool_controller", "[name]", 300, 450, master_ui, state)
+		ui.set_autoupdate(TRUE)
+		ui.open()
+>>>>>>> 3ad05b0b21... Fixes ghost controlling the pool (#12350)
 
 /obj/machinery/poolcontroller/ui_interact(mob/user)
 	. = ..()
