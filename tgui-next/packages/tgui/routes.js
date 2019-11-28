@@ -31,8 +31,24 @@ import { CrewConsole } from './interfaces/CrewConsole';
 import { Cryo } from './interfaces/Cryo';
 import { DisposalUnit } from './interfaces/DisposalUnit';
 import { Gps } from './interfaces/Gps';
+<<<<<<< HEAD
+=======
+import { Holodeck } from './interfaces/Holodeck';
+import { ImplantChair } from './interfaces/ImplantChair';
+import { KeycardAuth } from './interfaces/KeycardAuth';
+>>>>>>> 28c3c97101... More tgui next stuff (#12359)
 import { LanguageMenu } from './interfaces/LanguageMenu';
+import { MechBayPowerConsole } from './interfaces/MechBayPowerConsole';
+import { MedicalKiosk } from './interfaces/MedicalKiosk';
 import { Mint } from './interfaces/Mint';
+<<<<<<< HEAD
+=======
+import { NtosMain } from './interfaces/NtosMain';
+import { NtosNetDownloader } from './interfaces/NtosNetDownloader';
+import { NtosSupermatterMonitor } from './interfaces/NtosSupermatterMonitor';
+import { NtosWrapper } from './interfaces/NtosWrapper';
+import { NuclearBomb } from './interfaces/NuclearBomb';
+>>>>>>> 28c3c97101... More tgui next stuff (#12359)
 import { OperatingComputer } from './interfaces/OperatingComputer';
 import { OreRedemptionMachine } from './interfaces/OreRedemptionMachine';
 import { PersonalCrafting } from './interfaces/PersonalCrafting';
@@ -40,8 +56,16 @@ import { PortableGenerator } from './interfaces/PortableGenerator';
 import { Radio } from './interfaces/Radio';
 import { ShuttleManipulator } from './interfaces/ShuttleManipulator';
 import { SmartVend } from './interfaces/SmartVend';
+<<<<<<< HEAD
 import { SMES } from './interfaces/SMES';
 import { SolarControl } from './interfaces/SolarControl';
+=======
+import { Smes } from './interfaces/Smes';
+import { SolarControl } from './interfaces/SolarControl';
+import { SpaceHeater } from './interfaces/SpaceHeater';
+import { SpawnersMenu } from './interfaces/SpawnersMenu';
+import { StationAlertConsole } from './interfaces/StationAlertConsole';
+>>>>>>> 28c3c97101... More tgui next stuff (#12359)
 import { SuitStorageUnit } from './interfaces/SuitStorageUnit';
 import { TankDispenser } from './interfaces/TankDispenser';
 import { ThermoMachine } from './interfaces/ThermoMachine';
@@ -191,14 +215,69 @@ const ROUTES = {
     component: () => Gps,
     scrollable: true,
   },
+<<<<<<< HEAD
+=======
+  holodeck: {
+    component: () => Holodeck,
+    scrollable: true,
+  },
+  implantchair: {
+    component: () => ImplantChair,
+    scrollable: false,
+  },
+  keycard_auth: {
+    component: () => KeycardAuth,
+    scrollable: false,
+  },
+>>>>>>> 28c3c97101... More tgui next stuff (#12359)
   language_menu: {
     component: () => LanguageMenu,
     scrollable: true,
+  },
+  mech_bay_power_console: {
+    component: () => MechBayPowerConsole,
+    scrollable: false,
+  },
+  medical_kiosk: {
+    component: () => MedicalKiosk,
+    scrollable: false,
   },
   mint: {
     component: () => Mint,
     scrollable: false,
   },
+<<<<<<< HEAD
+=======
+  ntos_main: {
+    component: () => NtosMain,
+    wrapper: () => NtosWrapper,
+    scrollable: true,
+    theme: 'ntos',
+  },
+  ntos_net_downloader: {
+    component: () => NtosNetDownloader,
+    wrapper: () => NtosWrapper,
+    scrollable: true,
+    theme: 'ntos',
+  },
+  ntos_power_monitor: {
+    component: () => PowerMonitor,
+    wrapper: () => NtosWrapper,
+    scrollable: true,
+    theme: 'ntos',
+  },
+  ntos_supermatter_monitor: {
+    component: () => NtosSupermatterMonitor,
+    wrapper: () => NtosWrapper,
+    scrollable: true,
+    theme: 'ntos',
+  },
+  nuclear_bomb: {
+    component: () => NuclearBomb,
+    scrollable: false,
+    theme: 'retro',
+  },
+>>>>>>> 28c3c97101... More tgui next stuff (#12359)
   ore_redemption_machine: {
     component: () => OreRedemptionMachine,
     scrollable: true,

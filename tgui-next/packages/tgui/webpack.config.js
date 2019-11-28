@@ -20,6 +20,12 @@ module.exports = (env = {}, argv) => {
     entry: {
       tgui: [
         path.resolve(__dirname, './styles/main.scss'),
+<<<<<<< HEAD
+=======
+        path.resolve(__dirname, './styles/themes/ntos.scss'),
+        path.resolve(__dirname, './styles/themes/syndicate.scss'),
+        path.resolve(__dirname, './styles/themes/retro.scss'),
+>>>>>>> 28c3c97101... More tgui next stuff (#12359)
         path.resolve(__dirname, './index.js'),
       ],
     },

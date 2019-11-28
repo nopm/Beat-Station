@@ -8,6 +8,7 @@
 @import './atomic.scss';
 @import './components.scss';
 
+<<<<<<< HEAD
 // Miscellaneous bits
 body {
   color: $base-color-text;
@@ -16,6 +17,27 @@ body {
     $base-color-background-start 0%,
     $base-color-background-end 100%);
 }
+=======
+// Components
+@include meta.load-css('./components/Button.scss');
+@include meta.load-css('./components/ColorBox.scss');
+@include meta.load-css('./components/FatalError.scss');
+@include meta.load-css('./components/Flex.scss');
+@include meta.load-css('./components/Input.scss');
+@include meta.load-css('./components/LabeledList.scss');
+@include meta.load-css('./components/Layout.scss');
+@include meta.load-css('./components/NoticeBox.scss');
+@include meta.load-css('./components/NtosHeader.scss');
+@include meta.load-css('./components/NtosWrapper.scss');
+@include meta.load-css('./components/NuclearBomb.scss');
+@include meta.load-css('./components/NumberInput.scss');
+@include meta.load-css('./components/ProgressBar.scss');
+@include meta.load-css('./components/Section.scss');
+@include meta.load-css('./components/Table.scss');
+@include meta.load-css('./components/Tabs.scss');
+@include meta.load-css('./components/TitleBar.scss');
+@include meta.load-css('./components/Tooltip.scss');
+>>>>>>> 28c3c97101... More tgui next stuff (#12359)
 
 .Layout__content {
   background-image: url('../public/images/tgui-bg-nanotrasen.svg');
