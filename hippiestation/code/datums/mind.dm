@@ -1,8 +1,6 @@
 /datum/mind
 	var/no_cloning_at_all = FALSE
-<<<<<<< HEAD
-=======
-
+	
 /datum/mind/transfer_to(mob/new_character, var/force_key_move = 0)
 	if(!QDELETED(current) && !(/mob/living/proc/guardian_comm in new_character.verbs))
 		current.verbs -= /mob/living/proc/guardian_comm
@@ -25,4 +23,3 @@
 			current.verbs += /mob/living/proc/guardian_comm
 			current.verbs += /mob/living/proc/guardian_recall
 			current.verbs += /mob/living/proc/guardian_reset
->>>>>>> 228d8a10c5... Fixes communicating with non-existent guardians (#12348)
