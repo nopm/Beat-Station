@@ -50,6 +50,7 @@ import { Wires } from './interfaces/Wires';
 // hippie start
 import { Guardian } from './interfaces/Guardian';
 import { Vending } from './interfaces/Vending';
+import { Pool } from './interfaces/Pool';
 // hippie end
 // beat -- medical kiosk
 import { MedicalKiosk } from './interfaces/MedicalKiosk';
@@ -263,6 +264,10 @@ const ROUTES = {
   vending: {
     component: () => Vending,
     scrollable: true,
+  },
+  pool_controller: {
+    component: () => Pool,
+    scrollable: false,
   },
   // hippie end
   // beat begin -- medical kiosk
