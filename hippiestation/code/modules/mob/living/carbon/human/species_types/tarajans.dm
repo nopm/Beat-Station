@@ -6,10 +6,7 @@
 	sexes = 1
 	species_traits = list(MUTCOLORS,EYECOLOR,NOTRANSSTING)
 	inherent_biotypes = list(MOB_ORGANIC, MOB_HUMANOID)
-<<<<<<< HEAD
-=======
 	inherent_traits  = list(TRAIT_PACIFISM, TRAIT_CLUMSY)
->>>>>>> d8cec8e145... makes catbeasts clumsy I think idk how to code (#12276)
 	attack_verb = "slash"
 	attack_sound = 'sound/weapons/slash.ogg'
 	miss_sound = 'sound/weapons/slashmiss.ogg'
