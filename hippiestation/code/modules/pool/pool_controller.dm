@@ -305,9 +305,7 @@
 		if(SCALDING)
 			return "<span class='bad'>Scalding</span>"
 		else
-<<<<<<< HEAD
 			return "Outside of possible range."
-=======
 			new /obj/effect/effect/waterspout(linkeddrain.loc)
 			temperature = NORMAL
 		bloody = FALSE
@@ -322,7 +320,6 @@
 		ui = new(user, src, ui_key, "pool_controller", "[name]", 300, 450, master_ui, state)
 		ui.set_autoupdate(TRUE)
 		ui.open()
->>>>>>> 3ad05b0b21... Fixes ghost controlling the pool (#12350)
 
 /obj/machinery/poolcontroller/ui_interact(mob/user)
 	. = ..()
