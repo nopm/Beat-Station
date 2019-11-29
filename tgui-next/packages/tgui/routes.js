@@ -373,12 +373,6 @@ const ROUTES = {
     scrollable: true,
   },
   // hippie end
-  // beat begin -- medical kiosk
-  medical_kiosk: {
-    component: () => MedicalKiosk,
-    scrollable: false,
-  },
-  // beat end
 };
 
 export const getRoute = state => {
