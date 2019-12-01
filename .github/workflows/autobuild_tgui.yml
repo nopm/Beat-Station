@@ -29,7 +29,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "TGUI"
-          git commit -m "Automatic TGUI Rebuild [ci skip]" -a
+          git commit -m "Automatic TGUI Rebuild [ci skip]" -a --allow-empty
       - name: Push Artifacts
         uses: ad-m/github-push-action@master
         with:
