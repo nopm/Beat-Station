@@ -15177,6 +15177,13 @@
 /area/hydroponics)
 "aQG" = (
 /obj/machinery/light/small,
+/obj/structure/closet/crate/secure/hydroponics,
+/obj/item/honey_frame,
+/obj/item/honey_frame,
+/obj/item/honey_frame,
+/obj/item/queen_bee/bought,
+/obj/item/melee/flyswatter,
+/obj/structure/beebox/unwrenched,
 /turf/open/floor/plasteel,
 /area/hydroponics)
 "aQH" = (
