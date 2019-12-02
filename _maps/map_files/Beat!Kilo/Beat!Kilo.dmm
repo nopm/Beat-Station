@@ -372,7 +372,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/plasteel/dark/corner,
@@ -491,7 +490,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/plasteel,
@@ -566,7 +564,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/plasteel/dark/corner,
@@ -1077,7 +1074,6 @@
 /obj/machinery/flasher{
 	id = "AI";
 	name = "Meatbag Pacifier";
-	pixel_x = 0;
 	pixel_y = 24
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1,
@@ -1114,7 +1110,6 @@
 /obj/machinery/flasher{
 	id = "AI";
 	name = "Meatbag Pacifier";
-	pixel_x = 0;
 	pixel_y = 24
 	},
 /turf/open/floor/circuit/green{
@@ -1267,7 +1262,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/detectives_office)
@@ -1535,7 +1529,6 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/primary/port)
@@ -1888,7 +1881,6 @@
 	id = "lawyer_shutters";
 	name = "Law Office Shutters Toggle";
 	pixel_x = 24;
-	pixel_y = 0;
 	req_access_txt = "38"
 	},
 /turf/open/floor/plasteel/dark,
@@ -2247,7 +2239,6 @@
 	enabled = 1;
 	icon_state = "control_standby";
 	name = "Antechamber Turret Control";
-	pixel_x = 0;
 	pixel_y = 28;
 	req_access_txt = "65"
 	},
@@ -2324,8 +2315,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -3506,7 +3495,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/machinery/light{
 	dir = 1
@@ -3548,7 +3536,6 @@
 /obj/machinery/flasher{
 	id = "AI";
 	name = "Meatbag Pacifier";
-	pixel_x = 0;
 	pixel_y = 24
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
@@ -3668,7 +3655,6 @@
 	dir = 4;
 	name = "Xenobiology APC";
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -3716,7 +3702,6 @@
 "agb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/warning/vacuum/external{
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /obj/effect/landmark/event_spawn,
@@ -4601,7 +4586,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/neutral,
@@ -6235,11 +6219,9 @@
 	},
 /obj/item/radio/intercom{
 	pixel_x = -28;
-	pixel_y = 0
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-02";
-	pixel_x = 0;
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel,
@@ -7422,7 +7404,6 @@
 	departmentType = 5;
 	name = "Head of Security RC";
 	pixel_x = -30;
-	pixel_y = 0
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/heads/hos)
@@ -7477,7 +7458,6 @@
 	department = "Science";
 	departmentType = 2;
 	name = "Science RC";
-	pixel_x = 0;
 	pixel_y = 30;
 	receive_ore_updates = 1
 	},
@@ -7690,7 +7670,6 @@
 	dir = 4;
 	name = "Port Bow Solar APC";
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -7747,7 +7726,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -8204,7 +8182,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/checkpoint/science/research)
@@ -8501,7 +8478,6 @@
 	id = "PCell 1";
 	name = "Prisoner Pacifier";
 	pixel_x = 24;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -8609,7 +8585,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/machinery/light_switch{
 	pixel_x = 24;
@@ -8749,7 +8724,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/red,
 /turf/open/floor/plasteel/showroomfloor,
@@ -10584,7 +10558,6 @@
 	areastring = "/area/maintenance/solars/starboard/fore";
 	dir = 1;
 	name = "Starboard Bow Solar APC";
-	pixel_x = 0;
 	pixel_y = 26
 	},
 /obj/effect/turf_decal/stripes/line{
@@ -10947,7 +10920,6 @@
 	},
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/lab)
@@ -11464,8 +11436,6 @@
 "arQ" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
@@ -11549,7 +11519,6 @@
 	},
 /obj/item/storage/secure/safe{
 	pixel_x = 34;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/captain)
@@ -11600,7 +11569,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
@@ -11749,7 +11717,6 @@
 	areastring = "/area/maintenance/port/fore";
 	dir = 1;
 	name = "Port Bow Maintenance APC";
-	pixel_x = 0;
 	pixel_y = 26
 	},
 /obj/structure/cable,
@@ -11775,7 +11742,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -12197,8 +12163,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/chapel/main)
@@ -12306,7 +12270,6 @@
 	id = "hopflash";
 	name = "Crowd Pacifier";
 	pixel_x = 24;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/hop)
@@ -13034,8 +12997,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plasteel,
@@ -13396,7 +13357,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/machinery/light_switch{
@@ -13881,7 +13841,6 @@
 /obj/machinery/door/window/westleft{
 	dir = 8;
 	name = "Monkey Pen";
-	pixel_y = 0;
 	req_access_txt = "9"
 	},
 /obj/structure/disposalpipe/segment{
@@ -14675,7 +14634,6 @@
 	},
 /obj/item/cartridge/engineering{
 	pixel_x = 8;
-	pixel_y = 0
 	},
 /obj/item/cartridge/atmos{
 	pixel_x = -6;
@@ -15904,7 +15862,6 @@
 	id = "medbay_front_door";
 	name = "Medbay Doors Toggle";
 	normaldoorcontrol = 1;
-	pixel_x = 0;
 	pixel_y = 24;
 	req_access_txt = "5"
 	},
@@ -16011,7 +15968,6 @@
 /obj/machinery/button/door{
 	id = "engsm";
 	name = "Radiation Shutters Toggle";
-	pixel_x = 0;
 	pixel_y = -24;
 	req_access_txt = "10"
 	},
@@ -16114,7 +16070,6 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
@@ -16714,7 +16669,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/effect/turf_decal/box,
@@ -16832,7 +16786,6 @@
 	areastring = "/area/crew_quarters/heads/cmo";
 	dir = 1;
 	name = "CMO's Office APC";
-	pixel_x = 0;
 	pixel_y = 26
 	},
 /obj/structure/cable,
@@ -16931,7 +16884,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
@@ -17062,7 +17014,6 @@
 	areastring = "/area/science/robotics/mechbay";
 	dir = 1;
 	name = "Mech Bay APC";
-	pixel_x = 0;
 	pixel_y = 26
 	},
 /obj/structure/cable,
@@ -18011,7 +17962,6 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/structure/extinguisher_cabinet{
@@ -18689,7 +18639,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/effect/turf_decal/stripes/line{
@@ -19191,7 +19140,6 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -19501,7 +19449,6 @@
 /obj/item/clothing/neck/stethoscope,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/machinery/power/apc{
@@ -19509,7 +19456,6 @@
 	dir = 4;
 	name = "Cryogenics APC";
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -19742,7 +19688,6 @@
 	},
 /obj/structure/reagent_dispensers/peppertank{
 	pixel_x = -30;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -22078,7 +22023,6 @@
 	},
 /obj/structure/sign/directions/evac{
 	dir = 4;
-	pixel_x = 0;
 	pixel_y = -24
 	},
 /obj/structure/cable,
@@ -22623,8 +22567,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/machinery/light{
 	dir = 8
@@ -23034,7 +22976,6 @@
 	},
 /obj/structure/sign/departments/science{
 	name = "ROBOTICS";
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel,
@@ -23637,7 +23578,6 @@
 "aKs" = (
 /obj/machinery/computer/security/telescreen/turbine{
 	dir = 1;
-	pixel_y = 0
 	},
 /obj/structure/table,
 /obj/effect/turf_decal/tile/neutral{
@@ -24141,7 +24081,6 @@
 	broadcasting = 1;
 	frequency = 1447;
 	name = "Private AI Channel";
-	pixel_x = 0;
 	pixel_y = -28
 	},
 /obj/machinery/light,
@@ -24222,7 +24161,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/machinery/button/door{
@@ -24443,8 +24381,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/machinery/airalarm{
 	dir = 8;
@@ -24831,7 +24767,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{
@@ -26752,7 +26687,6 @@
 	},
 /obj/structure/sign/directions/evac{
 	dir = 4;
-	pixel_x = 0;
 	pixel_y = 24
 	},
 /obj/structure/cable,
@@ -27063,7 +26997,6 @@
 /obj/effect/turf_decal/stripes/corner,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/effect/turf_decal/tile/neutral,
@@ -27561,7 +27494,6 @@
 /area/crew_quarters/heads/cmo)
 "aPW" = (
 /obj/machinery/microwave{
-	pixel_x = 0;
 	pixel_y = 5
 	},
 /obj/structure/table/glass,
@@ -27639,8 +27571,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/medical/medbay/central)
@@ -28035,7 +27965,6 @@
 /obj/effect/turf_decal/tile/blue,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/plasteel/showroomfloor,
@@ -28630,7 +28559,6 @@
 	},
 /obj/structure/sign/directions/evac{
 	dir = 4;
-	pixel_x = 0;
 	pixel_y = 24
 	},
 /obj/structure/disposalpipe/segment{
@@ -28650,7 +28578,6 @@
 	},
 /obj/structure/sign/directions/science{
 	dir = 4;
-	pixel_x = 0;
 	pixel_y = 40
 	},
 /obj/structure/sign/directions/supply{
@@ -28931,7 +28858,6 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /obj/machinery/camera{
 	c_tag = "Medbay Lobby";
@@ -30199,7 +30125,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/medical/virology)
@@ -30693,7 +30618,6 @@
 	},
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/lab)
@@ -31525,7 +31449,6 @@
 	},
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /turf/open/floor/grass,
 /area/chapel/main)
@@ -31539,7 +31462,6 @@
 	},
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -24;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/medical/surgery)
@@ -31689,7 +31611,6 @@
 	dir = 2;
 	name = "Medbay Monitor";
 	network = list("medical");
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/checkpoint/medical)
@@ -32008,7 +31929,6 @@
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
@@ -32278,7 +32198,6 @@
 	},
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
@@ -34580,7 +34499,6 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /obj/item/crowbar/power,
 /obj/effect/turf_decal/tile/neutral,
@@ -35763,7 +35681,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/machinery/light_switch{
@@ -35935,7 +35852,6 @@
 /obj/effect/turf_decal/tile/purple,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/structure/disposalpipe/segment{
@@ -35958,7 +35874,6 @@
 	},
 /obj/item/radio/intercom{
 	pixel_x = 28;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/delivery,
 /obj/effect/turf_decal/tile/neutral{
@@ -36351,7 +36266,6 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /obj/machinery/light{
 	dir = 8
@@ -36543,7 +36457,6 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /obj/machinery/light{
 	dir = 8
@@ -36970,7 +36883,6 @@
 	id = "telelab";
 	name = "Test Chamber Toggle";
 	pixel_x = -24;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -37275,7 +37187,6 @@
 	departmentType = 5;
 	name = "Research Director RC";
 	pixel_x = 30;
-	pixel_y = 0;
 	receive_ore_updates = 1
 	},
 /turf/open/floor/plasteel/dark,
@@ -37420,8 +37331,6 @@
 	dir = 1;
 	name = "Research Monitor";
 	network = list("rd");
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/machinery/newscaster/security_unit{
 	pixel_y = -30
@@ -37451,7 +37360,6 @@
 	},
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/xenobiology)
@@ -37502,7 +37410,6 @@
 /obj/machinery/light,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/plasteel/showroomfloor,
@@ -37518,7 +37425,6 @@
 	departmentType = 2;
 	name = "Science RC";
 	pixel_x = 30;
-	pixel_y = 0;
 	receive_ore_updates = 1
 	},
 /obj/structure/window/reinforced,
@@ -37579,7 +37485,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/engine,
@@ -37732,7 +37637,6 @@
 	department = "Science";
 	departmentType = 2;
 	name = "Science RC";
-	pixel_x = 0;
 	pixel_y = -30;
 	receive_ore_updates = 1
 	},
@@ -38037,7 +37941,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/plasteel/dark,
@@ -38570,7 +38473,6 @@
 	},
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /obj/machinery/processor/slime,
 /turf/open/floor/plasteel/dark,
@@ -38829,7 +38731,6 @@
 /obj/machinery/light,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/plasteel/dark,
@@ -38986,7 +38887,6 @@
 /obj/machinery/button/door{
 	id = "Xenolab";
 	name = "Containment Chamber Toggle";
-	pixel_x = 0;
 	pixel_y = 4;
 	req_access_txt = "55"
 	},
@@ -39045,7 +38945,6 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/caution/stand_clear,
 /turf/open/floor/plasteel/dark,
@@ -39160,7 +39059,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/machinery/camera{
 	c_tag = "Toxins Storage";
@@ -39290,7 +39188,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/machinery/vending/wardrobe/science_wardrobe,
 /obj/effect/turf_decal/tile/neutral{
@@ -40083,7 +39980,6 @@
 	},
 /obj/structure/sign/directions/evac{
 	dir = 4;
-	pixel_x = 0;
 	pixel_y = 24
 	},
 /obj/structure/cable,
@@ -40462,7 +40358,6 @@
 	department = "Cargo Bay";
 	departmentType = 2;
 	name = "Quartermaster RC";
-	pixel_x = 0;
 	pixel_y = 30
 	},
 /obj/structure/extinguisher_cabinet{
@@ -42385,7 +42280,6 @@
 	id = "Cabin_3";
 	name = "Cabin 3 Privacy Lock";
 	normaldoorcontrol = 1;
-	pixel_x = 0;
 	pixel_y = 24;
 	specialfunctions = 4
 	},
@@ -42518,7 +42412,6 @@
 /obj/machinery/conveyor_switch/oneway{
 	id = "packageSort2";
 	name = "mail belt";
-	pixel_x = 0;
 	pixel_y = 6
 	},
 /obj/effect/turf_decal/box/corners{
@@ -42854,7 +42747,6 @@
 	id = "Cabin_2";
 	name = "Cabin 2 Privacy Lock";
 	normaldoorcontrol = 1;
-	pixel_x = 0;
 	pixel_y = 24;
 	specialfunctions = 4
 	},
@@ -43162,7 +43054,6 @@
 	dir = 8;
 	id = "QMLoad";
 	name = "off ramp";
-	pixel_x = 0;
 	pixel_y = 5
 	},
 /obj/effect/turf_decal/box/corners{
@@ -43350,7 +43241,6 @@
 /obj/machinery/conveyor_switch/oneway{
 	id = "QMLoad2";
 	name = "on ramp";
-	pixel_x = 0;
 	pixel_y = 6
 	},
 /obj/effect/turf_decal/box/corners{
@@ -43926,8 +43816,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/primary/aft)
@@ -44365,7 +44253,6 @@
 	dir = 4;
 	name = "Port Maintenance APC";
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/decal/cleanable/dirt,
@@ -44440,7 +44327,6 @@
 	},
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /turf/open/floor/grass,
 /area/hydroponics)
@@ -44780,7 +44666,6 @@
 "bnP" = (
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /obj/structure/tank_dispenser/oxygen{
 	layer = 2.9;
@@ -44793,7 +44678,6 @@
 "bnQ" = (
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/turf_decal/delivery,
@@ -44938,7 +44822,6 @@
 	},
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /turf/open/floor/grass,
 /area/hydroponics)
@@ -45149,7 +45032,6 @@
 	},
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -46346,7 +46228,6 @@
 /obj/effect/turf_decal/tile/red,
 /obj/machinery/chem_master/condimaster{
 	name = "CondiMaster Neo";
-	pixel_x = 0
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/kitchen)
@@ -47185,7 +47066,6 @@
 	},
 /obj/structure/sign/directions/evac{
 	dir = 4;
-	pixel_x = 0;
 	pixel_y = -24
 	},
 /turf/open/floor/plasteel/dark,
@@ -47409,7 +47289,6 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/caution/stand_clear,
 /turf/open/floor/plasteel/dark,
@@ -47530,7 +47409,6 @@
 /obj/effect/turf_decal/tile/neutral,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/plasteel/dark,
@@ -47959,7 +47837,6 @@
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /obj/machinery/airalarm{
 	dir = 4;
@@ -48352,7 +48229,6 @@
 	},
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /obj/structure/window/reinforced,
 /turf/open/floor/grass,
@@ -48365,7 +48241,6 @@
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /turf/open/floor/grass,
 /area/crew_quarters/heads/hop)
@@ -48381,7 +48256,6 @@
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /turf/open/floor/grass,
 /area/crew_quarters/heads/hop)
@@ -48651,7 +48525,6 @@
 	desc = "Talk through this. It looks like it has been modified to not broadcast.";
 	dir = 2;
 	name = "Prison Intercom (General)";
-	pixel_x = 0;
 	pixel_y = 22;
 	prison_radio = 1
 	},
@@ -49016,7 +48889,6 @@
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "bar_1";
@@ -49036,7 +48908,6 @@
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "bar_1";
@@ -49149,8 +49020,6 @@
 "btU" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
@@ -49166,7 +49035,6 @@
 	dir = 8;
 	name = "Port Hallway APC";
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark/corner{
@@ -49266,7 +49134,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-02";
-	pixel_x = 0;
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel/dark,
@@ -49324,7 +49191,6 @@
 	departmentType = 2;
 	name = "Bar RC";
 	pixel_x = 30;
-	pixel_y = 0;
 	receive_ore_updates = 1
 	},
 /turf/open/floor/plasteel/dark,
@@ -49505,8 +49371,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plasteel/dark,
@@ -50420,7 +50284,6 @@
 	},
 /obj/machinery/button/crematorium{
 	id = "crematoriumChapel";
-	pixel_x = 0;
 	pixel_y = 24;
 	req_access_txt = "27"
 	},
@@ -50925,7 +50788,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/plasteel/dark,
@@ -51108,7 +50970,6 @@
 	},
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /turf/open/floor/grass,
 /area/chapel/main)
@@ -51417,8 +51278,6 @@
 "bxF" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -51660,7 +51519,6 @@
 /obj/machinery/chem_master/condimaster{
 	desc = "Used to separate out liquids - useful for purifying botanical extracts. Also dispenses condiments.";
 	name = "BrewMaster 2199";
-	pixel_x = 0
 	},
 /obj/machinery/light_switch{
 	pixel_y = 24
@@ -51687,7 +51545,6 @@
 	desc = "A remote control-switch for secure storage.";
 	id = "Secure Storage";
 	name = "Secure Storage Toggle";
-	pixel_x = 0;
 	pixel_y = -24;
 	req_access_txt = "11"
 	},
@@ -51935,7 +51792,6 @@
 /obj/machinery/flasher{
 	id = "AI";
 	name = "Meatbag Pacifier";
-	pixel_x = 0;
 	pixel_y = 24
 	},
 /obj/machinery/camera/motion{
@@ -52636,7 +52492,6 @@
 	frequency = 1447;
 	name = "Private AI Channel";
 	pixel_x = 28;
-	pixel_y = 0
 	},
 /turf/open/floor/circuit/green{
 	luminosity = 2
@@ -52656,7 +52511,6 @@
 /obj/machinery/chem_master/condimaster{
 	desc = "Used to separate out liquids - useful for purifying botanical extracts. Also dispenses condiments.";
 	name = "BrewMaster 2199";
-	pixel_x = 0
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/bot,
@@ -52719,7 +52573,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-02";
-	pixel_x = 0;
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel/showroomfloor,
@@ -52741,7 +52594,6 @@
 	id = "transittube";
 	name = "Transit Tube Lockdown Toggle";
 	pixel_x = 24;
-	pixel_y = 0;
 	req_access_txt = "19"
 	},
 /obj/machinery/camera{
@@ -53114,8 +52966,6 @@
 /obj/effect/turf_decal/stripes/corner,
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/security/brig)
@@ -53220,7 +53070,6 @@
 	id = "PCell 2";
 	name = "Prisoner Pacifier";
 	pixel_x = 24;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -53310,7 +53159,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-02";
-	pixel_x = 0;
 	pixel_y = 3
 	},
 /obj/effect/turf_decal/tile/red,
@@ -53363,8 +53211,6 @@
 /obj/effect/turf_decal/tile/blue,
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
@@ -53503,7 +53349,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/structure/chair/office{
 	dir = 8
@@ -53516,7 +53361,6 @@
 /obj/machinery/requests_console{
 	department = "Detective's office";
 	name = "Detective RC";
-	pixel_x = 0;
 	pixel_y = 30
 	},
 /obj/machinery/light_switch{
@@ -53715,7 +53559,6 @@
 /obj/item/camera,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/plasteel/dark,
@@ -53926,7 +53769,6 @@
 	areastring = "/area/quartermaster/storage";
 	dir = 1;
 	name = "Cargo Bay APC";
-	pixel_x = 0;
 	pixel_y = 26
 	},
 /obj/structure/cable,
@@ -54369,7 +54211,6 @@
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/item/analyzer{
-	pixel_x = 0;
 	pixel_y = 4
 	},
 /obj/item/analyzer{
@@ -54749,7 +54590,6 @@
 	pixel_y = 6
 	},
 /obj/item/radio{
-	pixel_x = 0;
 	pixel_y = 4
 	},
 /turf/open/floor/plasteel/dark,
@@ -55216,7 +55056,6 @@
 /obj/machinery/light/small,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -55489,7 +55328,6 @@
 /obj/effect/turf_decal/bot,
 /obj/structure/sign/warning/securearea{
 	pixel_x = 32;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/storage/tech)
@@ -55551,7 +55389,6 @@
 /obj/machinery/door/window/northleft{
 	dir = 8;
 	name = "RCD Storage";
-	pixel_x = 0;
 	req_access_txt = "19"
 	},
 /turf/open/floor/plasteel/dark,
@@ -55681,7 +55518,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/storage/tech)
@@ -55837,7 +55673,6 @@
 /obj/effect/spawner/lootdrop/techstorage/AI,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/circuit/green{
@@ -56551,7 +56386,6 @@
 	areastring = "/area/security/checkpoint/supply";
 	dir = 1;
 	name = "Cargo Security APC";
-	pixel_x = 0;
 	pixel_y = 26
 	},
 /obj/machinery/firealarm{
@@ -56841,7 +56675,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -57235,8 +57068,6 @@
 /obj/effect/turf_decal/tile/neutral,
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark/corner{
 	dir = 8
@@ -57286,7 +57117,6 @@
 /obj/structure/closet/crate/hydroponics,
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -57332,8 +57162,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/structure/spider/stickyweb,
 /obj/effect/decal/cleanable/blood/old,
@@ -57427,7 +57255,6 @@
 	dir = 4;
 	name = "Captain's Office APC";
 	pixel_x = 24;
-	pixel_y = 0
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
@@ -57435,7 +57262,6 @@
 "bGv" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-02";
-	pixel_x = 0;
 	pixel_y = 3
 	},
 /obj/effect/turf_decal/tile/red{
@@ -58270,7 +58096,6 @@
 /obj/effect/turf_decal/tile/neutral,
 /obj/structure/sign/directions/evac{
 	dir = 4;
-	pixel_x = 0;
 	pixel_y = -24
 	},
 /turf/open/floor/plasteel/dark/corner{
@@ -58332,7 +58157,6 @@
 /obj/effect/turf_decal/tile/neutral,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/plasteel/dark/corner{
@@ -58751,8 +58575,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
@@ -59129,7 +58951,6 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/locker)
@@ -59630,8 +59451,6 @@
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 28
@@ -59782,7 +59601,6 @@
 	id = "Cabin_4";
 	name = "Cabin 4 Privacy Lock";
 	normaldoorcontrol = 1;
-	pixel_x = 0;
 	pixel_y = 24;
 	specialfunctions = 4
 	},
@@ -59865,7 +59683,6 @@
 	id = "Cabin_1";
 	name = "Cabin 1 Privacy Lock";
 	normaldoorcontrol = 1;
-	pixel_x = 0;
 	pixel_y = 24;
 	specialfunctions = 4
 	},
@@ -60982,7 +60799,6 @@
 	},
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /turf/open/floor/plating,
 /area/quartermaster/office)
@@ -61238,7 +61054,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/fitness/recreation)
@@ -61590,13 +61405,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-02";
-	pixel_x = 0;
 	pixel_y = 3
 	},
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/warden)
@@ -63485,8 +63298,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -63892,8 +63703,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel,
 /area/security/processing)
@@ -64223,7 +64032,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -64294,7 +64102,6 @@
 	departmentType = 5;
 	name = "Security RC";
 	pixel_x = 30;
-	pixel_y = 0
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
@@ -64684,8 +64491,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -64968,7 +64773,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/plasteel/dark/corner,
@@ -65723,7 +65527,6 @@
 	dir = 4;
 	name = "Starboard Hallway APC";
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
@@ -65993,7 +65796,6 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/exit/departure_lounge)
@@ -66058,8 +65860,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plasteel/dark,
@@ -66087,7 +65887,6 @@
 "bSL" = (
 /obj/structure/sign/warning/securearea{
 	name = "EMERGENCY STORAGE";
-	pixel_y = 0
 	},
 /turf/closed/wall,
 /area/hallway/secondary/entry)
@@ -66183,7 +65982,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/item/radio/intercom{
 	pixel_y = -28
@@ -66369,7 +66167,6 @@
 "bTj" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/warning/vacuum/external{
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /turf/open/floor/plating,
@@ -66546,8 +66343,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
@@ -66658,7 +66453,6 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /obj/item/clothing/mask/russian_balaclava,
 /obj/effect/turf_decal/stripes/corner{
@@ -67793,7 +67587,6 @@
 	},
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/xenobiology)
@@ -68402,7 +68195,6 @@
 	id = "Cell 6";
 	name = "Cell 6";
 	pixel_x = -32;
-	pixel_y = 0
 	},
 /obj/structure/closet/secure_closet/brig{
 	id = "Cell 6";
@@ -68449,7 +68241,6 @@
 	id = "Cell 5";
 	name = "Cell 5";
 	pixel_x = -32;
-	pixel_y = 0
 	},
 /obj/structure/closet/secure_closet/brig{
 	id = "Cell 5";
@@ -68469,7 +68260,6 @@
 	id = "Cell 4";
 	name = "Cell 4";
 	pixel_x = -32;
-	pixel_y = 0
 	},
 /obj/structure/closet/secure_closet/brig{
 	id = "Cell 4";
@@ -68504,7 +68294,6 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /obj/effect/landmark/start/assistant,
 /obj/structure/disposalpipe/segment{
@@ -68555,7 +68344,6 @@
 	id = "Cell 3";
 	name = "Cell 3";
 	pixel_x = -32;
-	pixel_y = 0
 	},
 /obj/structure/closet/secure_closet/brig{
 	id = "Cell 3";
@@ -68643,7 +68431,6 @@
 	id = "Cell 2";
 	name = "Cell 2";
 	pixel_x = -32;
-	pixel_y = 0
 	},
 /obj/structure/closet/secure_closet/brig{
 	id = "Cell 2";
@@ -68675,7 +68462,6 @@
 	id = "Cell 1";
 	name = "Cell 1";
 	pixel_x = -32;
-	pixel_y = 0
 	},
 /obj/structure/closet/secure_closet/brig{
 	id = "Cell 1";
@@ -69345,7 +69131,6 @@
 /obj/item/crowbar,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/effect/turf_decal/stripes/corner{
@@ -70507,7 +70292,6 @@
 /obj/effect/turf_decal/tile/red,
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-02";
-	pixel_x = 0;
 	pixel_y = 3
 	},
 /obj/effect/turf_decal/tile/neutral{
@@ -70570,8 +70354,6 @@
 /obj/effect/turf_decal/tile/yellow,
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -70885,7 +70667,6 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /obj/item/grenade/clusterbuster/cleaner,
 /turf/open/floor/plasteel/dark,
@@ -71224,7 +71005,6 @@
 /obj/structure/sink{
 	dir = 4;
 	pixel_x = 11;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
@@ -71693,8 +71473,6 @@
 "caV" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -72303,7 +72081,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/machinery/camera{
 	c_tag = "Aft Hallway Engineering Venders";
@@ -73019,7 +72796,6 @@
 /obj/effect/turf_decal/tile/neutral,
 /obj/machinery/status_display/ai{
 	pixel_x = 32;
-	pixel_y = 0
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
@@ -75125,7 +74901,6 @@
 	name = "Justice Door Lock";
 	normaldoorcontrol = 1;
 	pixel_x = -24;
-	pixel_y = 0;
 	req_access_txt = "3";
 	specialfunctions = 4
 	},
@@ -75599,7 +75374,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/showroomfloor,
@@ -76140,7 +75914,6 @@
 /obj/machinery/button/door{
 	id = "sidearmory";
 	name = "Armoury Shutter Toggle";
-	pixel_x = 0;
 	pixel_y = -24;
 	req_access_txt = "3"
 	},
@@ -76201,7 +75974,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -76381,7 +76153,6 @@
 /obj/machinery/atmospherics/pipe/manifold/cyan/visible,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/plasteel/dark,
@@ -76462,7 +76233,6 @@
 /obj/structure/table,
 /obj/machinery/computer/security/telescreen/minisat{
 	dir = 4;
-	pixel_x = 0
 	},
 /obj/machinery/light{
 	dir = 8
@@ -76735,7 +76505,6 @@
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26;
-	pixel_y = 0
 	},
 /obj/item/clipboard{
 	pixel_x = 4
@@ -77121,8 +76890,6 @@
 /obj/machinery/light,
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/structure/sign/warning/electricshock{
 	pixel_y = -32
@@ -77199,7 +76966,6 @@
 	desc = "Talk through this. It looks like it has been modified to not broadcast.";
 	dir = 2;
 	name = "Prison Intercom (General)";
-	pixel_x = 0;
 	pixel_y = -28;
 	prison_radio = 1
 	},
@@ -77537,7 +77303,6 @@
 	id = "gravity";
 	name = "Gravity Generator Lockdown";
 	pixel_x = -24;
-	pixel_y = 0;
 	req_one_access_txt = "19;23"
 	},
 /turf/open/floor/engine,
@@ -77629,7 +77394,6 @@
 /obj/machinery/button/door{
 	id = "frontarmory";
 	name = "Armoury Shutter Toggle";
-	pixel_x = 0;
 	pixel_y = 24;
 	req_access_txt = "58"
 	},
@@ -78216,7 +77980,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-02";
-	pixel_x = 0;
 	pixel_y = 3
 	},
 /obj/effect/turf_decal/tile/red{
@@ -78658,7 +78421,6 @@
 	areastring = "/area/engine/gravity_generator";
 	dir = 2;
 	name = "Gravity Generator APC";
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/structure/cable,
@@ -79131,7 +78893,6 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -80629,7 +80390,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/plasteel/dark,
@@ -80776,7 +80536,6 @@
 /obj/machinery/airalarm/engine{
 	dir = 1;
 	icon_state = "alarm0";
-	pixel_x = 0;
 	pixel_y = -24
 	},
 /turf/open/floor/engine,
@@ -81816,7 +81575,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-02";
-	pixel_x = 0;
 	pixel_y = 3
 	},
 /obj/structure/extinguisher_cabinet{
@@ -81874,7 +81632,6 @@
 	areastring = "/area/security/main";
 	dir = 2;
 	name = "Security Office APC";
-	pixel_x = 0;
 	pixel_y = -24
 	},
 /obj/effect/turf_decal/tile/neutral,
@@ -82108,7 +81865,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/machinery/light{
 	dir = 4
@@ -82154,8 +81910,6 @@
 /obj/effect/turf_decal/stripes/corner,
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/security/brig)
@@ -82839,7 +82593,6 @@
 	},
 /obj/structure/sign/warning/fire{
 	pixel_x = -32;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/maintenance/port)
@@ -83691,7 +83444,6 @@
 	areastring = "/area/crew_quarters/heads/hos";
 	dir = 1;
 	name = "Head of Security's Office APC";
-	pixel_x = 0;
 	pixel_y = 24
 	},
 /obj/machinery/camera{
@@ -84977,7 +84729,6 @@
 	pixel_y = 6
 	},
 /obj/item/radio{
-	pixel_x = 0;
 	pixel_y = 4
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -85782,7 +85533,6 @@
 	dir = 4;
 	name = "Port Quarter Solar APC";
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -86060,8 +85810,6 @@
 	},
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/machinery/light_switch{
 	pixel_x = 24;
@@ -87258,7 +87006,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/effect/turf_decal/bot,
@@ -87447,7 +87194,6 @@
 	areastring = "/area/engine/engineering";
 	dir = 2;
 	name = "Engine Room APC";
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/effect/turf_decal/tile/neutral{
@@ -87806,7 +87552,6 @@
 /obj/machinery/button/door{
 	id = "greylair";
 	name = "Lair Privacy Toggle";
-	pixel_x = 0;
 	pixel_y = 24;
 	req_access_txt = "0"
 	},
@@ -88872,7 +88617,6 @@
 	id = "PCell 3";
 	name = "Prisoner Pacifier";
 	pixel_x = 24;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -89717,7 +89461,6 @@
 "cDT" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-05";
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -90471,7 +90214,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/open/floor/engine,
@@ -90513,7 +90255,6 @@
 "cFl" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-05";
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -90866,7 +90607,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-02";
-	pixel_x = 0;
 	pixel_y = 3
 	},
 /obj/machinery/airalarm{
@@ -91735,7 +91475,6 @@
 	areastring = "/area/maintenance/disposal";
 	dir = 1;
 	name = "Disposals APC";
-	pixel_x = 0;
 	pixel_y = 26
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -92020,7 +91759,6 @@
 	},
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /obj/machinery/newscaster{
@@ -92101,7 +91839,6 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 26;
-	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/structure/disposalpipe/segment,
@@ -93224,7 +92961,6 @@
 /obj/effect/turf_decal/tile/neutral,
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
@@ -94791,7 +94527,6 @@
 	dir = 8;
 	icon_state = "left";
 	name = "Library Desk Door";
-	pixel_x = 0;
 	req_access_txt = "37"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -94855,7 +94590,6 @@
 	},
 /obj/structure/window/reinforced{
 	dir = 1;
-	pixel_y = 0
 	},
 /obj/structure/sign/poster/official/pda_ad{
 	pixel_y = -32
@@ -94865,8 +94599,6 @@
 "cMJ" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
 	},
 /obj/machinery/light_switch{
 	pixel_y = -24
@@ -95116,7 +94848,6 @@
 	departmentType = 5;
 	name = "Head of Personnel RC";
 	pixel_x = -30;
-	pixel_y = 0
 	},
 /obj/machinery/light{
 	dir = 8
@@ -95791,7 +95522,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-02";
-	pixel_x = 0;
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel/showroomfloor,
