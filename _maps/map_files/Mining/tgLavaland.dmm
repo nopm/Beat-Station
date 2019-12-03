@@ -746,7 +746,6 @@
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "Labor Camp Security APC";
-	pixel_x = 0;
 	pixel_y = 24
 	},
 /obj/structure/cable,
