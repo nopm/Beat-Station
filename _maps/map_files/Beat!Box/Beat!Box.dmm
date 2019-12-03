@@ -16875,6 +16875,7 @@
 	pixel_x = -5;
 	pixel_y = 30
 	},
+/obj/machinery/grill,
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
 "aWp" = (
@@ -50390,6 +50391,10 @@
 /area/crew_quarters/toilet/locker)
 "flA" = (
 /obj/structure/cable,
+/mob/living/simple_animal/pet/dog/pug{
+	desc = "It's the HOS's beloved pet pug.";
+	name = "\improper Handcuffs"
+	},
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/hos)
 "flE" = (
