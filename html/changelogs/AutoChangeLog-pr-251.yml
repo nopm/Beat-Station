@@ -1,4 +1,0 @@
-author: "Beat-Bot"
-delete-after: True
-changes: 
-  - bugfix: "Fix guardians being unable to toggle modes"
