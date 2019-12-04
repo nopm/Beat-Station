@@ -35,11 +35,8 @@ jobs:
     - name: Commit Artifacts
       run: |
         git config --local user.email "action@github.com"
-        git config --local user.name "Beat!Bot"
-        git pull
+        git config --local user.name "BeatBot"
         git commit -m "Automatic changelog compile, [ci skip]" -a
-        git fetch
-        git rebase
     
     - name: Push Artifacts
       uses: ad-m/github-push-action@master
