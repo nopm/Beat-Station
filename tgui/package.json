@@ -6,7 +6,11 @@
     "watch": "gulp watch"
   },
   "dependencies": {
+<<<<<<< HEAD
     "autoprefixer": "9.7.2",
+=======
+    "autoprefixer": "9.7.3",
+>>>>>>> 633beb2185... Bump autoprefixer from 9.6.4 to 9.7.3 in /tgui (#12370)
     "babel-core": "6.26.3",
     "babel-plugin-external-helpers": "6.22.0",
     "babel-polyfill": "6.26.0",
