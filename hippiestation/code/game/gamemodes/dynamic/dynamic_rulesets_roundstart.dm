@@ -79,6 +79,7 @@
 	required_candidates = 2
 	weight = 30
 	cost = 20
+	minimum_players = 20
 	var/datum/mind/scientist
 	var/datum/mind/agent
 
