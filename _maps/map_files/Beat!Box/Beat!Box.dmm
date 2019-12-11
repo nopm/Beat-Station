@@ -26819,10 +26819,16 @@
 	dir = 4
 	},
 /obj/machinery/camera{
-	c_tag = "Experimentor Lab";
+	c_tag = "Telescience Lab";
 	network = list("ss13","rd")
 	},
 /obj/structure/closet/l3closet/scientist,
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/science/explab)
 "byX" = (
@@ -26835,6 +26841,12 @@
 	pixel_y = 6
 	},
 /obj/item/pen,
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/science/explab)
 "byY" = (
@@ -26849,6 +26861,15 @@
 /obj/item/storage/toolbox/mechanical{
 	pixel_x = 2;
 	pixel_y = 3
+	},
+/obj/item/gps/science{
+	gpstag = "SCI01";
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/science/explab)
@@ -27291,10 +27312,11 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/obj/effect/spawner/structure/window,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
+/obj/structure/cable,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/science/explab)
 "bAu" = (
@@ -27304,6 +27326,12 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/science/explab)
@@ -27320,6 +27348,12 @@
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/science/explab)
@@ -27741,6 +27775,12 @@
 /area/science/nanite)
 "bBN" = (
 /obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/science/explab)
 "bBR" = (
@@ -27754,6 +27794,10 @@
 /area/science/explab)
 "bBT" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
 /turf/open/floor/plasteel/white,
 /area/science/explab)
 "bBX" = (
@@ -28159,16 +28203,16 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/turf/open/floor/plasteel/white/corner{
-	dir = 4
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
 	},
-/area/science/explab)
-"bDf" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/science/explab)
-"bDg" = (
-/obj/structure/chair/office/light,
-/obj/effect/landmark/start/scientist,
+"bDf" = (
 /turf/open/floor/plasteel/white,
 /area/science/explab)
 "bDj" = (
@@ -28714,21 +28758,35 @@
 /turf/open/floor/plasteel/dark,
 /area/science/nanite)
 "bEK" = (
-/turf/closed/wall,
+/obj/structure/table,
+/obj/item/clipboard{
+	},
+/obj/item/book/manual/wiki/telescience{
+	},
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
 /area/science/explab)
 "bEL" = (
-/obj/structure/table,
-/obj/item/clipboard,
-/obj/item/book/manual/wiki/experimentor,
-/turf/open/floor/plasteel/white/corner{
-	dir = 4
+/obj/structure/cable,
+/obj/machinery/computer/telescience{
+	dir = 1
 	},
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
 /area/science/explab)
 "bEN" = (
 /obj/structure/closet/radiation,
-/turf/open/floor/plasteel/white/corner{
-	dir = 1
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
 	},
+/turf/open/floor/plasteel/white,
 /area/science/explab)
 "bEO" = (
 /obj/machinery/door/poddoor/preopen{
@@ -28736,6 +28794,7 @@
 	name = "test chamber blast door"
 	},
 /obj/machinery/door/firedoor/heavy,
+/obj/effect/turf_decal/caution,
 /turf/open/floor/engine,
 /area/science/explab)
 "bEQ" = (
@@ -29141,6 +29200,7 @@
 	},
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor/heavy,
+/obj/structure/cable,
 /turf/open/floor/engine,
 /area/science/explab)
 "bFV" = (
@@ -30060,14 +30120,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/nanite)
-"bIp" = (
-/obj/machinery/rnd/experimentor,
-/turf/open/floor/plating,
-/area/science/explab)
 "bIq" = (
-/obj/effect/landmark/blobstart,
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/plating,
+/obj/machinery/telepad,
+/obj/item/gps/science{
+	gpstag = "Telesci";
+	},
+/turf/open/floor/engine,
 /area/science/explab)
 "bIs" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/heater{
@@ -30617,7 +30675,7 @@
 /area/science/nanite)
 "bJK" = (
 /obj/machinery/camera{
-	c_tag = "Experimentor Lab Chamber";
+	c_tag = "Telescience Lab Chamber";
 	dir = 1;
 	network = list("ss13","rd")
 	},
@@ -44458,6 +44516,11 @@
 	},
 /turf/open/floor/plating,
 /area/engine/engineering)
+"cAc" = (
+/obj/machinery/light/floor,
+/obj/effect/turf_decal/box,
+/turf/open/floor/engine,
+/area/science/explab)
 "cAe" = (
 /obj/structure/cable,
 /obj/machinery/power/compressor{
@@ -48994,6 +49057,12 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/science/explab)
 "cXR" = (
@@ -49344,6 +49413,10 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/security/main)
+"dze" = (
+/obj/effect/turf_decal/box/corners,
+/turf/open/floor/engine,
+/area/science/explab)
 "dzB" = (
 /obj/machinery/light{
 	dir = 1
@@ -49489,6 +49562,20 @@
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/engine,
 /area/science/misc_lab)
+"dJq" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/science/explab)
 "dJC" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible,
 /turf/open/floor/plasteel/dark,
@@ -50530,7 +50617,7 @@
 "fyF" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock/research{
-	name = "Experimentation Lab";
+	name = "Telescience Lab";
 	req_access_txt = "47"
 	},
 /obj/structure/disposalpipe/segment{
@@ -50767,7 +50854,7 @@
 "fQP" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock/maintenance{
-	name = "Experimentation Lab Maintenance";
+	name = "Telescience Lab Maintenance";
 	req_access_txt = "47"
 	},
 /obj/structure/disposalpipe/segment{
@@ -51304,16 +51391,6 @@
 	},
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai_upload)
-"gIJ" = (
-/obj/machinery/holopad,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white,
-/area/science/explab)
 "gKo" = (
 /obj/machinery/firealarm{
 	dir = 4;
@@ -51604,12 +51681,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
-"hmF" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
-/turf/open/floor/engine,
-/area/science/explab)
 "hns" = (
 /obj/machinery/computer/atmos_control/tank/toxin_tank{
 	dir = 8
@@ -52924,6 +52995,13 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
+"jwE" = (
+/obj/effect/turf_decal/box/corners{
+	icon_state = "box_corners";
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/science/explab)
 "jwR" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -53368,9 +53446,8 @@
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
 "kfY" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
+/obj/effect/landmark/blobstart,
+/obj/effect/landmark/xeno_spawn,
 /turf/open/floor/engine,
 /area/science/explab)
 "kgx" = (
@@ -55383,6 +55460,13 @@
 /obj/machinery/field/generator,
 /turf/open/floor/plating,
 /area/engine/port_engineering)
+"nsI" = (
+/obj/effect/turf_decal/box/corners{
+	icon_state = "box_corners";
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/science/explab)
 "nsO" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 6
@@ -55401,7 +55485,7 @@
 /obj/machinery/power/apc{
 	areastring = "/area/science/explab";
 	dir = 4;
-	name = "Experimentation Lab APC";
+	name = "Telescience Lab APC";
 	pixel_x = 26
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
@@ -55409,6 +55493,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
 	},
 /turf/open/floor/plasteel/white,
 /area/science/explab)
@@ -56764,6 +56852,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
+"pIB" = (
+/obj/structure/cable,
+/obj/structure/chair/office/light,
+/obj/effect/landmark/start/scientist,
+/turf/open/floor/plasteel/white,
+/area/science/explab)
 "pKg" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -57441,6 +57535,17 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/science/nanite)
+"qXS" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/machinery/holopad,
+/turf/open/floor/plasteel/white,
+/area/science/explab)
 "qYa" = (
 /obj/structure/cable,
 /obj/machinery/power/port_gen/pacman,
@@ -58550,6 +58655,15 @@
 /obj/structure/disposalpipe/junction{
 	dir = 4
 	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
+	},
 /turf/open/floor/plasteel/white,
 /area/science/explab)
 "sXd" = (
@@ -59066,6 +59180,13 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
+	},
 /turf/open/floor/plasteel/white,
 /area/science/explab)
 "tOI" = (
@@ -59242,6 +59363,13 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
+"ucg" = (
+/obj/effect/turf_decal/box/corners{
+	icon_state = "box_corners";
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/science/explab)
 "ucJ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -59515,6 +59643,16 @@
 /obj/structure/lattice/catwalk,
 /turf/open/space,
 /area/space/nearstation)
+"uBE" = (
+/obj/structure/cable,
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/firedoor/heavy,
+/obj/machinery/door/poddoor/preopen{
+	id = "telelab";
+	name = "test chamber blast door"
+	},
+/turf/open/floor/engine,
+/area/science/explab)
 "uCC" = (
 /turf/open/floor/plasteel,
 /area/science/nanite)
@@ -59729,12 +59867,21 @@
 /turf/open/floor/plasteel/white,
 /area/maintenance/aft)
 "uVL" = (
-/obj/machinery/computer/rdconsole/experiment{
-	dir = 1
+/obj/structure/table,
+/obj/item/paper{
+	info = "<h2>How to link your telepad</h2><br> \<b>1: </b>Use screwdriver on telepad<br> \<b>2: </b>Use the multitool on telepad to save the buff on it<br> \<b>3: </b>And then use multitool on the console to link it<br> \<b>5: </b>Done, the telepad and the console are linked!";
+	name = "telepad guide"
 	},
-/turf/open/floor/plasteel/white/corner{
-	dir = 1
+/obj/item/multitool{
 	},
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
 /area/science/explab)
 "uWv" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -110201,7 +110348,7 @@ sRk
 bxD
 fyF
 bAt
-bEK
+bxD
 bxD
 bxD
 bxD
@@ -110461,9 +110608,9 @@ bAu
 bBN
 bDd
 bFS
+ucg
 bHi
-bHi
-bHi
+nsI
 bxD
 bLU
 iVd
@@ -110718,9 +110865,9 @@ bAv
 eJK
 bEN
 bFS
-jmz
-wic
-hmF
+bHi
+cAc
+bHi
 bxD
 tcp
 wsJ
@@ -110974,9 +111121,9 @@ byW
 bBR
 bDf
 bEK
-bxD
-luM
-bIp
+uBE
+jmz
+wic
 kfY
 bxD
 iEd
@@ -111228,8 +111375,8 @@ bsR
 bsP
 bxD
 byX
-bBR
-bDf
+qXS
+pIB
 bEL
 bFS
 luM
@@ -111486,7 +111633,7 @@ bsP
 bxD
 byY
 bBR
-bDg
+bDf
 uVL
 bFS
 hRJ
@@ -111742,12 +111889,12 @@ brs
 bsP
 bxD
 bAx
-gIJ
+bBR
 bDf
-bEK
+bxD
 bxD
 rBQ
-bHi
+cAc
 bHi
 bxD
 cby
@@ -111998,14 +112145,14 @@ bsT
 brs
 bsP
 bxD
-bAx
+dJq
 nts
 bBT
 tOt
 bEO
+jwE
 bHi
-bHi
-bHi
+dze
 bxD
 gtu
 fOp
