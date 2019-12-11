@@ -27,6 +27,7 @@
 #include "beatstation\code\game\turfs\simulated\floor\fancy_floor.dm"
 #include "beatstation\code\game\turfs\simulated\floor\misc_floor.dm"
 #include "beatstation\code\modules\antagonists\cult\blood_magic.dm"
+#include "beatstation\code\modules\cargo\expressconsole.dm"
 #include "beatstation\code\modules\cargo\packs.dm"
 #include "beatstation\code\modules\client\verbs\looc.dm"
 #include "beatstation\code\modules\client\verbs\ooc.dm"
