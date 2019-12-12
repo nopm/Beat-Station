@@ -1,0 +1,4 @@
+author: "Neotw"
+delete-after: True
+changes: 
+  - bugfix: "Shaft Miners no longer have access to the QM office"
