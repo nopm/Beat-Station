@@ -52704,6 +52704,11 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
+"iRb" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable,
+/turf/open/floor/plasteel,
+/area/hallway/primary/port)
 "iRs" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -85924,7 +85929,7 @@ aMQ
 aOs
 aPS
 aRw
-aPM
+iRb
 wYx
 aVS
 aXl
