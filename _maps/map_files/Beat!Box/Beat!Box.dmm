@@ -9812,6 +9812,22 @@
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/starboard/fore)
+"aBu" = (
+/obj/machinery/camera{
+	c_tag = "Auxiliary Tool Storage"
+	},
+/obj/structure/table,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/storage/box/lights/mixed,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/storage/tools)
 "aBv" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -16257,26 +16273,19 @@
 /turf/closed/wall,
 /area/storage/emergency/port)
 "aUk" = (
-/obj/item/twohanded/required/kirbyplants/random,
+/obj/structure/table,
+/obj/item/storage/toolbox/emergency,
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
 "aUl" = (
-/obj/structure/table,
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
+/obj/structure/closet/firecloset,
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
 "aUm" = (
-/obj/structure/table,
 /obj/machinery/airalarm{
 	dir = 1;
 	pixel_y = -22
 	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/port)
-"aUn" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
@@ -16703,18 +16712,28 @@
 /turf/open/floor/plating,
 /area/storage/emergency/port)
 "aVR" = (
+/obj/structure/rack,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/item/electronics/apc,
+/obj/item/electronics/airlock,
 /obj/structure/cable,
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
 /area/storage/tools)
 "aVS" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/public/glass{
-	name = "Auxiliary Tool Storage";
-	req_access_txt = "12"
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/storage/tools)
 "aVT" = (
@@ -17084,28 +17103,21 @@
 /turf/open/floor/plating,
 /area/storage/emergency/port)
 "aXj" = (
-/obj/structure/cable,
-/obj/machinery/power/apc{
-	areastring = "/area/storage/tools";
-	dir = 1;
-	name = "Auxiliary Tool Storage APC";
-	pixel_y = 24
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -27
 	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = -24
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
 	},
-/obj/structure/table,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/rods/fifty,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/storage/tools)
 "aXk" = (
-/obj/structure/cable,
-/obj/structure/rack,
-/obj/item/electronics/apc,
-/obj/item/electronics/airlock,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/storage/tools)
 "aXl" = (
@@ -17113,21 +17125,19 @@
 /turf/open/floor/plasteel,
 /area/storage/tools)
 "aXm" = (
-/obj/machinery/light_switch{
-	pixel_y = 28
-	},
-/obj/machinery/camera{
-	c_tag = "Auxiliary Tool Storage"
-	},
-/obj/structure/table,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/storage/box/lights/mixed,
+/obj/machinery/holopad,
 /turf/open/floor/plasteel,
 /area/storage/tools)
 "aXn" = (
-/obj/structure/table,
-/obj/item/storage/toolbox/emergency,
+/obj/structure/rack,
+/obj/item/clothing/gloves/color/fyellow,
+/obj/item/clothing/suit/hazardvest,
+/obj/item/multitool,
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/storage/tools)
 "aXo" = (
@@ -17629,26 +17639,44 @@
 /turf/open/floor/plating,
 /area/storage/emergency/port)
 "aYT" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_x = -27
+/obj/machinery/airalarm{
+	dir = 4;
+	pixel_x = -22
 	},
-/turf/open/floor/plasteel,
-/area/storage/tools)
-"aYU" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
+/obj/structure/closet/toolcloset,
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/storage/tools)
+"aYU" = (
+/obj/structure/closet/toolcloset,
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/storage/tools)
 "aYV" = (
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
 /turf/open/floor/plasteel,
 /area/storage/tools)
 "aYW" = (
-/obj/structure/rack,
-/obj/item/clothing/gloves/color/fyellow,
-/obj/item/clothing/suit/hazardvest,
-/obj/item/multitool,
-/obj/effect/spawner/lootdrop/maintenance,
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/storage/tools)
 "aYX" = (
@@ -53215,6 +53243,32 @@
 	},
 /turf/open/floor/engine,
 /area/engine/engineering)
+"jCI" = (
+/obj/machinery/power/apc{
+	areastring = "/area/storage/tools";
+	dir = 1;
+	name = "Auxiliary Tool Storage APC";
+	pixel_y = 23
+	},
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = -24
+	},
+/obj/structure/table,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/rods/fifty,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/storage/tools)
 "jCN" = (
 /obj/structure/rack,
 /obj/item/aicard,
@@ -60233,6 +60287,17 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
+"uUe" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/machinery/light/small,
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/storage/tools)
 "uUZ" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -60254,7 +60319,7 @@
 "uVL" = (
 /obj/structure/table,
 /obj/item/paper{
-	info = "<h2>How to link your telepad</h2><br> \<b>1: </b>Use screwdriver on telepad<br> \<b>2: </b>Use the multitool on telepad to save the buff on it<br> \<b>3: </b>And then use multitool on the console to link it<br> \<b>5: </b>Done, the telepad and the console are linked!";
+	info = "<h2>How to link your telepad</h2><br> &lt;b>1: </b>Use screwdriver on telepad<br> &lt;b>2: </b>Use the multitool on telepad to save the buff on it<br> &lt;b>3: </b>And then use multitool on the console to link it<br> &lt;b>5: </b>Done, the telepad and the console are linked!";
 	name = "telepad guide"
 	},
 /obj/item/multitool,
@@ -60337,6 +60402,21 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
+"vcd" = (
+/obj/structure/table,
+/obj/item/storage/toolbox/emergency,
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/machinery/light_switch{
+	pixel_y = 28
+	},
+/turf/open/floor/plasteel,
+/area/storage/tools)
 "vcj" = (
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
@@ -61546,6 +61626,16 @@
 /obj/structure/sign/warning/fire,
 /turf/closed/wall/r_wall,
 /area/engine/engineering)
+"wYx" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/public/glass{
+	name = "Auxiliary Tool Storage";
+	req_access_txt = "12"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable,
+/turf/open/floor/plasteel,
+/area/storage/tools)
 "wYV" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
 	dir = 8
@@ -61553,6 +61643,11 @@
 /obj/effect/landmark/xeno_spawn,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
+"wZX" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plating,
+/area/storage/tools)
 "xba" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/visible,
@@ -85059,7 +85154,7 @@ aBV
 aPP
 eMr
 aRl
-aUn
+aUp
 aUp
 aUp
 aUp
@@ -85316,8 +85411,8 @@ aOr
 aPQ
 uMu
 aRl
-aPB
 aUp
+jCI
 aXj
 aYT
 rgI
@@ -85573,7 +85668,7 @@ aBV
 aPR
 rUW
 aSN
-aSN
+wZX
 aVR
 aXk
 aYU
@@ -85830,10 +85925,10 @@ aOs
 aPS
 aRw
 aPM
-aPM
+wYx
 aVS
 aXl
-aXl
+uUe
 rgI
 uIz
 bdF
@@ -86087,8 +86182,8 @@ aOt
 aPR
 eMr
 aSP
-aUk
-aUp
+aXo
+aBu
 aXm
 aYV
 rgI
@@ -86345,7 +86440,7 @@ aPT
 aRx
 aPA
 aUp
-aUp
+vcd
 aXn
 aYW
 rgI
@@ -86602,7 +86697,7 @@ fPz
 aRy
 fPz
 aUp
-aUp
+aXo
 aXo
 aXo
 rgI
