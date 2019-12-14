@@ -9,3 +9,9 @@
 
 /datum/techweb_node/biotech
 	design_ids = list("chem_heater", "chem_master", "chem_dispenser", "pandemic", "defibrillator", "defibmount", "operating", "soda_dispenser", "beer_dispenser", "healthanalyzer", "medspray","genescanner", "medical_kiosk")
+
+/datum/techweb_node/ancient_weaponry
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
+
+/datum/techweb_node/magnetic_weapons
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
