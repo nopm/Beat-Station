@@ -10341,7 +10341,8 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance{
 	name = "EVA Maintenance";
-	req_access_txt = "18"
+	req_access_txt = "18";
+	security_level = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -11211,6 +11212,7 @@
 	c_tag = "EVA East";
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/ai_monitored/storage/eva)
 "aFQ" = (
@@ -12581,6 +12583,7 @@
 /area/ai_monitored/storage/eva)
 "aJF" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/storage/eva)
 "aJG" = (
@@ -54310,6 +54313,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/service)
+"lry" = (
+/obj/structure/cable,
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/storage/eva)
 "lrQ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -61885,6 +61892,11 @@
 /area/security/checkpoint/auxiliary{
 	name = "Security Checkpoint - Arrivals"
 	})
+"xqU" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ai_monitored/storage/eva)
 "xtg" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
@@ -88254,8 +88266,8 @@ aHe
 aIs
 aJF
 aLm
-aJG
-aEN
+lry
+xqU
 aNc
 aNa
 aMX
@@ -88509,9 +88521,9 @@ aEH
 aFL
 aCj
 aIt
-aJG
-aJG
-aJG
+lry
+lry
+lry
 wyO
 aNc
 aNa
@@ -88768,8 +88780,8 @@ aHf
 aIu
 aJH
 aLn
-aJG
-aEN
+lry
+xqU
 aNc
 aNa
 aMX
@@ -89791,7 +89803,7 @@ aCl
 aCh
 oxm
 aEM
-aCj
+aFL
 aHj
 aCj
 aJJ
@@ -90048,8 +90060,8 @@ aCl
 aCi
 aDn
 aCj
-aCj
-aEN
+aFL
+xqU
 aCj
 aJK
 aEN
@@ -90562,7 +90574,7 @@ aCl
 aCk
 aDp
 aCj
-aCj
+aFL
 aHk
 aIw
 aJG
@@ -90818,8 +90830,8 @@ azm
 aCl
 aCl
 aCl
-aEN
-aEN
+xqU
+xqU
 aCl
 aCl
 aCl
