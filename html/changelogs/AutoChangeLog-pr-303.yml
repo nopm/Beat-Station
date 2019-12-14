@@ -1,5 +1,0 @@
-author: "Neotw"
-delete-after: True
-changes: 
-  - bugfix: "Fixed the telepad control console"
-  - rscadd: "Also, you can now choose from 1 to 13 sectors in the telepad control console"
