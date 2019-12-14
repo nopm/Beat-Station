@@ -30630,7 +30630,7 @@
 /obj/machinery/camera{
 	c_tag = "Telescience Lab Chamber";
 	dir = 1;
-	network = list("ss13","rd")
+	network = list("ss13","rd","telesci")
 	},
 /obj/machinery/light,
 /obj/structure/sign/warning/nosmoking{
@@ -59326,6 +59326,16 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/office)
+"trH" = (
+/obj/machinery/computer/security/telescreen{
+	dir = 1;
+	icon_state = "telescreen";
+	name = "Telescience Chamber Monitor";
+	network = list("telesci");
+	pixel_y = -25
+	},
+/turf/open/floor/plasteel/white,
+/area/science/telesci)
 "trP" = (
 /obj/machinery/field/generator,
 /obj/machinery/light,
@@ -60330,7 +60340,7 @@
 "uVL" = (
 /obj/structure/table,
 /obj/item/paper{
-	info = "<h2>How to link your telepad</h2><br> &lt;b>1: </b>Use screwdriver on telepad<br> &lt;b>2: </b>Use the multitool on telepad to save the buff on it<br> &lt;b>3: </b>And then use multitool on the console to link it<br> &lt;b>5: </b>Done, the telepad and the console are linked!";
+	info = "<h2>How to link your telepad</h2><br> /<b>1: </b>Use screwdriver on telepad<br> /<b>2: </b>Use the multitool on telepad to save the buff on it<br> /<b>3: </b>And then use multitool on the console to link it<br> /<b>5: </b>Done, the telepad and the console are linked!";
 	name = "telepad guide"
 	},
 /obj/item/multitool,
@@ -112429,7 +112439,7 @@ bsP
 bxD
 bAx
 bBR
-bDf
+trH
 bxD
 bxD
 rBQ
