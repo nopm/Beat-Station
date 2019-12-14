@@ -10341,7 +10341,8 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance{
 	name = "EVA Maintenance";
-	req_access_txt = "18"
+	req_access_txt = "18";
+	security_level = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -11211,6 +11212,7 @@
 	c_tag = "EVA East";
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/ai_monitored/storage/eva)
 "aFQ" = (
@@ -12581,6 +12583,7 @@
 /area/ai_monitored/storage/eva)
 "aJF" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/storage/eva)
 "aJG" = (
@@ -18646,7 +18649,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 10
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/maintenance/port)
@@ -18654,6 +18657,9 @@
 /obj/structure/reagent_dispensers/fueltank,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 10
 	},
 /turf/open/floor/plating,
 /area/maintenance/port)
@@ -19331,18 +19337,13 @@
 	dir = 10
 	},
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 5
-	},
 /turf/open/floor/plating,
 /area/maintenance/port)
 "bdD" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 10
-	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plating,
 /area/maintenance/port)
 "bdE" = (
@@ -26381,7 +26382,7 @@
 /area/science/research)
 "bxD" = (
 /turf/closed/wall/r_wall,
-/area/science/explab)
+/area/science/telesci)
 "bxE" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -26787,7 +26788,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "byX" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -26805,7 +26806,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "byY" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -26829,7 +26830,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "bzb" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/sorting/mail/flip{
@@ -27275,7 +27276,7 @@
 /obj/structure/cable,
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/science/explab)
+/area/science/telesci)
 "bAu" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -27291,7 +27292,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "bAv" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -27300,7 +27301,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "bAx" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -27313,7 +27314,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "bAz" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -27322,7 +27323,7 @@
 	dir = 8
 	},
 /turf/closed/wall/r_wall,
-/area/science/explab)
+/area/science/telesci)
 "bAA" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -27739,7 +27740,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "bBR" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -27748,7 +27749,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "bBT" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/turf_decal/tile/purple,
@@ -27756,7 +27757,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "bBX" = (
 /obj/machinery/computer/nanite_cloud_controller,
 /obj/effect/turf_decal/bot,
@@ -28168,10 +28169,10 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "bDf" = (
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "bDj" = (
 /obj/machinery/door/airlock/maintenance{
 	req_one_access_txt = "8;12"
@@ -28723,7 +28724,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "bEL" = (
 /obj/structure/cable,
 /obj/machinery/computer/telescience{
@@ -28734,7 +28735,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "bEN" = (
 /obj/structure/closet/radiation,
 /obj/effect/turf_decal/tile/purple,
@@ -28742,7 +28743,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "bEO" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "telelab";
@@ -28751,7 +28752,7 @@
 /obj/machinery/door/firedoor/heavy,
 /obj/effect/turf_decal/caution,
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "bEQ" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 6
@@ -29157,7 +29158,7 @@
 /obj/machinery/door/firedoor/heavy,
 /obj/structure/cable,
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "bFV" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer{
 	dir = 8
@@ -29654,7 +29655,7 @@
 /area/science/nanite)
 "bHi" = (
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "bHj" = (
 /obj/structure/cable,
 /obj/machinery/meter,
@@ -30081,7 +30082,7 @@
 	gpstag = "Telesci"
 	},
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "bIs" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/heater{
 	dir = 8
@@ -30632,7 +30633,7 @@
 /obj/machinery/camera{
 	c_tag = "Telescience Lab Chamber";
 	dir = 1;
-	network = list("ss13","rd")
+	network = list("ss13","rd","telesci")
 	},
 /obj/machinery/light,
 /obj/structure/sign/warning/nosmoking{
@@ -30642,7 +30643,7 @@
 	dir = 1
 	},
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "bJM" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock/maintenance{
@@ -44487,7 +44488,7 @@
 /obj/machinery/light/floor,
 /obj/effect/turf_decal/box,
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "cAe" = (
 /obj/structure/cable,
 /obj/machinery/power/compressor{
@@ -49031,7 +49032,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "cXR" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
@@ -49383,7 +49384,7 @@
 "dze" = (
 /obj/effect/turf_decal/box/corners,
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "dzB" = (
 /obj/machinery/light{
 	dir = 1
@@ -49547,7 +49548,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "dJC" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible,
 /turf/open/floor/plasteel/dark,
@@ -49903,6 +49904,11 @@
 /obj/machinery/portable_atmospherics/canister/toxins,
 /turf/open/floor/plating,
 /area/engine/engineering)
+"epc" = (
+/obj/structure/lattice,
+/obj/structure/grille,
+/turf/closed/wall/r_wall,
+/area/space/nearstation)
 "epP" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
@@ -50125,7 +50131,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "eJQ" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 9
@@ -50638,7 +50644,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "fzx" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 9
@@ -51814,7 +51820,7 @@
 /turf/open/floor/plating,
 /area/engine/port_engineering)
 "hvX" = (
-/obj/machinery/computer/med_data{
+/obj/machinery/computer/secure_data{
 	dir = 1
 	},
 /turf/open/floor/plasteel/grimy,
@@ -52145,7 +52151,7 @@
 	dir = 8
 	},
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "hRR" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/wood,
@@ -52999,7 +53005,7 @@
 "jmz" = (
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "jnt" = (
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
@@ -53109,7 +53115,7 @@
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "jwR" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -53610,8 +53616,11 @@
 "kfY" = (
 /obj/effect/landmark/blobstart,
 /obj/effect/landmark/xeno_spawn,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "kgx" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -54304,6 +54313,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/service)
+"lry" = (
+/obj/structure/cable,
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/storage/eva)
 "lrQ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -54346,7 +54359,7 @@
 "luM" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "lvb" = (
 /obj/machinery/atmospherics/components/trinary/filter/flipped/critical{
 	dir = 8
@@ -55694,7 +55707,7 @@
 	dir = 8
 	},
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "nsO" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 6
@@ -55727,7 +55740,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "nvr" = (
 /obj/structure/rack,
 /obj/item/taperecorder{
@@ -57134,7 +57147,7 @@
 /obj/structure/chair/office/light,
 /obj/effect/landmark/start/scientist,
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "pJw" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -57825,7 +57838,7 @@
 	dir = 8
 	},
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "qVB" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -57870,7 +57883,7 @@
 /obj/structure/cable,
 /obj/machinery/holopad,
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "qYa" = (
 /obj/structure/cable,
 /obj/machinery/power/port_gen/pacman,
@@ -58220,7 +58233,7 @@
 "rBQ" = (
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "rCG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
@@ -59073,7 +59086,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "sXd" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -59320,6 +59333,16 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/office)
+"trH" = (
+/obj/machinery/computer/security/telescreen{
+	dir = 1;
+	icon_state = "telescreen";
+	name = "Telescience Chamber Monitor";
+	network = list("telesci");
+	pixel_y = -25
+	},
+/turf/open/floor/plasteel/white,
+/area/science/telesci)
 "trP" = (
 /obj/machinery/field/generator,
 /obj/machinery/light,
@@ -59435,7 +59458,7 @@
 	dir = 1
 	},
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "tCU" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 4
@@ -59604,7 +59627,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "tOI" = (
 /obj/structure/rack,
 /obj/item/clothing/mask/gas{
@@ -59785,7 +59808,7 @@
 	dir = 1
 	},
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "ucJ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -60068,7 +60091,7 @@
 	name = "test chamber blast door"
 	},
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "uCC" = (
 /turf/open/floor/plasteel,
 /area/science/nanite)
@@ -60324,7 +60347,7 @@
 "uVL" = (
 /obj/structure/table,
 /obj/item/paper{
-	info = "<h2>How to link your telepad</h2><br> &lt;b>1: </b>Use screwdriver on telepad<br> &lt;b>2: </b>Use the multitool on telepad to save the buff on it<br> &lt;b>3: </b>And then use multitool on the console to link it<br> &lt;b>5: </b>Done, the telepad and the console are linked!";
+	info = "<h2>How to link your telepad</h2><br> /<b>1: </b>Use screwdriver on telepad<br> /<b>2: </b>Use the multitool on telepad to save the buff on it<br> /<b>3: </b>And then use multitool on the console to link it<br> /<b>5: </b>Done, the telepad and the console are linked!";
 	name = "telepad guide"
 	},
 /obj/item/multitool,
@@ -60336,7 +60359,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/science/explab)
+/area/science/telesci)
 "uWv" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/disposalpipe/segment{
@@ -60993,7 +61016,7 @@
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/science/explab)
+/area/science/telesci)
 "wij" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -61869,6 +61892,11 @@
 /area/security/checkpoint/auxiliary{
 	name = "Security Checkpoint - Arrivals"
 	})
+"xqU" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ai_monitored/storage/eva)
 "xtg" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
@@ -84989,7 +85017,7 @@ aad
 aad
 aaj
 aad
-aae
+aah
 aaa
 aaa
 aaa
@@ -85246,7 +85274,7 @@ aad
 aad
 aaj
 aad
-aae
+epc
 aaa
 aaa
 aaa
@@ -85503,7 +85531,7 @@ aad
 aad
 aaj
 aad
-aad
+epc
 aaa
 aaa
 aaa
@@ -85760,13 +85788,13 @@ aad
 aad
 aaj
 aad
+epc
+epc
+epc
+aah
 aae
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aae
+aah
 aaa
 aaa
 aaa
@@ -86008,22 +86036,22 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aad
-aad
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 aaj
 aad
+aad
+aad
+aad
+aad
+aad
+aad
 aae
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -86265,22 +86293,22 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aad
+aae
+cGm
+cGm
+cGm
+cGm
+cGm
+aae
 aaj
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aaj
+aaj
+aaj
+aaj
+aaj
+aaj
+aad
+aaf
 aaa
 aaa
 aaa
@@ -86522,22 +86550,22 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aae
+aae
+aae
+aae
+aae
+cGm
+aae
+aad
+aad
+aad
+aad
+aad
+aad
 aaj
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aad
+aaf
 aaa
 aaa
 aaa
@@ -86785,16 +86813,16 @@ aaa
 aaa
 aaa
 aai
-aaa
-aaa
+aad
+aad
+aad
 aFi
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aad
+aaj
+aad
+aae
 aaa
 aaa
 aaa
@@ -87044,14 +87072,14 @@ aaa
 aaE
 aaE
 aaE
+aad
+aFi
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aad
+aaj
+aad
+aad
 aaa
 aaa
 aaa
@@ -87305,10 +87333,10 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+aad
+aaj
+aad
+aad
 aaa
 aaa
 aaa
@@ -87562,8 +87590,8 @@ aaa
 aaa
 aaa
 aaa
-aaa
 aad
+aaj
 aad
 aaa
 aaa
@@ -87819,7 +87847,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+aad
 aaj
 aad
 aaa
@@ -88238,8 +88266,8 @@ aHe
 aIs
 aJF
 aLm
-aJG
-aEN
+lry
+xqU
 aNc
 aNa
 aMX
@@ -88493,9 +88521,9 @@ aEH
 aFL
 aCj
 aIt
-aJG
-aJG
-aJG
+lry
+lry
+lry
 wyO
 aNc
 aNa
@@ -88752,8 +88780,8 @@ aHf
 aIu
 aJH
 aLn
-aJG
-aEN
+lry
+xqU
 aNc
 aNa
 aMX
@@ -89775,7 +89803,7 @@ aCl
 aCh
 oxm
 aEM
-aCj
+aFL
 aHj
 aCj
 aJJ
@@ -90032,8 +90060,8 @@ aCl
 aCi
 aDn
 aCj
-aCj
-aEN
+aFL
+xqU
 aCj
 aJK
 aEN
@@ -90546,7 +90574,7 @@ aCl
 aCk
 aDp
 aCj
-aCj
+aFL
 aHk
 aIw
 aJG
@@ -90802,8 +90830,8 @@ azm
 aCl
 aCl
 aCl
-aEN
-aEN
+xqU
+xqU
 aCl
 aCl
 aCl
@@ -112423,7 +112451,7 @@ bsP
 bxD
 bAx
 bBR
-bDf
+trH
 bxD
 bxD
 rBQ
