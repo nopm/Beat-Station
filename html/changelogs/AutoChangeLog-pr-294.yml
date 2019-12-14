@@ -1,0 +1,10 @@
+author: "Neotw"
+delete-after: True
+changes: 
+  - bugfix: "Fixes the missing security records in det office"
+  - bugfix: "Fixes a missing corner around the telepad on telesci"
+  - bugfix: "Fixes atmos pipes in the new vacant office/old location of det office"
+  - rscadd: "Telescience now uses a proper area, the Telescience Lab"
+  - rscadd: "Added a camera monitor in telesci"
+  - tweak: "The supermatter space loop is now more safer against meteors"
+  - tweak: "EVA storage windows are now electrified and their maintenance door is protected"
