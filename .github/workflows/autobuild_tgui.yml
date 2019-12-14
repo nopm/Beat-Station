@@ -12,7 +12,6 @@ jobs:
   build:
     name: Rebuild TGUI
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout
         uses: actions/checkout@v1
