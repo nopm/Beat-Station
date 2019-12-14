@@ -91,22 +91,22 @@
 	interact(user)
 
 /obj/machinery/computer/telescience/interact(mob/user)
-	. = ..()
+	. = ..()	// beat -- fixes
 
 	var/t
 	if(!telepad)
 		in_use = 0     //Yeah so if you deconstruct teleporter while its in the process of shooting it wont disable the console
 		t += "<div class='statusDisplay'>No telepad located. <BR>Please add telepad data.</div><BR>"
 	else
-		if(inserted_gps)
+		if(inserted_gps)	// beat start -- fixes
 			t += "<A href='?src=[REF(src)];ejectGPS=1'>Eject GPS</A>"
 		else
 			t += "<span class='linkOff'>Eject GPS</span>"
 		t += "<div class='statusDisplay'>[temp_msg]</div><BR>"
 		t += "<A href='?src=[REF(src)];setrotation=1'>Set Bearing</A>"
-		t += "<div class='statusDisplay'>[rotation]°</div>"
+		t += "<div class='statusDisplay'>[rotation]Â°</div>"
 		t += "<A href='?src=[REF(src)];setangle=1'>Set Elevation</A>"
-		t += "<div class='statusDisplay'>[angle]°</div>"
+		t += "<div class='statusDisplay'>[angle]Â°</div>"
 		t += "<span class='linkOn'>Set Power</span>"
 		t += "<div class='statusDisplay'>"
 
@@ -126,7 +126,7 @@
 		t += "<BR><A href='?src=[REF(src)];send=1'>Send</A>"
 		t += " <A href='?src=[REF(src)];receive=1'>Receive</A>"
 		t += "<BR><A href='?src=[REF(src)];recal=1'>Recalibrate Crystals</A> <A href='?src=[REF(src)];eject=1'>Eject Crystals</A>"
-
+		// beat -- end
 		// Information about the last teleport
 		t += "<BR><div class='statusDisplay'>"
 		if(!last_tele_data)
@@ -324,7 +324,7 @@
 		var/new_z = input("Please input desired sector.", name, z_co) as num
 		if(..())
 			return
-		z_co = CLAMP(round(new_z), 1, 13)
+		z_co = CLAMP(round(new_z), 1, 13)	// beat -- added 3 more sectors
 
 	if(href_list["ejectGPS"])
 		if(inserted_gps)
