@@ -74675,7 +74675,10 @@
 /turf/open/floor/plasteel/dark,
 /area/maintenance/port/aft)
 "cgj" = (
-/obj/structure/closet/secure_closet/detective,
+/obj/structure/closet/secure_closet/detective{
+	anchored = 1;
+	max_integrity = 250
+	},
 /obj/machinery/power/apc{
 	areastring = "/area/security/detectives_office";
 	dir = 8;
