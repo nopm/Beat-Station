@@ -12529,12 +12529,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hippie/clown)
-"aJy" = (
-/obj/structure/cable,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/meter,
-/turf/open/floor/plating,
-/area/maintenance/fore)
 "aJz" = (
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
@@ -33248,11 +33242,11 @@
 /area/maintenance/aft)
 "bRe" = (
 /obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
@@ -33572,10 +33566,10 @@
 	dir = 8;
 	sortType = 11
 	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "bSq" = (
@@ -33946,10 +33940,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/plating,
 /area/maintenance/aft)
-"bTw" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
-/turf/closed/wall/r_wall,
-/area/engine/atmos)
 "bTx" = (
 /obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/closed/wall/r_wall,
@@ -50484,7 +50474,8 @@
 /obj/structure/cable,
 /mob/living/simple_animal/pet/dog/pug{
 	desc = "It's the HOS's beloved pet pug.";
-	name = "\improper Handcuffs"
+	name = "Handcuffs";
+	real_name = "Handcuffs"
 	},
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/hos)
@@ -51799,6 +51790,20 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
+"hrW" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 8
+	},
+/obj/machinery/meter{
+	name = "gas flow meter air supply";
+	pixel_x = -6;
+	target_layer = 1
+	},
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "hsS" = (
 /obj/machinery/atmospherics/pipe/manifold/general/visible{
 	dir = 4;
@@ -55724,7 +55729,7 @@
 "nts" = (
 /obj/structure/cable,
 /obj/machinery/power/apc{
-	areastring = "/area/science/explab";
+	areastring = "/area/science/telesci";
 	dir = 4;
 	name = "Telescience Lab APC";
 	pixel_x = 26
@@ -84148,7 +84153,7 @@ aaa
 aaa
 aak
 atN
-wqe
+hrW
 auJ
 awY
 awY
@@ -84926,7 +84931,7 @@ aDa
 aDa
 aDa
 aDa
-aJy
+aDa
 aLe
 aMN
 aOq
@@ -95763,7 +95768,7 @@ bOe
 bPz
 bRe
 bSp
-bTw
+bTu
 bUw
 ymg
 bWS
