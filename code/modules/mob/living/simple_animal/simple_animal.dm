@@ -280,8 +280,8 @@
 
 /mob/living/simple_animal/emote(act, m_type=1, message = null, intentional = FALSE)
 	if(stat)
-		return
-	. = ..()
+		return FALSE // beat start -- emote spam
+	return ..()		 // beat -- end 
 
 /mob/living/simple_animal/proc/set_varspeed(var_value)
 	speed = var_value
