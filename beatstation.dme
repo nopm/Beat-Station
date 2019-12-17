@@ -8,7 +8,6 @@
 // BEGIN_INCLUDE
 #include "hippiestation.dme"
 #include "beatstation\code\init.dm"
-#include "beatstation\code\datums\emotes.dm"
 #include "beatstation\code\datums\shuttles.dm"
 #include "beatstation\code\datums\martial\krav_medical.dm"
 #include "beatstation\code\game\area\Space_Station_13_areas.dm"
@@ -50,7 +49,6 @@
 #include "beatstation\code\modules\mining\machine_vending.dm"
 #include "beatstation\code\modules\mining\mine_items.dm"
 #include "beatstation\code\modules\mining\equipment\explorer_gear.dm"
-#include "beatstation\code\modules\mob\mob_defines.dm"
 #include "beatstation\code\modules\projectiles\guns\ballistic\xcomrifle.dm"
 #include "beatstation\code\modules\projectiles\guns\energy\kinetic_accelerator.dm"
 #include "beatstation\code\modules\projectiles\guns\energy\special.dm"
