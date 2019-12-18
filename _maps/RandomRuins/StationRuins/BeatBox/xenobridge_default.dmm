@@ -1,0 +1,455 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall,
+/area/maintenance/starboard/aft)
+"b" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/door/airlock/maintenance{
+	req_access_txt = "12"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"c" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"d" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"e" = (
+/obj/structure/lattice,
+/turf/open/space,
+/area/space/nearstation)
+"f" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"g" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"h" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"i" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"j" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"k" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/landmark/event_spawn,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"l" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"m" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"n" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"o" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/maintenance{
+	req_access_txt = "12"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"p" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/closed/wall,
+/area/maintenance/starboard/aft)
+"q" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"r" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"s" = (
+/obj/structure/chair,
+/obj/item/storage/fancy/cigarettes,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"t" = (
+/obj/structure/chair,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"u" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 2;
+	name = "2maintenance loot spawner"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"v" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 8
+	},
+/turf/closed/wall,
+/area/maintenance/starboard/aft)
+"w" = (
+/turf/template_noop,
+/area/template_noop)
+"x" = (
+/turf/closed/wall,
+/area/maintenance/aft)
+"y" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/external{
+	name = "External Access";
+	req_access_txt = "13"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/aft)
+"z" = (
+/turf/open/floor/plating,
+/area/maintenance/aft)
+"A" = (
+/obj/machinery/door/airlock/external{
+	name = "External Access";
+	req_access_txt = "13"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/maintenance/aft)
+"B" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
+"C" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space/nearstation)
+"D" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/maintenance/aft)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+p
+x
+y
+x
+"}
+(2,1,1) = {"
+b
+c
+d
+d
+d
+d
+i
+q
+a
+z
+D
+"}
+(3,1,1) = {"
+w
+w
+w
+w
+a
+a
+j
+r
+a
+A
+D
+"}
+(4,1,1) = {"
+w
+w
+w
+w
+w
+a
+j
+r
+g
+B
+B
+"}
+(5,1,1) = {"
+w
+w
+w
+w
+w
+g
+j
+r
+g
+w
+w
+"}
+(6,1,1) = {"
+w
+w
+w
+w
+w
+g
+j
+r
+g
+w
+w
+"}
+(7,1,1) = {"
+w
+w
+w
+w
+w
+a
+j
+r
+a
+C
+C
+"}
+(8,1,1) = {"
+w
+w
+w
+w
+w
+a
+k
+r
+a
+w
+w
+"}
+(9,1,1) = {"
+w
+w
+w
+w
+e
+g
+j
+s
+g
+w
+w
+"}
+(10,1,1) = {"
+w
+w
+w
+w
+f
+h
+l
+t
+g
+w
+w
+"}
+(11,1,1) = {"
+w
+w
+w
+w
+e
+g
+m
+r
+g
+w
+w
+"}
+(12,1,1) = {"
+w
+w
+w
+w
+w
+a
+m
+r
+a
+w
+w
+"}
+(13,1,1) = {"
+w
+w
+w
+w
+w
+a
+m
+r
+a
+w
+w
+"}
+(14,1,1) = {"
+w
+w
+w
+w
+w
+g
+m
+r
+g
+w
+w
+"}
+(15,1,1) = {"
+w
+w
+w
+w
+w
+g
+m
+r
+g
+w
+w
+"}
+(16,1,1) = {"
+w
+w
+w
+w
+w
+g
+n
+u
+g
+w
+w
+"}
+(17,1,1) = {"
+w
+w
+w
+w
+w
+a
+o
+v
+a
+w
+w
+"}
