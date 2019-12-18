@@ -14,6 +14,7 @@
 #include "beatstation\code\datums\martial\krav_medical.dm"
 #include "beatstation\code\game\area\Space_Station_13_areas.dm"
 #include "beatstation\code\game\machinery\medical_kiosk.dm"
+#include "beatstation\code\game\objects\effects\landmarks.dm"
 #include "beatstation\code\game\objects\effects\decals\turfdecal\tilecoloring.dm"
 #include "beatstation\code\game\objects\items\holy_weapons.dm"
 #include "beatstation\code\game\objects\items\miscellaneous.dm"
