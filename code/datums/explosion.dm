@@ -270,7 +270,10 @@ GLOBAL_LIST_EMPTY(explosions)
 					var/turf/UnexplodeT = Unexplode
 					UnexplodeT.explosion_level = 0
 				exploded_this_tick.Cut()
+<<<<<<< HEAD
 		Master.processing = FALSE
+=======
+>>>>>>> 4a7b1e713a... Merge pull request #12441 from HippieStation/steamp0rt-patch-2
 	//unfuck the shit
 	for(var/Unexplode in exploded_this_tick)
 		var/turf/UnexplodeT = Unexplode
@@ -331,7 +334,6 @@ GLOBAL_LIST_EMPTY(explosions)
 		return QDEL_HINT_IWILLGC
 	GLOB.explosions -= src
 	explosion_source = null
-	Master.processing = TRUE
 	return ..()
 
 /client/proc/check_bomb_impacts()
