@@ -1,4 +1,0 @@
-author: "Beat-Bot"
-delete-after: True
-changes: 
-  - bugfix: "Pool should no longer forever stop processing after you cut the power wire"
