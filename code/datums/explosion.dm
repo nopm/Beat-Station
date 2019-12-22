@@ -270,7 +270,12 @@ GLOBAL_LIST_EMPTY(explosions)
 					var/turf/UnexplodeT = Unexplode
 					UnexplodeT.explosion_level = 0
 				exploded_this_tick.Cut()
+<<<<<<< HEAD
 		Master.processing = FALSE
+=======
+		if(max_range < 100) //otherwise game lags
+			Master.processing = FALSE
+>>>>>>> 0289d2ea98... Revert "Reverts the explosion MC shit" (#12444)
 	//unfuck the shit
 	for(var/Unexplode in exploded_this_tick)
 		var/turf/UnexplodeT = Unexplode
