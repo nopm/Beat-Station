@@ -73,4 +73,5 @@
 #include "beatstation\code\modules\uplink\uplink_items.dm"
 #include "beatstation\code\modules\vending\clothesmate.dm"
 #include "beatstation\code\modules\vending\wardrobes.dm"
+#include "beatstation\code\_onclick\hud\hud.dm"
 // END_INCLUDE
