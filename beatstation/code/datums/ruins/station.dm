@@ -59,3 +59,13 @@
 	id = "maint_xenobridge_lattice"
 	suffix = "xenobridge_space.dmm"
 	name = "Xenobiology Lattice"
+
+/datum/map_template/ruin/station/box/sci/telescience
+	id = "sci_telescience"
+	suffix = "sci_telescience.dmm"
+	name = "Telescience Lab"
+
+/datum/map_template/ruin/station/box/sci/experimentor
+	id = "sci_experimentor"
+	suffix = "sci_experimentor.dmm"
+	name = "Experimentor Lab"
