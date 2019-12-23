@@ -1136,8 +1136,7 @@
 	},
 /obj/machinery/firealarm{
 	dir = 8;
-	pixel_x = 26;
-	pixel_y = 0
+	pixel_x = 26
 	},
 /turf/open/floor/plating,
 /area/crew_quarters/kitchen)
