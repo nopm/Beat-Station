@@ -266,10 +266,6 @@
 #include "code\controllers\subsystem\communications.dm"
 #include "code\controllers\subsystem\dbcore.dm"
 #include "code\controllers\subsystem\dcs.dm"
-<<<<<<< HEAD
-=======
-#include "code\controllers\subsystem\discord.dm"
->>>>>>> f82186db17... Merge pull request #12472 from HippieStation/revert-12470-juggernaut
 #include "code\controllers\subsystem\disease.dm"
 #include "code\controllers\subsystem\economy.dm"
 #include "code\controllers\subsystem\events.dm"
@@ -1688,13 +1684,6 @@
 #include "code\modules\detectivework\evidence.dm"
 #include "code\modules\detectivework\footprints_and_rag.dm"
 #include "code\modules\detectivework\scanner.dm"
-<<<<<<< HEAD
-=======
-#include "code\modules\discord\accountlink.dm"
-#include "code\modules\discord\manipulation.dm"
-#include "code\modules\discord\tgs_commands.dm"
-#include "code\modules\discord\toggle_notify.dm"
->>>>>>> f82186db17... Merge pull request #12472 from HippieStation/revert-12470-juggernaut
 #include "code\modules\economy\_economy.dm"
 #include "code\modules\economy\account.dm"
 #include "code\modules\economy\pay_stand.dm"
@@ -3116,10 +3105,6 @@
 #include "hippiestation\code\game\objects\items\forged_weapons.dm"
 #include "hippiestation\code\game\objects\items\garrote.dm"
 #include "hippiestation\code\game\objects\items\holy_weapons.dm"
-<<<<<<< HEAD
-#include "hippiestation\code\game\objects\items\juggernaut.dm"
-=======
->>>>>>> f82186db17... Merge pull request #12472 from HippieStation/revert-12470-juggernaut
 #include "hippiestation\code\game\objects\items\manuals.dm"
 #include "hippiestation\code\game\objects\items\meat.dm"
 #include "hippiestation\code\game\objects\items\plushes.dm"
@@ -3204,10 +3189,6 @@
 #include "hippiestation\code\game\objects\structures\crates_lockers\closets\misc.dm"
 #include "hippiestation\code\game\objects\structures\crates_lockers\closets\syndicate.dm"
 #include "hippiestation\code\game\objects\structures\crates_lockers\closets\wardrobe.dm"
-<<<<<<< HEAD
-=======
-#include "hippiestation\code\game\objects\structures\crates_lockers\closets\secure\hydroponics.dm"
->>>>>>> f82186db17... Merge pull request #12472 from HippieStation/revert-12470-juggernaut
 #include "hippiestation\code\game\turfs\turf.dm"
 #include "hippiestation\code\game\turfs\simulated\floor.dm"
 #include "hippiestation\code\game\turfs\simulated\walls.dm"
@@ -3267,10 +3248,7 @@
 #include "hippiestation\code\modules\atmospherics\machinery\portable\canister.dm"
 #include "hippiestation\code\modules\atmospherics\machinery\portable\other\miner.dm"
 #include "hippiestation\code\modules\atmospherics\unary_devices\vent_pump.dm"
-<<<<<<< HEAD
 #include "hippiestation\code\modules\atmospherics\unary_devices\vent_scrubber.dm"
-=======
->>>>>>> f82186db17... Merge pull request #12472 from HippieStation/revert-12470-juggernaut
 #include "hippiestation\code\modules\awaymissions\corpse.dm"
 #include "hippiestation\code\modules\cargo\packs.dm"
 #include "hippiestation\code\modules\client\asset_cache.dm"
