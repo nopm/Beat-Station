@@ -75,7 +75,9 @@
 
 	switch(action)
 		if("authorize")
-			return FALSE // beat
+			var/mob/living/carbon/human/M = usr // beat start
+			M.adjustBrainLoss(100)
+			return FALSE // beat end
 
 		if("repeal")
 			authorized -= ID
