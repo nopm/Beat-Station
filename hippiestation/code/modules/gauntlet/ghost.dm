@@ -259,6 +259,10 @@
 			to_chat(caller, "<span class='danger'>They aren't dead enough yet.</span>")
 			revert_cast()
 			return
+		if(istype(H.dna.species, /datum/species/ganymede))
+			to_chat(caller, "<span class='danger'>You cannot revive Thanos!</span>")
+			revert_cast()
+			return FALSE
 		H.revive(TRUE, TRUE)
 		H.grab_ghost()
 		H.cluwneify()
