@@ -75,7 +75,7 @@
 
 	switch(action)
 		if("authorize")
-			. = authorize(user)
+			return FALSE // beat
 
 		if("repeal")
 			authorized -= ID
