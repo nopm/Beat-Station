@@ -377,9 +377,11 @@ GLOBAL_PROTECT(admin_verbs_hideable)
 		if(mob.invisibility == INVISIBILITY_OBSERVER)
 			mob.invisibility = initial(mob.invisibility)
 			to_chat(mob, "<span class='boldannounce'>Invisimin off. Invisibility reset.</span>", confidential=TRUE)
+			mob.add_to_all_human_data_huds()
 		else
 			mob.invisibility = INVISIBILITY_OBSERVER
 			to_chat(mob, "<span class='adminnotice'><b>Invisimin on. You are now as invisible as a ghost.</b></span>", confidential=TRUE)
+			mob.remove_from_all_data_huds()
 
 /client/proc/check_antagonists()
 	set name = "Check Antagonists"
