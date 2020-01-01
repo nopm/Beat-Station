@@ -1,2 +1,2 @@
-/obj/machinery/doppler_array
-	icon_hippie = 'hippiestation/icons/obj/machines/research.dmi'
+/*/obj/machinery/doppler_array // beat start
+	icon_hippie = 'hippiestation/icons/obj/machines/research.dmi'*/ // beat end

@@ -1,2 +1,2 @@
-/obj/machinery/power/apc
-	icon_hippie = 'hippiestation/icons/obj/power.dmi'
+/*/obj/machinery/power/apc // beat start
+	icon_hippie = 'hippiestation/icons/obj/power.dmi'*/ // beat end

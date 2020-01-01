@@ -1,2 +1,2 @@
-/obj/structure/tank_dispenser
-	icon_hippie = 'hippiestation/icons/obj/objects.dmi'
+/*/obj/structure/tank_dispenser // beat start
+	icon_hippie = 'hippiestation/icons/obj/objects.dmi'*/ // beat end

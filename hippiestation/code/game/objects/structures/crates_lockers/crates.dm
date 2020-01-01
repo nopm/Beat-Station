@@ -1,2 +1,2 @@
-/obj/structure/closet/crate
-	icon_hippie = 'icons/obj/crates.dmi'
+/*/obj/structure/closet/crate // beat start
+	icon_hippie = 'icons/obj/crates.dmi'*/ // beat end

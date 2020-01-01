@@ -11,7 +11,7 @@
 */
 
 /obj/machinery/vending
-	icon_hippie = 'hippiestation/icons/obj/vending.dmi'
+	//icon_hippie = 'hippiestation/icons/obj/vending.dmi'
 	light_color = LIGHT_COLOR_WHITE
 	var/brightness_on = 4
 	var/hippie_products = list()

@@ -1,2 +1,2 @@
-/obj/structure/rack
-	icon_hippie = 'hippiestation/icons/obj/objects.dmi'
+/*/obj/structure/rack // beat start
+	icon_hippie = 'hippiestation/icons/obj/objects.dmi'*/ // beat end

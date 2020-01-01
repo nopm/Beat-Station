@@ -1,27 +1,28 @@
-/obj/structure/reagent_dispensers
+//beat start
+/*/obj/structure/reagent_dispensers
 	icon_hippie = 'hippiestation/icons/obj/objects.dmi'
 	var/mutable_appearance/reagent_icon
-	var/use_reagent_icon = FALSE
+	var/use_reagent_icon = FALSE*/
 
-/obj/structure/reagent_dispensers/Initialize()
+/*/obj/structure/reagent_dispensers/Initialize()
 	. = ..()
-	generate_reagent_icon()
+	generate_reagent_icon()*/
 
-/obj/structure/reagent_dispensers/Destroy()
+/obj/structure/reagent_dispensers/chemical/Destroy()
 	QDEL_NULL(reagent_icon)
 	return ..()
 
-/obj/structure/reagent_dispensers/water_cooler
-	icon_hippie = 'hippiestation/icons/obj/vending.dmi'
+/*/obj/structure/reagent_dispensers/water_cooler
+	icon_hippie = 'hippiestation/icons/obj/vending.dmi'*/
 
-/obj/structure/reagent_dispensers/on_reagent_change()
+/obj/structure/reagent_dispensers/chemical/on_reagent_change()
 	update_icon()
 
-/obj/structure/reagent_dispensers/attack_hand()
+/obj/structure/reagent_dispensers/chemical/attack_hand()
 	..()
 	update_icon()
 
-/obj/structure/reagent_dispensers/update_icon()
+/obj/structure/reagent_dispensers/chemical/update_icon()
 	if(!use_reagent_icon)
 		return
 	cut_overlays()
@@ -29,28 +30,33 @@
 		reagent_icon.icon_state = "tankfilling[CLAMP(round(reagents.total_volume / (tank_volume * 0.2)), 1, 4)]"
 		reagent_icon.color = mix_color_from_reagents(reagents.reagent_list)
 		add_overlay(reagent_icon)
+	if(reagents?.flags & DRAWABLE)
+		add_overlay("chemlid")
 
 /obj/structure/reagent_dispensers/chemical
 	name = "chem tank"
 	desc = "It can hold a large amount of chemicals. Use a screwdriver to open and close its lid."
+	icon_hippie = 'hippiestation/icons/obj/objects.dmi'
 	icon_state = "chem"
 	tank_volume = 1000
-	use_reagent_icon = TRUE
 	reagent_id = null
+	var/use_reagent_icon = TRUE
+	var/mutable_appearance/reagent_icon
 
 /obj/structure/reagent_dispensers/chemical/Initialize()
 	. = ..()
+	generate_reagent_icon()
 	create_reagents(tank_volume, DRAWABLE | AMOUNT_VISIBLE)
 
-/obj/structure/reagent_dispensers/proc/generate_reagent_icon()
+/obj/structure/reagent_dispensers/chemical/proc/generate_reagent_icon()
 	if(!use_reagent_icon)
 		return
 	reagent_icon = new
 	update_icon()
 
-/obj/structure/reagent_dispensers/attackby(obj/item/W, mob/user, params)
+/*/obj/structure/reagent_dispensers/attackby(obj/item/W, mob/user, params)
 	..()
-	update_icon()
+	update_icon()*/
 
 /obj/structure/reagent_dispensers/chemical/attackby(obj/item/W, mob/user, params)
 	if(istype(W, /obj/item/screwdriver))
@@ -75,6 +81,7 @@
 		else
 			to_chat(user, "<span class='warning'>[W] cannot heat anything inside [src]!</span>")
 		return FALSE
+	update_icon()
 	..()
 
 /obj/structure/reagent_dispensers/chemical/examine(mob/user)
@@ -84,7 +91,7 @@
 	else if(reagents.flags & OPENCONTAINER)
 		. += "It's lid is open."
 
-/obj/structure/reagent_dispensers/chemical/update_icon()
+/*/obj/structure/reagent_dispensers/chemical/update_icon()
 	..()
 	if(reagents?.flags & DRAWABLE)
 		add_overlay("chemlid")
@@ -96,13 +103,15 @@
 	use_reagent_icon = FALSE
 
 /obj/structure/reagent_dispensers/fueltank
-	use_reagent_icon = TRUE
+	use_reagent_icon = TRUE*/
 
 /obj/structure/reagent_dispensers/water_cooler/honk
 	name = "honk-cooler"
 	desc = "A machine that dispenses the clown's thick juice. HONK!"
+	icon_hippie = 'hippiestation/icons/obj/vending.dmi' // beat
 	icon_state = "honk_cooler"
 	reagent_id = /datum/reagent/consumable/banana
 
 /obj/structure/reagent_dispensers/cooking_oil
 	icon = 'icons/obj/objects.dmi'
+//beat end

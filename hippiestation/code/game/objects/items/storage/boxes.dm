@@ -1,4 +1,4 @@
-/obj/item/storage/box
+/*/obj/item/storage/box
 	icon_hippie = 'hippiestation/icons/obj/storage.dmi'
 
 /obj/item/storage/box/update_icon()
@@ -31,7 +31,7 @@
 	icon = 'icons/obj/storage.dmi'
 
 /obj/item/storage/box/lights
-	icon_hippie = 'hippiestation/icons/obj/storage.dmi'
+	icon_hippie = 'hippiestation/icons/obj/storage.dmi'*/
 
 /obj/item/storage/box/seclarp
 	name = "\improper Medieval Officer Kit"
