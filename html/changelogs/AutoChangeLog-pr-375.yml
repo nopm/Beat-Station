@@ -1,4 +1,0 @@
-author: "Neotw"
-delete-after: True
-changes: 
-  - bugfix: "Admins with invisimin no longer appears medical huds, sec huds, etc"
