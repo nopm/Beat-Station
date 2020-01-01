@@ -1,2 +1,2 @@
-/obj/structure/filingcabinet
-	icon_hippie = 'hippiestation/icons/obj/bureaucracy.dmi'
+/*/obj/structure/filingcabinet // beat start
+	icon_hippie = 'hippiestation/icons/obj/bureaucracy.dmi'*/ // beat end

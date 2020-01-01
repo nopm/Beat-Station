@@ -5,7 +5,7 @@ Sorry for doing this, but apparently the Hippie community hates art and new thin
 
 */
 
-/obj/structure/closet
+/*/obj/structure/closet // beat start
 	icon_hippie = 'hippiestation/icons/obj/closet.dmi'
 
 /obj/structure/closet/update_icon()
@@ -29,4 +29,4 @@ Sorry for doing this, but apparently the Hippie community hates art and new thin
 		if(icon_door_override)
 			add_overlay("[icon_door]_open")
 		else
-			add_overlay("[icon_state]_open")
+			add_overlay("[icon_state]_open")*/ // beat end

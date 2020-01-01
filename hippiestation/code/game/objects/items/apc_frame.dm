@@ -1,2 +1,2 @@
-/obj/item/wallframe
-	icon_hippie = 'hippiestation/icons/obj/wallframe.dmi'
+/*/obj/item/wallframe // beat start
+	icon_hippie = 'hippiestation/icons/obj/wallframe.dmi'*/ // beat end

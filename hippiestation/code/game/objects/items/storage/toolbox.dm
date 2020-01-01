@@ -1,11 +1,11 @@
-/obj/item/storage/toolbox
+/*/obj/item/storage/toolbox // beat start
 	icon_hippie = 'hippiestation/icons/obj/storage.dmi'
 
 /obj/item/toy/windupToolbox
 	icon_hippie = 'hippiestation/icons/obj/storage.dmi'
 
 /obj/item/his_grace
-	icon_hippie = 'hippiestation/icons/obj/storage.dmi'
+	icon_hippie = 'hippiestation/icons/obj/storage.dmi'*/ // beat end
 
 /obj/item/storage/toolbox/syndicate/PopulateContents()
 
