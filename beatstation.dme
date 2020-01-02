@@ -63,6 +63,8 @@
 #include "beatstation\code\modules\research\designs\machine_designs.dm"
 #include "beatstation\code\modules\research\designs\nanite_designs.dm"
 #include "beatstation\code\modules\research\designs\weapon_designs.dm"
+#include "beatstation\code\modules\research\machinery\circuit_imprinter.dm"
+#include "beatstation\code\modules\research\machinery\protolathe.dm"
 #include "beatstation\code\modules\research\techweb\all_nodes.dm"
 #include "beatstation\code\modules\stock_market\articles.dm"
 #include "beatstation\code\modules\stock_market\computer.dm"
