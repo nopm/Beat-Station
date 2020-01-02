@@ -94696,9 +94696,9 @@
 /turf/open/floor/plating/airless,
 /area/solar/starboard/fore)
 "cMV" = (
-/obj/machinery/holopad,
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
+/obj/machinery/holopad/secure,
 /turf/open/floor/carpet/royalblue,
 /area/crew_quarters/heads/captain)
 "cMW" = (
@@ -95603,11 +95603,6 @@
 	initial_gas_mix = "TEMP=2.7"
 	},
 /area/hallway/secondary/command)
-"lww" = (
-/obj/structure/cable,
-/obj/machinery/holopad/secure,
-/turf/open/floor/wood,
-/area/crew_quarters/heads/captain)
 "lAP" = (
 /obj/machinery/light,
 /obj/structure/flora/rock/pile,
@@ -128190,7 +128185,7 @@ bDc
 asx
 aqK
 azC
-lww
+bJD
 cMX
 cNl
 asx

@@ -22126,7 +22126,9 @@
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "boY" = (
-/obj/machinery/computer/card,
+/obj/machinery/computer/card{
+	dir = 8
+	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 1
@@ -26322,7 +26324,9 @@
 /turf/open/floor/plasteel,
 /area/ai_monitored/nuke_storage)
 "bAY" = (
-/obj/machinery/computer/security,
+/obj/machinery/computer/security{
+	dir = 8
+	},
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
@@ -26679,7 +26683,9 @@
 /turf/open/floor/plasteel,
 /area/ai_monitored/nuke_storage)
 "bCr" = (
-/obj/machinery/computer/secure_data,
+/obj/machinery/computer/secure_data{
+	dir = 8
+	},
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
