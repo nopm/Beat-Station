@@ -1,4 +1,4 @@
-/proc/priority_announce(text, title = "", sound = 'hippiestation/sound/pyko/attention.ogg', type , sender_override) // hippie -- pykoai
+/proc/priority_announce(text, title = "", sound = 'sound/ai/attention.ogg', type , sender_override) // beat
 	if(!text)
 		return
 
@@ -41,7 +41,7 @@
 		title = "Classified [command_name()] Update"
 
 	if(announce)
-		priority_announce("A report has been downloaded and printed out at all communications consoles.", "Incoming Classified Message", 'hippiestation/sound/pyko/commandreport.ogg') // hippie -- pykoai
+		priority_announce("A report has been downloaded and printed out at all communications consoles.", "Incoming Classified Message", 'sound/ai/commandreport.ogg') // beat
 
 	var/datum/comm_message/M  = new
 	M.title = title
@@ -60,4 +60,4 @@
 				if(alert)
 					SEND_SOUND(M, sound('sound/misc/notice1.ogg'))
 				else
-					SEND_SOUND(M, sound('hippiestation/sound/misc/notice2.ogg')) // hippie -- oldbase sound
+					SEND_SOUND(M, sound('sound/misc/notice2.ogg')) // beat
