@@ -1,5 +1,5 @@
 // This file only changes a sound on announcements.
-
+/* // beat start -- switchs to the original sound
 #define COMMUNICATION_COOLDOWN 300
 #define COMMUNICATION_COOLDOWN_AI 300
 
@@ -16,4 +16,4 @@
 	message_admins("[ADMIN_LOOKUPFLW(user)] has made a priority announcement.")
 
 #undef COMMUNICATION_COOLDOWN
-#undef COMMUNICATION_COOLDOWN_AI
+#undef COMMUNICATION_COOLDOWN_AI */ // beat end
