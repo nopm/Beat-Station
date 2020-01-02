@@ -1,5 +1,0 @@
-author: "Neotw"
-delete-after: True
-changes: 
-  - soundadd: "The original announces sounds are back!"
-  - sounddel: "Removed PykoAI sounds"
