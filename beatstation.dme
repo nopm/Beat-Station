@@ -55,6 +55,7 @@
 #include "beatstation\code\modules\mining\machine_vending.dm"
 #include "beatstation\code\modules\mining\mine_items.dm"
 #include "beatstation\code\modules\mining\equipment\explorer_gear.dm"
+#include "beatstation\code\modules\portal_visual\zvis.dm"
 #include "beatstation\code\modules\projectiles\guns\ballistic\xcomrifle.dm"
 #include "beatstation\code\modules\projectiles\guns\energy\kinetic_accelerator.dm"
 #include "beatstation\code\modules\projectiles\guns\energy\special.dm"
