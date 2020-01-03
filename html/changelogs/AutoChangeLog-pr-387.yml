@@ -1,0 +1,4 @@
+author: "Neotw"
+delete-after: True
+changes: 
+  - bugfix: "All manuals books works now"
