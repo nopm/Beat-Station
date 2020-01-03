@@ -1,6 +1,7 @@
-/obj/item/book/manual/wiki/initialize_wikibook()
+/obj/item/book/manual/wiki
 	var/wikiurl = "https://tgstation13.org/wiki" // makes /tg/ the default wiki, more updated things
-  var/hippiewiki = "https://wiki.hippiestation.com/index.php" // for things like cobby chem that we don't have here, custom drinks and foods, etc
+
+/obj/item/book/manual/wiki/initialize_wikibook()
 	if(wikiurl)
 		dat = {"
 			<html><head>[UTF8HEADER]
@@ -24,10 +25,10 @@
 			"}
 
 /obj/item/book/manual/wiki/chemistry
-  wikiurl = hippiewiki
+  wikiurl = "https://wiki.hippiestation.com/index.php"
 
 /obj/item/book/manual/wiki/barman_recipes
-  wikiurl = hippiewiki
+  wikiurl = "https://wiki.hippiestation.com/index.php"
   
 /obj/item/book/manual/wiki/cooking_to_serve_man
-  wikiurl = hippiewiki
+  wikiurl = "https://wiki.hippiestation.com/index.php"

@@ -18,6 +18,7 @@
 #include "beatstation\code\game\objects\effects\decals\turfdecal\markings.dm"
 #include "beatstation\code\game\objects\effects\decals\turfdecal\tilecoloring.dm"
 #include "beatstation\code\game\objects\items\holy_weapons.dm"
+#include "beatstation\code\game\objects\items\manuals.dm"
 #include "beatstation\code\game\objects\items\miscellaneous.dm"
 #include "beatstation\code\game\objects\items\circuitboards\computer_circuitboards.dm"
 #include "beatstation\code\game\objects\items\circuitboards\machine_circuitboards.dm"
