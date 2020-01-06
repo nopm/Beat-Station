@@ -1,0 +1,7 @@
+author: "Piwin"
+delete-after: True
+changes: 
+  - rscadd: "Vila do Chaves space ruin: added a name for the entrance doors"
+  - rscadd: "Added numbers on apartment doors"
+  - rscadd: "Added lights to the apartments"
+  - bugfix: "Fixed special characters on the space ruin"
