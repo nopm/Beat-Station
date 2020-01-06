@@ -1,0 +1,5 @@
+author: "SrPiwin"
+delete-after: True
+changes: 
+  - rscadd: "Vila do Chaves: added a GPS on the space ruin for more accessibility"
+  - rscadd: "Added two tiny fans on the space ruin's entrance"
