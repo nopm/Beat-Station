@@ -4,15 +4,13 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "bm" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
-"bH" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small{
-	icon_state = "bulb";
+"bQ" = (
+/obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
@@ -34,19 +32,36 @@
 /obj/item/reagent_containers/food/snacks/store/cake/chocolate,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
+"eO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/mineral_door/wood{
+	name = "Vila do Chaves"
+	},
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
 "fc" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
-"gq" = (
-/obj/effect/turf_decal/tile/brown,
+"fo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"fw" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
-/obj/item/twohanded/required/kirbyplants/random,
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
+"gq" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
 "gF" = (
 /obj/machinery/shower{
 	dir = 4
@@ -57,15 +72,24 @@
 /area/ruin/space/has_grav/powered)
 "hx" = (
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "iP" = (
 /obj/structure/chair/wood{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
+"iY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
 "jO" = (
-/obj/structure/mineral_door/wood,
+/obj/structure/mineral_door/wood{
+	name = "14"
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/ruin/space/has_grav/powered)
@@ -81,50 +105,48 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "mh" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/feral_cat{
-	name = "Satan?s"
+	name = "Satanas"
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
-"of" = (
+"oa" = (
+/obj/structure/mineral_door/wood{
+	name = "Vila do Chaves"
+	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small{
-	icon_state = "bulb";
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"oi" = (
+/obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
-"pS" = (
-/obj/structure/chair/wood{
-	dir = 1
-	},
-/obj/machinery/light/small,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "qD" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/brown{
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"qX" = (
+/obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "rm" = (
 /obj/structure/sink/kitchen{
 	dir = 4;
 	pixel_x = -11
 	},
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "rs" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/mineral/sandstone,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "rK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -145,60 +167,87 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "sI" = (
 /obj/structure/chair/wood{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
+"to" = (
+/obj/structure/mineral_door/wood,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
 "ts" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
-"ux" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
+/area/ruin/space/has_grav)
+"tt" = (
+/obj/machinery/light,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
+"ux" = (
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
 "uJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/stairs,
+/area/ruin/space/has_grav)
+"uM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "uQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "vx" = (
-/obj/effect/turf_decal/tile/brown,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "wC" = (
 /obj/structure/chair/wood,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
+"wL" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
 "xo" = (
-/obj/structure/mineral_door/wood,
+/obj/structure/mineral_door/wood{
+	name = "71"
+	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "xq" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/reagent,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "xC" = (
 /obj/item/twohanded/required/kirbyplants,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "xH" = (
 /obj/machinery/atmospherics/components/unary/tank/air,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "ya" = (
 /obj/structure/chair/sofa/right{
 	dir = 4
@@ -215,16 +264,10 @@
 /obj/item/toy/beach_ball,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "yW" = (
 /obj/item/staff/broom,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"zn" = (
-/obj/structure/mineral_door/wood,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/fans/tiny,
-/turf/open/floor/mineral/titanium,
 /area/ruin/space/has_grav/powered)
 "zY" = (
 /obj/structure/table/wood,
@@ -233,10 +276,20 @@
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "Aj" = (
-/obj/structure/mineral_door/wood,
+/obj/structure/mineral_door/wood{
+	name = "72"
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
+"Am" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
 "AJ" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/security/wooden_tv,
@@ -245,10 +298,14 @@
 "AP" = (
 /obj/item/clothing/head/foilhat,
 /turf/open/floor/plating/beach/water,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "Cx" = (
-/turf/open/floor/plating/beach/water,
-/area/ruin/space/has_grav/powered)
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
 "Cz" = (
 /obj/structure/table/wood,
 /obj/item/book/granter/spell/random,
@@ -260,7 +317,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "Eb" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
@@ -268,14 +325,8 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
-"Ec" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "Eh" = (
 /obj/structure/chair/sofa/left{
 	dir = 4
@@ -293,7 +344,7 @@
 /obj/machinery/atmospherics/components/unary/tank/air,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "EM" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -304,23 +355,27 @@
 "EZ" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
+"FA" = (
+/turf/closed/wall/mineral/sandstone,
+/area/ruin/space/has_grav)
 "FL" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
-/area/space)
+/area/space/nearstation)
+"Gy" = (
+/turf/open/floor/plating/beach/water,
+/area/ruin/space/has_grav)
 "GN" = (
 /obj/item/toy/figure/clown,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "Ic" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
-	},
 /obj/effect/turf_decal/tile/brown,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "Ih" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/dirt,
@@ -345,58 +400,49 @@
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "KH" = (
-/obj/effect/turf_decal/tile/brown,
-/obj/effect/turf_decal/tile/brown{
-	dir = 8
-	},
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "LI" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "Mp" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/brown,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "Mz" = (
 /turf/open/space/basic,
 /area/space)
 "ML" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "MU" = (
 /obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
-"NX" = (
-/obj/effect/turf_decal/tile/brown,
+/area/ruin/space/has_grav)
+"NB" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
+"NX" = (
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
 "Oe" = (
 /obj/vehicle/ridden/bicycle{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "Ot" = (
 /obj/structure/table/wood,
-/obj/item/reagent_containers/food/snacks/sausage{
-	name = "lingui?a"
-	},
+/obj/item/reagent_containers/food/snacks/sausage,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
@@ -406,6 +452,13 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/freezer,
+/area/ruin/space/has_grav/powered)
+"PS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "PY" = (
 /obj/structure/chair/wood{
@@ -418,12 +471,13 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "Qz" = (
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plasteel/stairs,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "RD" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -445,11 +499,20 @@
 	},
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/open/floor/plasteel/freezer,
 /area/ruin/space/has_grav/powered)
 "SW" = (
 /turf/closed/wall/mineral/sandstone,
 /area/ruin/space/has_grav/powered)
+"Uw" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
 "WM" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/cookie,
@@ -467,34 +530,19 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
-"Xr" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small{
-	icon_state = "bulb";
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
 "XF" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "Zs" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/brown{
-	dir = 8
-	},
-/obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "ZL" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
+/area/ruin/space/has_grav)
 "ZX" = (
 /obj/structure/chair/sofa/left,
 /turf/open/floor/plasteel,
@@ -508,17 +556,17 @@ FL
 Mz
 Mz
 FL
-SW
-SW
-SW
-SW
-SW
-SW
-zn
-zn
-SW
-SW
-SW
+FA
+FA
+FA
+FA
+FA
+FA
+oa
+eO
+FA
+FA
+FA
 FL
 Mz
 Mz
@@ -531,17 +579,17 @@ FL
 FL
 FL
 FL
-SW
-SW
-SW
-SW
-SW
-SW
-hx
-uQ
-hx
+FA
+FA
+FA
+FA
+FA
+FA
+Zs
+fo
+Zs
 MU
-SW
+FA
 FL
 FL
 Mz
@@ -559,12 +607,12 @@ SW
 Qz
 xq
 uJ
-hx
-hx
-ts
-hx
-ts
-SW
+qX
+Zs
+ML
+Zs
+ML
+FA
 FL
 Mz
 Mz
@@ -573,8 +621,8 @@ Mz
 SW
 fc
 PY
-JE
-bH
+bQ
+XF
 JE
 JE
 JE
@@ -582,12 +630,12 @@ SW
 xC
 rm
 kG
-ts
-hx
-hx
+ML
+Zs
+Zs
 GN
-ts
-SW
+ML
+FA
 FL
 Mz
 Mz
@@ -603,14 +651,14 @@ Eh
 ya
 SW
 EL
-ts
-hx
-hx
-ts
-hx
-hx
-Ec
-SW
+ML
+Zs
+Zs
+ML
+Zs
+Zs
+ML
+FA
 FL
 FL
 Mz
@@ -627,13 +675,13 @@ Iy
 sr
 xH
 ar
-ts
-ts
+ML
+ML
 yM
-ts
-hx
-hx
-SW
+ML
+Zs
+tt
+FA
 Mz
 Mz
 Mz
@@ -648,15 +696,15 @@ XF
 XF
 XF
 jO
-ts
-ts
-hx
-ts
-hx
-ts
-ts
+ML
+ML
+Zs
+ML
+Zs
+ML
+ML
 Oe
-SW
+FA
 FL
 Mz
 Mz
@@ -667,19 +715,19 @@ JE
 JE
 JE
 JE
-XF
+uM
 AJ
 JE
 SW
 LI
-hx
-ts
-hx
-hx
-hx
-hx
-hx
-SW
+Zs
+ML
+Zs
+Zs
+Zs
+Zs
+MU
+FA
 FL
 FL
 Mz
@@ -696,8 +744,8 @@ SW
 SW
 xo
 SW
-hx
-hx
+Zs
+Zs
 SW
 sr
 Aj
@@ -713,18 +761,18 @@ FL
 FL
 SW
 fc
-JE
+bQ
 JE
 JE
 XF
 JE
 SW
-ts
-uQ
+ML
+fo
 SW
 bW
 XF
-JE
+bQ
 Ih
 AJ
 Iy
@@ -742,8 +790,8 @@ JE
 XF
 JE
 SW
-ts
-ts
+ML
+ML
 SW
 ZX
 XF
@@ -766,14 +814,14 @@ Xn
 XF
 SW
 uQ
-hx
+Zs
 SW
 SW
-Aj
+to
 SW
 wC
 Iy
-pS
+iP
 SW
 "}
 (13,1,1) = {"
@@ -788,10 +836,10 @@ dA
 kp
 JE
 SW
-ts
-hx
+ML
+Zs
 SW
-XF
+PS
 XF
 SW
 Sq
@@ -806,13 +854,13 @@ Mz
 SW
 yq
 XF
-Xr
+XF
 XF
 XF
 yW
 SW
-ts
-ts
+ML
+ML
 sr
 Jk
 dq
@@ -834,8 +882,8 @@ SW
 SW
 SW
 SW
-ts
-hx
+ML
+Zs
 SW
 SW
 SW
@@ -856,11 +904,11 @@ FL
 FL
 Mz
 Mz
-SW
-hx
-hx
-hx
-hx
+FA
+Zs
+Zs
+Zs
+Zs
 SW
 SD
 OO
@@ -879,11 +927,11 @@ Mz
 Mz
 Mz
 FL
-SW
-hx
-ts
-hx
-ts
+FA
+Zs
+ML
+Zs
+ML
 SW
 SW
 SW
@@ -902,15 +950,15 @@ Mz
 Mz
 Mz
 Mz
-SW
-hx
-uQ
-hx
-hx
-hx
-hx
-hx
-SW
+FA
+Zs
+fo
+Zs
+Zs
+Zs
+qX
+Zs
+FA
 FL
 FL
 "}
@@ -925,15 +973,15 @@ Mz
 Mz
 Mz
 FL
-SW
-of
-vx
+FA
+ML
+Zs
 Ic
 Mp
-Mp
+Am
 ZL
-ts
-SW
+ML
+FA
 FL
 Mz
 "}
@@ -948,15 +996,15 @@ Mz
 Mz
 Mz
 Mz
-SW
-ts
-NX
+FA
+iY
+Zs
 Cx
-Cx
-Cx
+Gy
+Gy
 Eb
-ts
-SW
+ML
+FA
 FL
 Mz
 "}
@@ -971,15 +1019,15 @@ Mz
 Mz
 Mz
 FL
-SW
-hx
-gq
+FA
+Zs
+ML
 Cx
 AP
-Cx
+Gy
 sy
-hx
-SW
+Zs
+FA
 FL
 Mz
 "}
@@ -994,15 +1042,15 @@ Mz
 Mz
 Mz
 FL
-SW
-ts
-KH
-Cx
-Cx
-Cx
-sy
-hx
-SW
+FA
+ML
+Zs
+NB
+wL
+fw
+oi
+Zs
+FA
 FL
 Mz
 "}
@@ -1017,13 +1065,13 @@ Mz
 Mz
 Mz
 Mz
-SW
-hx
-ML
-qD
+FA
 Zs
-qD
-ux
+ML
+Zs
+Zs
+ML
+Zs
 Df
 rs
 FL
@@ -1040,15 +1088,15 @@ Mz
 Mz
 Mz
 FL
-SW
+FA
 EZ
-hx
-hx
-ts
-hx
-ts
-hx
-SW
+Zs
+Zs
+ML
+Uw
+ML
+Zs
+FA
 FL
 Mz
 "}
@@ -1063,15 +1111,15 @@ Mz
 Mz
 FL
 FL
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
 FL
 Mz
 "}
