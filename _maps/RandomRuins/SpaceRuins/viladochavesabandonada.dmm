@@ -37,6 +37,7 @@
 /obj/structure/mineral_door/wood{
 	name = "Vila do Chaves"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/mineral/titanium,
 /area/ruin/space/has_grav)
 "fc" = (
@@ -56,10 +57,6 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"gq" = (
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium,
 /area/ruin/space/has_grav)
 "gF" = (
@@ -119,15 +116,13 @@
 	name = "Vila do Chaves"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/fans/tiny,
 /turf/open/floor/mineral/titanium,
 /area/ruin/space/has_grav)
 "oi" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"qD" = (
 /turf/open/floor/mineral/titanium,
 /area/ruin/space/has_grav)
 "qX" = (
@@ -189,9 +184,6 @@
 /obj/machinery/light,
 /turf/open/floor/mineral/titanium,
 /area/ruin/space/has_grav)
-"ux" = (
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
 "uJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -210,9 +202,6 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"vx" = (
 /turf/open/floor/mineral/titanium,
 /area/ruin/space/has_grav)
 "wC" = (
@@ -399,7 +388,11 @@
 "JE" = (
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
-"KH" = (
+"KW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/gps{
+	name = "Vila do Chaves"
+	},
 /turf/open/floor/mineral/titanium,
 /area/ruin/space/has_grav)
 "LI" = (
@@ -417,10 +410,6 @@
 "Mz" = (
 /turf/open/space/basic,
 /area/space)
-"ML" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
 "MU" = (
 /obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/mineral/titanium,
@@ -429,9 +418,6 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"NX" = (
 /turf/open/floor/mineral/titanium,
 /area/ruin/space/has_grav)
 "Oe" = (
@@ -534,9 +520,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
-"Zs" = (
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
 "ZL" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
@@ -585,9 +568,9 @@ FA
 FA
 FA
 FA
-Zs
+hx
 fo
-Zs
+hx
 MU
 FA
 FL
@@ -608,10 +591,10 @@ Qz
 xq
 uJ
 qX
-Zs
-ML
-Zs
-ML
+hx
+ts
+hx
+ts
 FA
 FL
 Mz
@@ -630,11 +613,11 @@ SW
 xC
 rm
 kG
-ML
-Zs
-Zs
+ts
+hx
+hx
 GN
-ML
+ts
 FA
 FL
 Mz
@@ -651,13 +634,13 @@ Eh
 ya
 SW
 EL
-ML
-Zs
-Zs
-ML
-Zs
-Zs
-ML
+ts
+hx
+hx
+ts
+hx
+hx
+ts
 FA
 FL
 FL
@@ -675,11 +658,11 @@ Iy
 sr
 xH
 ar
-ML
-ML
+ts
+KW
 yM
-ML
-Zs
+ts
+hx
 tt
 FA
 Mz
@@ -696,13 +679,13 @@ XF
 XF
 XF
 jO
-ML
-ML
-Zs
-ML
-Zs
-ML
-ML
+ts
+ts
+hx
+ts
+hx
+ts
+ts
 Oe
 FA
 FL
@@ -720,12 +703,12 @@ AJ
 JE
 SW
 LI
-Zs
-ML
-Zs
-Zs
-Zs
-Zs
+hx
+ts
+hx
+hx
+hx
+hx
 MU
 FA
 FL
@@ -744,8 +727,8 @@ SW
 SW
 xo
 SW
-Zs
-Zs
+hx
+hx
 SW
 sr
 Aj
@@ -767,7 +750,7 @@ JE
 XF
 JE
 SW
-ML
+ts
 fo
 SW
 bW
@@ -790,8 +773,8 @@ JE
 XF
 JE
 SW
-ML
-ML
+ts
+ts
 SW
 ZX
 XF
@@ -814,7 +797,7 @@ Xn
 XF
 SW
 uQ
-Zs
+hx
 SW
 SW
 to
@@ -836,8 +819,8 @@ dA
 kp
 JE
 SW
-ML
-Zs
+ts
+hx
 SW
 PS
 XF
@@ -859,8 +842,8 @@ XF
 XF
 yW
 SW
-ML
-ML
+ts
+ts
 sr
 Jk
 dq
@@ -882,8 +865,8 @@ SW
 SW
 SW
 SW
-ML
-Zs
+ts
+hx
 SW
 SW
 SW
@@ -905,10 +888,10 @@ FL
 Mz
 Mz
 FA
-Zs
-Zs
-Zs
-Zs
+hx
+hx
+hx
+hx
 SW
 SD
 OO
@@ -928,10 +911,10 @@ Mz
 Mz
 FL
 FA
-Zs
-ML
-Zs
-ML
+hx
+ts
+hx
+ts
 SW
 SW
 SW
@@ -951,13 +934,13 @@ Mz
 Mz
 Mz
 FA
-Zs
+hx
 fo
-Zs
-Zs
-Zs
+hx
+hx
+hx
 qX
-Zs
+hx
 FA
 FL
 FL
@@ -974,13 +957,13 @@ Mz
 Mz
 FL
 FA
-ML
-Zs
+ts
+hx
 Ic
 Mp
 Am
 ZL
-ML
+ts
 FA
 FL
 Mz
@@ -998,12 +981,12 @@ Mz
 Mz
 FA
 iY
-Zs
+hx
 Cx
 Gy
 Gy
 Eb
-ML
+ts
 FA
 FL
 Mz
@@ -1020,13 +1003,13 @@ Mz
 Mz
 FL
 FA
-Zs
-ML
+hx
+ts
 Cx
 AP
 Gy
 sy
-Zs
+hx
 FA
 FL
 Mz
@@ -1043,13 +1026,13 @@ Mz
 Mz
 FL
 FA
-ML
-Zs
+ts
+hx
 NB
 wL
 fw
 oi
-Zs
+hx
 FA
 FL
 Mz
@@ -1066,12 +1049,12 @@ Mz
 Mz
 Mz
 FA
-Zs
-ML
-Zs
-Zs
-ML
-Zs
+hx
+ts
+hx
+hx
+ts
+hx
 Df
 rs
 FL
@@ -1090,12 +1073,12 @@ Mz
 FL
 FA
 EZ
-Zs
-Zs
-ML
+hx
+hx
+ts
 Uw
-ML
-Zs
+ts
+hx
 FA
 FL
 Mz
