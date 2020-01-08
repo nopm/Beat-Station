@@ -1,0 +1,4 @@
+author: "Beat-Bot"
+delete-after: True
+changes: 
+  - rscadd: "T-ray scanners can now scan wires and detect breaks"
