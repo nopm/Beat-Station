@@ -1,6 +1,6 @@
 // This just replaces a sound.
 
-minor_announce(message, title = "Attention:", alert)
+/*minor_announce(message, title = "Attention:", alert)
 	if(!message)
 		return
 
@@ -11,4 +11,4 @@ minor_announce(message, title = "Attention:", alert)
 				if(alert)
 					SEND_SOUND(M, sound('hippiestation/sound/misc/notice1.ogg'))
 				else
-					SEND_SOUND(M, sound('hippiestation/sound/misc/notice2.ogg'))
+					SEND_SOUND(M, sound('hippiestation/sound/misc/notice2.ogg'))*/ // beat -- switchs to the original sound
