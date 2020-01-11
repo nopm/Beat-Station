@@ -62,6 +62,13 @@ SUBSYSTEM_DEF(demo)
 	last_chat_message = text
 
 /datum/controller/subsystem/demo/Initialize()
+<<<<<<< HEAD
+=======
+	if(!CONFIG_GET(flag/enable_demo))
+		disabled = TRUE
+		flags |= SS_NO_INIT
+		return FALSE
+>>>>>>> 9d6960d592... Fixes SSdemo causing unit tests to fail (#12531)
 	demo_file = "[GLOB.log_directory]/demo.log"
 	quickwrite_open(demo_file)
 	QUICKWRITE_WRITE(demo_file, "demo version 1\n") // increment this if you change the format
