@@ -62,6 +62,14 @@ SUBSYSTEM_DEF(demo)
 	last_chat_message = text
 
 /datum/controller/subsystem/demo/Initialize()
+<<<<<<< HEAD
+=======
+	if(!CONFIG_GET(flag/enable_demo))
+		disabled = TRUE
+		flags |= SS_NO_INIT
+		can_fire = FALSE
+		return FALSE
+>>>>>>> 440052acd6... Makes demo system not fire if disabled (#12534)
 	demo_file = "[GLOB.log_directory]/demo.log"
 	quickwrite_open(demo_file)
 	QUICKWRITE_WRITE(demo_file, "demo version 1\n") // increment this if you change the format
