@@ -17,3 +17,6 @@
 	cost = 15
 	surplus = 20
 	exclude_modes = list(/datum/game_mode/infiltration)
+
+/datum/uplink_item/dangerous/butterfly
+	cost = 15
