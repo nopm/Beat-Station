@@ -411,10 +411,6 @@
 	icon_state = "showroomfloor"
 	},
 /area/crew_quarters/kitchen)
-"aR" = (
-/obj/structure/mirror,
-/turf/closed/wall,
-/area/crew_quarters/bar)
 "aS" = (
 /obj/item/clothing/gloves/color/purple,
 /obj/item/clothing/head/soft/purple,
@@ -1563,6 +1559,22 @@
 	},
 /turf/open/floor/mineral/titanium/purple,
 /area/crew_quarters/bar)
+"Wc" = (
+/obj/item/clothing/gloves/color/purple,
+/obj/item/clothing/head/soft/purple,
+/obj/item/clothing/shoes/sneakers/purple,
+/obj/item/clothing/suit/toggle/lawyer/purple,
+/obj/structure/table/glass{
+	color = "purple"
+	},
+/obj/item/storage/belt/fannypack/purple,
+/obj/item/clothing/under/color/lightpurple,
+/obj/item/clothing/neck/scarf/purple,
+/obj/structure/mirror{
+	pixel_x = -28
+	},
+/turf/open/floor/plasteel/dark,
+/area/crew_quarters/bar)
 "Xd" = (
 /obj/structure/table,
 /obj/item/storage/box/donkpockets{
@@ -1579,7 +1591,7 @@
 aa
 aa
 ab
-aR
+ab
 ab
 ab
 bH
@@ -1595,7 +1607,7 @@ ab
 aa
 aa
 aB
-aS
+Wc
 aS
 bv
 aU
