@@ -38,11 +38,7 @@
 		return
 	. = ..()
 
-<<<<<<< HEAD
-/mob/living/carbon/electrocute_act(shock_damage, source, siemens_coeff = 1, safety = 0, override = 0, tesla_shock = 0, illusion = 0, stun = TRUE) // beat -- adds missing 'override'
-=======
 /mob/living/carbon/electrocute_act(shock_damage, source, siemens_coeff = 1, safety = 0, override = 0, tesla_shock = 0, illusion = 0, stun = TRUE)
->>>>>>> 87ffc52aa8... Fixes missing arg (#12544)
 	if(status_flags & GODMODE)
 		return
 	. = ..()
