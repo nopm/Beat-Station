@@ -1,6 +1,0 @@
-author: "Neotw"
-delete-after: True
-changes: 
-  - bugfix: "Beat!Box - Adds a missing blast door on atmos"
-  - bugfix: "Bar casino - Fixes missing rwalls and wrong icons"
-  - bugfix: "Bar purple - Fixes the mirror in the wrong tile"
