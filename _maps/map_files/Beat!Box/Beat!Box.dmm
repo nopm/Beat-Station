@@ -30745,7 +30745,6 @@
 /area/science/mixing)
 "bNw" = (
 /obj/machinery/vending/coffee{
-	light_color = "#966432";
 	light_range = 1.4
 	},
 /turf/open/floor/plasteel,
@@ -33767,6 +33766,10 @@
 	location = "Atmospherics"
 	},
 /obj/effect/turf_decal/delivery,
+/obj/machinery/door/poddoor/preopen{
+	id = "atmos";
+	name = "Atmospherics Blast Door"
+	},
 /turf/open/floor/plasteel,
 /area/engine/atmos)
 "bWI" = (
@@ -49870,7 +49873,6 @@
 "gzS" = (
 /obj/machinery/camera{
 	c_tag = "Toxins Lab - East";
-	dir = 2;
 	network = list("MiniSat");
 	start_active = 1
 	},
@@ -56242,7 +56244,6 @@
 	areastring = "/area/security/detectives_office";
 	dir = 1;
 	name = "Detective's Office APC";
-	pixel_x = 0;
 	pixel_y = 24
 	},
 /obj/structure/cable,

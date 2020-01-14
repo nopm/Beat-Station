@@ -9,6 +9,9 @@
 "ac" = (
 /turf/closed/wall,
 /area/crew_quarters/bar)
+"ad" = (
+/turf/closed/wall/r_wall,
+/area/template_noop)
 "ae" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Bar Maintenance";
@@ -26,10 +29,7 @@
 /turf/open/floor/plasteel/rockvault,
 /area/crew_quarters/bar)
 "ag" = (
-/turf/closed/wall{
-	icon = 'icons/turf/walls/reinforced_wall.dmi';
-	icon_state = "r_wall"
-	},
+/turf/closed/wall/r_wall,
 /area/crew_quarters/bar)
 "ah" = (
 /obj/item/reagent_containers/food/drinks/shaker,
@@ -55,9 +55,6 @@
 /area/crew_quarters/bar)
 "ak" = (
 /obj/machinery/door/window/southleft{
-	base_state = "left";
-	dir = 2;
-	icon_state = "left";
 	name = "Bar Delivery";
 	req_access_txt = "25"
 	},
@@ -65,10 +62,7 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar)
 "al" = (
-/turf/closed/wall{
-	icon = 'icons/turf/walls/reinforced_wall.dmi';
-	icon_state = "r_wall"
-	},
+/turf/closed/wall/r_wall,
 /area/crew_quarters/kitchen)
 "am" = (
 /turf/closed/wall,
@@ -106,7 +100,6 @@
 /area/crew_quarters/theatre)
 "ar" = (
 /obj/machinery/airalarm{
-	dir = 2;
 	pixel_y = 24
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -129,7 +122,6 @@
 "at" = (
 /obj/structure/chair/americandiner{
 	dir = 4;
-	icon_state = "americhair";
 	tag = ""
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -156,7 +148,6 @@
 	dir = 8
 	},
 /obj/machinery/firealarm{
-	dir = 2;
 	pixel_y = 26
 	},
 /turf/open/floor/carpet,
@@ -183,9 +174,6 @@
 /area/crew_quarters/kitchen)
 "aC" = (
 /obj/machinery/door/window/southleft{
-	base_state = "left";
-	dir = 2;
-	icon_state = "left";
 	name = "Kitchen Delivery";
 	req_access_txt = "28"
 	},
@@ -202,7 +190,6 @@
 /area/crew_quarters/bar)
 "aF" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
-	icon_state = "vent_map_on-1";
 	dir = 8
 	},
 /turf/open/floor/carpet,
@@ -237,8 +224,7 @@
 /area/crew_quarters/bar)
 "aK" = (
 /obj/machinery/camera{
-	c_tag = "Theatre Stage";
-	dir = 2
+	c_tag = "Theatre Stage"
 	},
 /obj/structure/table/reinforced,
 /obj/item/clothing/head/hardhat/cakehat,
@@ -257,7 +243,6 @@
 "aL" = (
 /obj/structure/chair/americandiner{
 	dir = 8;
-	icon_state = "americhair";
 	tag = ""
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -270,7 +255,6 @@
 /area/crew_quarters/bar)
 "aM" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
-	icon_state = "vent_map_on-1";
 	dir = 8
 	},
 /turf/open/floor/plasteel/rockvault,
@@ -309,8 +293,7 @@
 /obj/machinery/door/window/eastleft{
 	dir = 8;
 	icon_state = "right";
-	name = "Soda Dispenser";
-	req_access_txt = "0"
+	name = "Soda Dispenser"
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
@@ -400,10 +383,7 @@
 /area/crew_quarters/kitchen)
 "be" = (
 /obj/item/storage/secure/safe,
-/turf/closed/wall{
-	icon = 'icons/turf/walls/reinforced_wall.dmi';
-	icon_state = "r_wall"
-	},
+/turf/closed/wall/r_wall,
 /area/crew_quarters/bar)
 "bf" = (
 /obj/structure/disposalpipe/segment,
@@ -419,7 +399,6 @@
 "bg" = (
 /obj/machinery/airalarm{
 	dir = 4;
-	icon_state = "alarm0";
 	pixel_x = -22
 	},
 /obj/machinery/camera{
@@ -455,7 +434,6 @@
 "bk" = (
 /obj/effect/landmark/event_spawn,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
-	icon_state = "vent_map_on-1";
 	dir = 8
 	},
 /turf/open/floor/plasteel{
@@ -573,7 +551,6 @@
 /area/crew_quarters/kitchen)
 "bB" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	icon_state = "pipe11-1";
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -584,7 +561,6 @@
 "bC" = (
 /obj/machinery/camera{
 	c_tag = "Kitchen";
-	dir = 2;
 	network = list("SS13")
 	},
 /obj/structure/closet/secure_closet/freezer/fridge,
@@ -635,7 +611,6 @@
 "bJ" = (
 /obj/structure/chair/americandiner{
 	dir = 4;
-	icon_state = "americhair";
 	tag = ""
 	},
 /turf/open/floor/carpet,
@@ -705,7 +680,6 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
-	icon_state = "vent_map_on-1";
 	dir = 8
 	},
 /turf/open/floor/plasteel/ameridiner,
@@ -722,7 +696,6 @@
 	},
 /obj/machinery/airalarm{
 	dir = 8;
-	icon_state = "alarm0";
 	pixel_x = 24
 	},
 /obj/machinery/vending/wardrobe/chef_wardrobe,
@@ -788,7 +761,6 @@
 "ce" = (
 /obj/machinery/airalarm{
 	dir = 4;
-	icon_state = "alarm0";
 	pixel_x = -22
 	},
 /obj/machinery/light/small{
@@ -814,7 +786,6 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/landmark/xeno_spawn,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	icon_state = "pipe11-1";
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -869,7 +840,6 @@
 "cp" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
-	icon_state = "manifold-1";
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -915,7 +885,6 @@
 /area/crew_quarters/kitchen)
 "cw" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	icon_state = "pipe11-1";
 	dir = 5
 	},
 /obj/structure/disposalpipe/segment{
@@ -928,7 +897,6 @@
 /area/crew_quarters/kitchen)
 "cx" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	icon_state = "pipe11-1";
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -957,7 +925,6 @@
 /area/crew_quarters/bar)
 "cA" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	icon_state = "pipe11-1";
 	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -1043,7 +1010,6 @@
 	},
 /obj/structure/chair/americandiner{
 	dir = 8;
-	icon_state = "americhair";
 	tag = ""
 	},
 /turf/open/floor/carpet,
@@ -1054,10 +1020,7 @@
 /area/crew_quarters/bar)
 "ij" = (
 /obj/structure/sign/plaques/deempisi,
-/turf/closed/wall{
-	icon = 'icons/turf/walls/reinforced_wall.dmi';
-	icon_state = "r_wall"
-	},
+/turf/closed/wall/r_wall,
 /area/crew_quarters/bar)
 "JA" = (
 /obj/item/twohanded/required/kirbyplants/random,
@@ -1071,6 +1034,7 @@
 /area/crew_quarters/kitchen)
 
 (1,1,1) = {"
+aa
 aa
 aa
 ac
@@ -1089,6 +1053,7 @@ ac
 (2,1,1) = {"
 aa
 aa
+aa
 au
 ap
 aE
@@ -1105,6 +1070,7 @@ ac
 (3,1,1) = {"
 aa
 aa
+aa
 aE
 ap
 aD
@@ -1119,6 +1085,7 @@ cT
 ac
 "}
 (4,1,1) = {"
+aa
 ac
 JA
 bs
@@ -1135,6 +1102,7 @@ cU
 ac
 "}
 (5,1,1) = {"
+aa
 ac
 ar
 bB
@@ -1151,6 +1119,7 @@ JA
 dg
 "}
 (6,1,1) = {"
+aa
 aq
 as
 aF
@@ -1167,6 +1136,7 @@ ca
 ac
 "}
 (7,1,1) = {"
+aa
 ac
 at
 ap
@@ -1183,6 +1153,7 @@ ap
 ab
 "}
 (8,1,1) = {"
+aa
 ac
 aK
 ap
@@ -1199,6 +1170,7 @@ cd
 ac
 "}
 (9,1,1) = {"
+aa
 ac
 aL
 ap
@@ -1215,6 +1187,7 @@ ap
 bO
 "}
 (10,1,1) = {"
+aa
 ae
 aZ
 bQ
@@ -1231,6 +1204,7 @@ ap
 bP
 "}
 (11,1,1) = {"
+aa
 ac
 aw
 bX
@@ -1247,6 +1221,7 @@ cX
 ac
 "}
 (12,1,1) = {"
+ad
 ag
 ag
 ag
@@ -1263,6 +1238,7 @@ ap
 ab
 "}
 (13,1,1) = {"
+ad
 ah
 ax
 ce
@@ -1279,6 +1255,7 @@ bJ
 ac
 "}
 (14,1,1) = {"
+aa
 af
 af
 ch
@@ -1295,6 +1272,7 @@ da
 ac
 "}
 (15,1,1) = {"
+ad
 aj
 ay
 aM
@@ -1311,6 +1289,7 @@ db
 ac
 "}
 (16,1,1) = {"
+ad
 ag
 az
 ba
@@ -1327,6 +1306,7 @@ am
 am
 "}
 (17,1,1) = {"
+aa
 ak
 bV
 aN
@@ -1343,6 +1323,7 @@ am
 aa
 "}
 (18,1,1) = {"
+ad
 al
 al
 al
@@ -1359,6 +1340,7 @@ am
 aa
 "}
 (19,1,1) = {"
+aa
 am
 aA
 aO
@@ -1375,6 +1357,7 @@ bK
 aa
 "}
 (20,1,1) = {"
+aa
 an
 ci
 ci
@@ -1391,6 +1374,7 @@ bL
 aa
 "}
 (21,1,1) = {"
+aa
 am
 am
 aP
@@ -1407,6 +1391,7 @@ bN
 aa
 "}
 (22,1,1) = {"
+aa
 ao
 aC
 LT
@@ -1423,6 +1408,7 @@ bN
 aa
 "}
 (23,1,1) = {"
+aa
 am
 am
 am
@@ -1439,6 +1425,7 @@ am
 aa
 "}
 (24,1,1) = {"
+aa
 aa
 aa
 am
