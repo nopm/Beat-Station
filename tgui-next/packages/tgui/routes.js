@@ -87,6 +87,10 @@ import { Guardian } from './interfaces/Guardian';
 import { Vending } from './interfaces/Vending';
 import { Pool } from './interfaces/Pool';
 // hippie end
+// beat start
+import { Bepis } from './interfaces/Bepis';
+import { DecalPainter } from './interfaces/DecalPainter';
+// beat end
 
 const ROUTES = {
   achievements: {
@@ -453,6 +457,16 @@ const ROUTES = {
     scrollable: false,
   },
   // hippie end
+  // beat start
+  bepis: {
+    component: () => Bepis,
+    scrollable: false,
+  },
+  decal_painter: {
+    component: () => DecalPainter,
+    scrollable: false,
+  },
+  // beat end
 };
 
 export const getRoute = state => {
