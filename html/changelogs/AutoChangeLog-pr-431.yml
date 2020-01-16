@@ -1,0 +1,4 @@
+author: "Neotw"
+delete-after: True
+changes: 
+  - bugfix: "The Wizard Academy Defender now spawns in the Wizard Academy"
