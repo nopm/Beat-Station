@@ -54,3 +54,14 @@
 	export_price = 2500
 	hidden = TRUE
 	experimental = TRUE
+
+/datum/techweb_node/extra_legal_surgeries
+	id = "extralegal_surgeries"
+	display_name = "Extra-Legal Surgeries"
+	description = "Extremely experimental surgeries thought too unethical and useless for commercial use."
+	prereq_ids = list("base")
+	design_ids = list("surgery_extreme")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+	hidden = TRUE
+	experimental = TRUE
