@@ -264,7 +264,6 @@
 "w" = (
 /obj/machinery/computer/security/telescreen{
 	dir = 1;
-	icon_state = "telescreen";
 	name = "Telescience Chamber Monitor";
 	network = list("telesci");
 	pixel_y = -25
@@ -325,7 +324,7 @@
 "C" = (
 /obj/structure/table,
 /obj/item/paper{
-	info = "<h2>How to link your telepad</h2><br> /<b>1: </b>Use screwdriver on telepad<br> /<b>2: </b>Use the multitool on telepad to save the buff on it<br> /<b>3: </b>And then use multitool on the console to link it<br> /<b>5: </b>Done, the telepad and the console are linked!";
+	info = "<h2>How to link your telepad</h2><br> <b>1: </b>Use screwdriver on telepad<br> <b>2: </b>Use the multitool on telepad to save the buff on it<br> <b>3: </b>And then use multitool on the console to link it<br> <b>5: </b>Done, the telepad and the console are linked!";
 	name = "telepad guide"
 	},
 /obj/item/multitool,
@@ -389,7 +388,6 @@
 /area/science/telesci)
 "H" = (
 /obj/effect/turf_decal/box/corners{
-	icon_state = "box_corners";
 	dir = 1
 	},
 /turf/open/floor/engine,
@@ -417,7 +415,6 @@
 /area/science/telesci)
 "N" = (
 /obj/effect/turf_decal/box/corners{
-	icon_state = "box_corners";
 	dir = 4
 	},
 /turf/open/floor/engine,
@@ -448,7 +445,6 @@
 /area/science/telesci)
 "S" = (
 /obj/effect/turf_decal/box/corners{
-	icon_state = "box_corners";
 	dir = 8
 	},
 /turf/open/floor/engine,
