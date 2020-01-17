@@ -650,6 +650,7 @@ RLD
 	righthand_file = 'icons/mob/inhands/equipment/tools_righthand.dmi'
 	matter = 200
 	max_matter = 200
+	var/matter_divisor = 35 // beat -- bepis
 	var/mode = LIGHT_MODE
 	actions_types = list(/datum/action/item_action/pick_color)
 
@@ -672,7 +673,7 @@ RLD
 		..()
 
 /obj/item/construction/rld/update_icon()
-	icon_state = "rld-[round(matter/35)]"
+	icon_state = "rld-[round(matter/matter_divisor)]" // beat -- bepis
 	..()
 
 
