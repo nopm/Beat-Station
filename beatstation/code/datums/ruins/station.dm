@@ -69,3 +69,8 @@
 	id = "sci_experimentor"
 	suffix = "sci_experimentor.dmm"
 	name = "Experimentor Lab"
+
+/datum/map_template/ruin/station/box/sci/circuitry
+	id = "sci_circuitry"
+	suffix = "sci_circuitry.dmm"
+	name = "Circuitry Lab"
