@@ -210,7 +210,6 @@
 /area/science/explab)
 "y" = (
 /obj/structure/table,
-/obj/item/storage/bag/money,
 /obj/item/clipboard,
 /obj/item/book/manual/wiki/experimentor,
 /turf/open/floor/plasteel/white/corner{
@@ -270,40 +269,35 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
-/obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/engine,
 /area/science/explab)
 "H" = (
 /obj/effect/landmark/event_spawn,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
 /turf/open/floor/engine,
 /area/science/explab)
 "I" = (
-/obj/machinery/rnd/experimentor,
-/turf/open/floor/plating,
-/area/science/explab)
-"J" = (
-/obj/effect/landmark/blobstart,
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/plating,
-/area/science/explab)
-"K" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/engine,
 /area/science/explab)
+"J" = (
+/obj/machinery/rnd/experimentor,
+/turf/open/floor/plating,
+/area/science/explab)
+"K" = (
+/obj/effect/landmark/blobstart,
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plating,
+/area/science/explab)
 "L" = (
-/obj/machinery/rnd/bepis,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
 /turf/open/floor/engine,
 /area/science/explab)
 "M" = (
-/obj/effect/turf_decal/stripes/line{
+/obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
 /turf/open/floor/engine,
@@ -324,29 +318,14 @@
 /obj/structure/sign/warning/nosmoking{
 	pixel_y = -32
 	},
-/obj/effect/turf_decal/stripes/corner{
+/obj/effect/turf_decal/stripes/line{
 	dir = 1
-	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
 	},
 /turf/open/floor/engine,
 /area/science/explab)
 "P" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/engine,
-/area/science/explab)
-"R" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
-	},
-/turf/open/floor/engine,
-/area/science/explab)
-"Y" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
 	},
 /turf/open/floor/engine,
 /area/science/explab)
@@ -370,9 +349,9 @@ k
 r
 w
 B
-E
-M
-Y
+D
+D
+D
 a
 "}
 (3,1,1) = {"
@@ -382,9 +361,9 @@ l
 s
 x
 B
-F
+E
 I
-N
+M
 a
 "}
 (4,1,1) = {"
@@ -406,7 +385,7 @@ m
 t
 y
 B
-G
+F
 K
 O
 a
@@ -418,9 +397,9 @@ m
 u
 z
 B
-F
+G
 L
-N
+P
 a
 "}
 (7,1,1) = {"
@@ -431,8 +410,8 @@ t
 q
 a
 H
-P
-R
+D
+D
 a
 "}
 (8,1,1) = {"
