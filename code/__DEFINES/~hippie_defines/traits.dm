@@ -13,3 +13,5 @@
 #define GAUNTLET_TRAIT "gauntlet_trait"
 #define GUARDIAN_TRAIT	"guardian_trait"
 #define SPELL_TRAIT "spell_trait"
+
+#define TRAIT_QUICK_BUILD		"quick-build" // beat
