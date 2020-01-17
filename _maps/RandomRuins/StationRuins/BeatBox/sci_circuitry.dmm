@@ -19,6 +19,7 @@
 	dir = 1
 	},
 /obj/machinery/vending/assist,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/white,
 /area/science/circuitry)
 "dX" = (
@@ -35,7 +36,8 @@
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple,
-/obj/item/twohanded/required/kirbyplants/random,
+/obj/effect/turf_decal/box/red,
+/obj/machinery/rnd/bepis,
 /turf/open/floor/plasteel/white,
 /area/science/circuitry)
 "ek" = (
@@ -459,6 +461,7 @@
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple,
+/obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/plasteel/white,
 /area/science/circuitry)
 "wA" = (
@@ -523,6 +526,7 @@
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple,
 /obj/machinery/autolathe,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/white,
 /area/science/circuitry)
 "Bl" = (
@@ -541,6 +545,8 @@
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple,
+/obj/structure/table,
+/obj/item/storage/bag/money,
 /turf/open/floor/plasteel/white,
 /area/science/circuitry)
 "Bu" = (
@@ -661,6 +667,12 @@
 	dir = 8
 	},
 /turf/closed/wall/r_wall,
+/area/science/circuitry)
+"Hf" = (
+/obj/structure/chair/office/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
 /area/science/circuitry)
 "Hy" = (
 /turf/open/floor/plasteel/white,
@@ -897,7 +909,7 @@ gt
 gt
 kD
 FK
-Hy
+Hf
 Hy
 Hy
 eJ
