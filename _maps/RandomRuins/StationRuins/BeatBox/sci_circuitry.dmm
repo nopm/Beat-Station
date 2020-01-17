@@ -203,7 +203,7 @@
 	dir = 8
 	},
 /obj/machinery/computer/security/telescreen/research{
-	desc = "A telescreen with access to the circuitry lab camera network. The network ID of this one seems to be /"circuitry"/.";
+	desc = "A telescreen with access to the circuitry lab camera network. The network ID of this one seems to be: circuitry.";
 	dir = 1;
 	name = "\improper Circuitry Lab monitor";
 	network = list("circuitry");
@@ -430,7 +430,7 @@
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple,
 /obj/machinery/computer/security/telescreen/research{
-	desc = "A telescreen with access to the circuitry lab camera network. The network ID of this one seems to be /"circuitry"/.";
+	desc = "A telescreen with access to the circuitry lab camera network. The network ID of this one seems to be: circuitry.";
 	dir = 8;
 	name = "\improper Circuitry Lab monitor";
 	network = list("circuitry");
