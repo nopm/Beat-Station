@@ -203,8 +203,9 @@
 	dir = 8
 	},
 /obj/machinery/computer/security/telescreen/research{
+	desc = "A telescreen with access to the circuitry lab camera network. The network ID of this one seems to be /"circuitry"/.";
 	dir = 1;
-	name = "circuitry lab monitor";
+	name = "\improper Circuitry Lab monitor";
 	network = list("circuitry");
 	pixel_y = -27
 	},
@@ -297,6 +298,7 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
+/obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/plasteel/white,
 /area/science/circuitry)
 "kO" = (
@@ -404,7 +406,7 @@
 "th" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock/maintenance{
-	name = "Experimentation Lab Maintenance";
+	name = "Circuitry Lab Maintenance";
 	req_access_txt = "47"
 	},
 /obj/structure/disposalpipe/segment{
@@ -428,8 +430,9 @@
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple,
 /obj/machinery/computer/security/telescreen/research{
+	desc = "A telescreen with access to the circuitry lab camera network. The network ID of this one seems to be /"circuitry"/.";
 	dir = 8;
-	name = "circuitry lab monitor";
+	name = "\improper Circuitry Lab monitor";
 	network = list("circuitry");
 	pixel_x = 27
 	},
@@ -461,7 +464,6 @@
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple,
-/obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/plasteel/white,
 /area/science/circuitry)
 "wA" = (
