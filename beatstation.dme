@@ -6,7 +6,7 @@
 // BEGIN_PREFERENCES
 // END_PREFERENCES
 // BEGIN_INCLUDE
-#include "hippiestation.dme"
+#include "beatstation\_hippiestation.dm"
 #include "beatstation\code\init.dm"
 #include "beatstation\code\controllers\subsystem\mapping.dm"
 #include "beatstation\code\datums\shuttles.dm"
