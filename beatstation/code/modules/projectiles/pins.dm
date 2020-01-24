@@ -2,7 +2,7 @@
 /obj/item/firing_pin/explorer
 	name = "outback firing pin"
 	desc = "A firing pin used by the austrailian defense force, retrofit to prevent weapon discharge on the station."
-	icon = 'icons/obj/device.dmi'
+	icon = 'beatstation/icons/obj/device.dmi'
 	icon_state = "firing_pin_explorer"
 	fail_message = "<span class='warning'>CANNOT FIRE WHILE ON STATION, MATE!</span>"
 
