@@ -49012,6 +49012,12 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/engine/port_engineering)
+"dPY" = (
+/obj/machinery/camera{
+	c_tag = "Atmospherics Toxins Tank"
+	},
+/turf/open/floor/engine/plasma,
+/area/engine/atmos_distro)
 "dQf" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
@@ -50906,6 +50912,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
+"gVR" = (
+/obj/machinery/camera{
+	c_tag = "Atmospherics N2O Tank"
+	},
+/turf/open/floor/engine/n2o,
+/area/engine/atmos_distro)
 "gWR" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -50989,6 +51001,12 @@
 "hfe" = (
 /turf/closed/wall/r_wall,
 /area/maintenance/port/aft)
+"hfh" = (
+/obj/machinery/camera{
+	c_tag = "Atmospherics CO2 Tank"
+	},
+/turf/open/floor/engine/co2,
+/area/engine/atmos_distro)
 "hge" = (
 /obj/structure/filingcabinet/chestdrawer,
 /turf/open/floor/plasteel/cafeteria,
@@ -53804,6 +53822,12 @@
 /obj/machinery/space_heater,
 /turf/open/floor/plating,
 /area/maintenance/department/security)
+"lMb" = (
+/obj/machinery/camera{
+	c_tag = "Atmospherics O2 Tank"
+	},
+/turf/open/floor/engine/o2,
+/area/engine/atmos_distro)
 "lNs" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
@@ -56279,6 +56303,12 @@
 /obj/machinery/atmospherics/pipe/simple,
 /turf/closed/wall/r_wall,
 /area/tcommsat/computer)
+"pNb" = (
+/obj/machinery/camera{
+	c_tag = "Atmospherics Air Tank"
+	},
+/turf/open/floor/engine/air,
+/area/engine/atmos_distro)
 "pNC" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/turf_decal/stripes/line,
@@ -58139,6 +58169,12 @@
 	dir = 9
 	},
 /area/science/research)
+"sXu" = (
+/obj/machinery/camera{
+	c_tag = "Atmospherics N2 Tank"
+	},
+/turf/open/floor/engine/n2,
+/area/engine/atmos_distro)
 "sXO" = (
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
@@ -60836,6 +60872,10 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/dark,
 /area/chapel/main)
+"xye" = (
+/obj/machinery/light/small,
+/turf/open/floor/engine/vacuum,
+/area/engine/atmos_distro)
 "xyv" = (
 /obj/item/stack/rods/fifty,
 /obj/item/stack/sheet/glass/fifty,
@@ -93856,7 +93896,7 @@ aoK
 bVM
 bXb
 bXb
-bXb
+xye
 bVM
 lhr
 aaa
@@ -94118,15 +94158,15 @@ bVM
 lhr
 aad
 bVM
-aCN
+pNb
 aEa
 aCN
 bVM
-aGj
+sXu
 aHG
 aGj
 bVM
-aJd
+lMb
 aKe
 aJd
 bVM
@@ -98230,15 +98270,15 @@ azk
 aAc
 aai
 bVM
-aDV
+hfh
 aEP
 aDV
 bVM
-aHE
+gVR
 aIy
 aHE
 bVM
-aKb
+dPY
 aKP
 aKb
 bVM
