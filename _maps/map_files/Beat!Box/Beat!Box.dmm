@@ -1451,12 +1451,6 @@
 "adu" = (
 /turf/closed/wall,
 /area/hallway/primary/aft)
-"adv" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/turf/closed/wall,
-/area/hallway/primary/aft)
 "adw" = (
 /obj/structure/lattice/catwalk,
 /turf/open/space,
@@ -90767,7 +90761,7 @@ bJW
 bJW
 bQT
 adu
-adv
+adu
 bTo
 lfl
 bWG
