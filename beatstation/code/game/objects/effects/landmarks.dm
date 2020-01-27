@@ -51,6 +51,9 @@
 	icon = 'beatstation/icons/rooms/sci_telescience.dmi'
 	icon_state = "telescience"
 
+/obj/effect/landmark/stationroom/box/aft_maint
+	template_names = list("Maint Detective", "Maint RPG")
+
 /*
 /obj/effect/landmark/stationroom/box/foreportmaint1
 	template_names = list("Maintenance Surgery")

@@ -2,30 +2,6 @@
 "a" = (
 /turf/closed/wall,
 /area/maintenance/starboard/aft)
-"b" = (
-/obj/structure/cable,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/maintenance{
-	req_access_txt = "12"
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/maintenance/starboard/aft)
-"c" = (
-/obj/structure/cable,
-/obj/structure/disposalpipe/segment,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/maintenance/starboard/aft)
 "d" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -102,12 +78,6 @@
 	req_access_txt = "12"
 	},
 /turf/open/floor/plating,
-/area/maintenance/starboard/aft)
-"p" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/closed/wall,
 /area/maintenance/starboard/aft)
 "q" = (
 /obj/structure/disposalpipe/segment{
@@ -192,9 +162,6 @@
 "w" = (
 /turf/template_noop,
 /area/template_noop)
-"x" = (
-/turf/closed/wall,
-/area/maintenance/aft)
 "y" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/external{
@@ -233,22 +200,22 @@
 /area/maintenance/aft)
 
 (1,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-p
-x
+w
+w
+w
+w
+w
+w
+w
+w
+w
 y
-x
+w
 "}
 (2,1,1) = {"
-b
-c
-d
+w
+w
+w
 d
 d
 d
