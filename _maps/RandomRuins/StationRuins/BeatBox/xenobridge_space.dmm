@@ -5,34 +5,10 @@
 "b" = (
 /turf/closed/wall,
 /area/maintenance/starboard/aft)
-"c" = (
-/obj/structure/cable,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/maintenance{
-	req_access_txt = "12"
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/maintenance/starboard/aft)
 "d" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
 /area/space/nearstation)
-"e" = (
-/obj/structure/cable,
-/obj/structure/disposalpipe/segment,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/maintenance/starboard/aft)
 "f" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -133,12 +109,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
-"t" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/closed/wall,
-/area/maintenance/starboard/aft)
 "u" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -216,22 +186,22 @@
 /area/maintenance/starboard/aft)
 
 (1,1,1) = {"
-b
-b
-b
-b
-b
-b
-b
-t
+a
+a
+a
+a
+a
+a
+a
+a
+a
 y
-y
-y
+a
 "}
 (2,1,1) = {"
-c
-e
-f
+a
+a
+a
 g
 f
 r
