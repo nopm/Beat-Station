@@ -264,7 +264,7 @@
 
 	var/launch_status = NOLAUNCH
 
-	var/list/movement_force = list("KNOCKDOWN" = 3, "THROW" = 0)
+	var/list/movement_force = list("KNOCKDOWN" = 3, "THROW" = 14) // beat
 
 	var/list/ripples = list()
 	var/engine_coeff = 1 //current engine coeff
@@ -686,7 +686,7 @@
 	if(timeleft > 1 HOURS)
 		return "--:--"
 	else if(timeleft > 0)
-		return "[add_zero(num2text((timeleft / 60) % 60),2)]:[add_zero(num2text(timeleft % 60), 2)]"
+		return "[add_leading(num2text((timeleft / 60) % 60), 2, "0")]:[add_leading(num2text(timeleft % 60), 2, " ")]"
 	else
 		return "00:00"
 */

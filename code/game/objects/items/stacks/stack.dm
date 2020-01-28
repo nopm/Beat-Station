@@ -182,8 +182,13 @@
 		if(!building_checks(R, multiplier))
 			return
 		if (R.time)
+			var/adjusted_time = 0 // beat -- bepis
 			usr.visible_message("<span class='notice'>[usr] starts building \a [R.title].</span>", "<span class='notice'>You start building \a [R.title]...</span>")
-			if (!do_after(usr, R.time, target = usr))
+			if(HAS_TRAIT(usr, R.trait_booster)) // beat start -- bepis
+				adjusted_time = (R.time * R.trait_modifier)
+			else
+				adjusted_time = R.time // beat end
+			if (!do_after(usr, adjusted_time, target = usr))
 				return
 			if(!building_checks(R, multiplier))
 				return
@@ -419,8 +424,10 @@
 	var/on_floor = FALSE
 	var/window_checks = FALSE
 	var/placement_checks = FALSE
+	var/trait_booster = null // beat -- bepis
+	var/trait_modifier = 1 // beat -- bepis
 
-/datum/stack_recipe/New(title, result_type, req_amount = 1, res_amount = 1, max_res_amount = 1,time = 0, one_per_turf = FALSE, on_floor = FALSE, window_checks = FALSE, placement_checks = FALSE )
+/datum/stack_recipe/New(title, result_type, req_amount = 1, res_amount = 1, max_res_amount = 1,time = 0, one_per_turf = FALSE, on_floor = FALSE, window_checks = FALSE, placement_checks = FALSE, trait_booster = null, trait_modifier = 1) // beat -- bepis
 
 
 	src.title = title
@@ -433,6 +440,8 @@
 	src.on_floor = on_floor
 	src.window_checks = window_checks
 	src.placement_checks = placement_checks
+	src.trait_booster = trait_booster // beat -- bepis
+	src.trait_modifier = trait_modifier // beat -- bepis
 /*
  * Recipe list datum
  */

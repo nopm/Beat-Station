@@ -1,0 +1,96 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall,
+/area/maintenance/aft)
+"b" = (
+/obj/item/book/manual/wiki/detective,
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/maintenance/aft)
+"h" = (
+/obj/item/clothing/head/fedora/det_hat,
+/turf/open/floor/wood,
+/area/maintenance/aft)
+"i" = (
+/obj/structure/chair/wood,
+/turf/open/floor/wood,
+/area/maintenance/aft)
+"j" = (
+/obj/item/cigbutt,
+/turf/open/floor/wood,
+/area/maintenance/aft)
+"k" = (
+/obj/structure/rack,
+/obj/item/detective_scanner,
+/obj/effect/spawner/lootdrop/maintenance/two,
+/turf/open/floor/wood,
+/area/maintenance/aft)
+"l" = (
+/turf/open/floor/wood,
+/area/maintenance/aft)
+"m" = (
+/obj/machinery/door/airlock/maintenance,
+/obj/effect/mapping_helpers/airlock/abandoned,
+/turf/open/floor/wood,
+/area/maintenance/aft)
+"w" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/reagent_containers/food/drinks/flask/det{
+	name = "flask"
+	},
+/turf/open/floor/wood,
+/area/maintenance/aft)
+"z" = (
+/obj/item/reagent_containers/food/drinks/beer,
+/turf/open/floor/wood,
+/area/maintenance/aft)
+"B" = (
+/obj/structure/table/wood,
+/obj/item/storage/fancy/cigarettes/cigpack_uplift,
+/obj/item/cigbutt,
+/turf/open/floor/wood,
+/area/maintenance/aft)
+"W" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/maintenance/aft)
+
+(1,1,1) = {"
+a
+b
+l
+l
+"}
+(2,1,1) = {"
+a
+h
+B
+W
+"}
+(3,1,1) = {"
+a
+i
+w
+l
+"}
+(4,1,1) = {"
+a
+j
+W
+j
+"}
+(5,1,1) = {"
+a
+k
+l
+z
+"}
+(6,1,1) = {"
+a
+a
+m
+a
+"}

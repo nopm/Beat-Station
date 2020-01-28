@@ -245,16 +245,16 @@
 								log_msg += "[key_name(Q)], "
 							else
 								log_msg += "[Q.name], "
-						if (dd_hassuffix(log_msg, "("))
+						if (findtext(log_msg, "(", length(log_msg) - 1, null))
 							log_msg += "empty)"
 						else
-							log_msg = dd_limittext(log_msg, length(log_msg) - 2)
+							log_msg = copytext(log_msg, 1, length(log_msg) - 2)
 							log_msg += ")"
 					log_msg += ", "
 				do_teleport(ROI, dest)
 
-			if (dd_hassuffix(log_msg, ", "))
-				log_msg = dd_limittext(log_msg, length(log_msg) - 2)
+			if (findtext(log_msg, ", ", length(log_msg) - 2, null))
+				log_msg = copytext(log_msg, 1, length(log_msg) - 2)
 			else
 				log_msg += "nothing"
 			log_msg += " [sending ? "to" : "from"] [trueX], [trueY], [z_co] ([A ? A.name : "null area"])"

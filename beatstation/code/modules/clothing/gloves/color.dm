@@ -157,3 +157,22 @@
 		shock_damage = cell_damage
 	
 	return shock_damage
+	
+/obj/item/clothing/gloves/color/latex/engineering
+	name = "tinker's gloves"
+	desc = "Overdesigned engineering gloves that have automated construction subrutines dialed in, allowing for faster construction while worn."
+	icon = 'icons/obj/clothing/clockwork_garb.dmi'
+	icon_state = "clockwork_gauntlets"
+	item_state = "clockwork_gauntlets"
+	siemens_coefficient = 0.8
+	permeability_coefficient = 0.3
+	materials = list(MAT_METAL = 2000, MAT_SILVER = 1500, MAT_GOLD = 1000)
+
+/obj/item/clothing/gloves/color/latex/engineering/equipped(mob/user, slot)
+	. = ..()
+	if(slot == ITEM_SLOT_GLOVES)
+		ADD_TRAIT(user, TRAIT_QUICK_BUILD, CLOTHING_TRAIT)
+
+/obj/item/clothing/gloves/color/latex/engineering/dropped(mob/user)
+	. = ..()
+	REMOVE_TRAIT(user, TRAIT_QUICK_BUILD, CLOTHING_TRAIT)

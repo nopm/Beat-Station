@@ -50,12 +50,12 @@
 	suffix = "bar_purple.dmm"
 	name = "Bar Purple"
 
-/datum/map_template/ruin/station/box/maint/xenobridge
+/datum/map_template/ruin/station/box/xenobridge
 	id = "maint_xenobridge_default"
 	suffix = "xenobridge_default.dmm"
 	name = "Xenobiology Bridge"
 
-/datum/map_template/ruin/station/box/maint/xenobridge/lattice
+/datum/map_template/ruin/station/box/xenobridge/lattice
 	id = "maint_xenobridge_lattice"
 	suffix = "xenobridge_space.dmm"
 	name = "Xenobiology Lattice"
@@ -69,3 +69,18 @@
 	id = "sci_experimentor"
 	suffix = "sci_experimentor.dmm"
 	name = "Experimentor Lab"
+
+/datum/map_template/ruin/station/box/sci/circuitry
+	id = "sci_circuitry"
+	suffix = "sci_circuitry.dmm"
+	name = "Circuitry Lab"
+
+/datum/map_template/ruin/station/box/atmos_maint/detective
+	id = "maint_detective"
+	suffix = "maint_detective.dmm"
+	name = "Maint Detective"
+
+/datum/map_template/ruin/station/box/atmos_maint/rpg
+	id = "maint_rpg"
+	suffix = "maint_rpg.dmm"
+	name = "Maint RPG"
