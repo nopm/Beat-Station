@@ -22926,11 +22926,11 @@
 /area/security/detectives_office)
 "bfr" = (
 /obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/tile/blue,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "bfs" = (
@@ -24352,6 +24352,11 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/warehouse)
 "bkc" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -24
@@ -27721,26 +27726,24 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/machinery/door/firedoor,
 /obj/machinery/status_display/evac{
 	pixel_x = -32
 	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "btp" = (
-/obj/structure/cable,
 /obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "btq" = (
@@ -55126,6 +55129,17 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
+"nec" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "nfy" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical{
@@ -60519,6 +60533,15 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
+"vSX" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "vTu" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -86626,12 +86649,12 @@ aNa
 aNa
 aNa
 aNa
-hQl
+aNa
 aNa
 aNa
 aNa
 bkc
-blC
+aNa
 xtg
 blC
 bqr
@@ -86644,7 +86667,7 @@ uuo
 bAL
 bAL
 bDB
-bAL
+btp
 bAL
 rIa
 bII
@@ -86883,17 +86906,17 @@ aNa
 aNa
 aNa
 aNa
-hQl
+aNa
 aNa
 aNa
 aRJ
-aNa
+hQl
 aNa
 bni
 aNa
 bqs
 brQ
-btp
+brR
 brR
 bcs
 brR
@@ -86901,7 +86924,7 @@ sZz
 brR
 brR
 brR
-brR
+vSX
 brR
 bHB
 brR
@@ -87140,17 +87163,17 @@ aNc
 aNc
 aNa
 bdK
+bdK
+bdK
+bdK
+bdK
 bfr
-bdK
-bdK
-bdK
-bdK
 bdK
 bnj
 boQ
 bdK
 brR
-hQl
+aNa
 buU
 bwm
 bxT
@@ -87158,7 +87181,7 @@ aNa
 aNa
 bdK
 aNc
-aNc
+nec
 aNa
 aRz
 brR
