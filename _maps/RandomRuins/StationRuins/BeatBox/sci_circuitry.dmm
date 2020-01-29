@@ -413,7 +413,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/science/circuitry)
+/area/maintenance/starboard)
 "uY" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/metal/twenty,

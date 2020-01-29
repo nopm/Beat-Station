@@ -344,7 +344,6 @@
 	pixel_x = 25;
 	req_access_txt = "47"
 	},
-/obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
 	},
@@ -355,6 +354,7 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/white,
 /area/science/telesci)
 "E" = (
