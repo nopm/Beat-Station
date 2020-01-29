@@ -76,6 +76,10 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 1
 	},
+/obj/machinery/light/small{
+	brightness = 5;
+	dir = 8
+	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "ar" = (
@@ -199,12 +203,22 @@
 /turf/template_noop,
 /area/template_noop)
 "aO" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "hF" = (
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
 /area/space/nearstation)
+"pJ" = (
+/obj/structure/cable,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
 "vT" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
@@ -382,7 +396,7 @@ ab
 ab
 ab
 aa
-ak
+pJ
 ap
 aa
 ab
