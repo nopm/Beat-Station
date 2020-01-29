@@ -22925,12 +22925,14 @@
 /turf/open/floor/plasteel/grimy,
 /area/security/detectives_office)
 "bfr" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
 /obj/machinery/door/firedoor,
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "bfs" = (
@@ -24352,11 +24354,6 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/warehouse)
 "bkc" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line,
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -24
@@ -27735,10 +27732,10 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "btp" = (
-/obj/machinery/door/firedoor,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+/obj/machinery/door/firedoor,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -49473,6 +49470,15 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port)
+"etk" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "euG" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 1
@@ -55130,10 +55136,10 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "nec" = (
-/obj/machinery/door/firedoor,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+/obj/machinery/door/firedoor,
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -86654,7 +86660,7 @@ aNa
 aNa
 aNa
 bkc
-aNa
+bfr
 xtg
 blC
 bqr
@@ -86910,8 +86916,8 @@ aNa
 aNa
 aNa
 aRJ
-hQl
 aNa
+hQl
 bni
 aNa
 bqs
@@ -87167,8 +87173,8 @@ bdK
 bdK
 bdK
 bdK
-bfr
 bdK
+etk
 bnj
 boQ
 bdK
