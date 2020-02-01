@@ -90,6 +90,7 @@
 #include "beatstation\code\modules\research\techweb\_techweb.dm"
 #include "beatstation\code\modules\research\techweb\_techweb_node.dm"
 #include "beatstation\code\modules\research\techweb\all_nodes.dm"
+#include "beatstation\code\modules\shuttle\emergency.dm"
 #include "beatstation\code\modules\stock_market\articles.dm"
 #include "beatstation\code\modules\stock_market\computer.dm"
 #include "beatstation\code\modules\stock_market\events.dm"
