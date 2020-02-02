@@ -1,0 +1,5 @@
+author: "SrPiwin"
+delete-after: True
+changes: 
+  - rscadd: "Added a pie at 71 house"
+  - tweak: "Changed the wooden table from house 14 to glass table"
