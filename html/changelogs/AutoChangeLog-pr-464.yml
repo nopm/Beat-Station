@@ -1,4 +1,0 @@
-author: "Neotw"
-delete-after: True
-changes: 
-  - rscdel: "Borer is now admin only, as it should be"
