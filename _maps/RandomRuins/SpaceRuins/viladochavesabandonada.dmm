@@ -32,6 +32,10 @@
 /obj/item/reagent_containers/food/snacks/store/cake/chocolate,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
+"dT" = (
+/obj/structure/table/glass,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
 "eO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/mineral_door/wood{
@@ -229,6 +233,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/reagent,
 /area/ruin/space/has_grav)
+"xt" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window{
+	dir = 1
+	},
+/obj/item/reagent_containers/food/snacks/customizable/pie,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
 "xC" = (
 /obj/item/twohanded/required/kirbyplants,
 /turf/open/floor/mineral/titanium,
@@ -500,8 +512,8 @@
 /turf/open/floor/mineral/titanium,
 /area/ruin/space/has_grav)
 "WM" = (
-/obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/cookie,
+/obj/structure/table/glass,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "Xd" = (
@@ -654,7 +666,7 @@ iP
 JE
 rN
 WM
-Iy
+dT
 sr
 xH
 ar
@@ -749,7 +761,7 @@ JE
 JE
 XF
 JE
-SW
+xt
 ts
 fo
 SW
