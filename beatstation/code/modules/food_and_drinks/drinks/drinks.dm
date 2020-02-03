@@ -12,7 +12,7 @@
 
 /obj/item/reagent_containers/food/drinks/soda_cans/guarana/attack(mob/living/M, mob/user, def_zone)
 	..()
-	if(M == user && reagents.total_volume > 0)
+	if(M == user && reagents.total_volume > 0 && is_drainable())
 		to_chat(user, "<span class='notice'>[pick(slogans)]</span>")
 
 /obj/item/reagent_containers/food/drinks/chimarrao
