@@ -14,3 +14,18 @@
 	..()
 	if(M == user && reagents.total_volume > 0 && is_drainable())
 		to_chat(user, "<span class='notice'>[pick(slogans)]</span>")
+
+/obj/item/reagent_containers/food/drinks/chimarrao
+	name = "Chimarrão"
+	desc = "Hot mate herb tea in a wooden recipient."
+	custom_price = 8
+	icon = 'beatstation/icons/obj/drinks.dmi'
+	icon_state = "chimarrao_cheio"
+	list_reagents = list(/datum/reagent/consumable/chimarrao = 40)
+	foodtype = VEGETABLES
+
+/obj/item/reagent_containers/food/drinks/chimarrao/on_reagent_change(changetype)
+	if(reagents.total_volume)
+		icon_state = "chimarrao_cheio"
+	else
+		icon_state = "chimarrao_vazio"
