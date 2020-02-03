@@ -1,10 +1,10 @@
 /datum/reagent/consumable/guarana
 	name = "Guaraná Antarctica"
-	description = "Guarana Soda"
+	description = "Guaraná Soda"
 	color = "#A76B29"
 	taste_description = "cherries, but less sweet"
 	glass_icon_state  = "glass_brown"
-	glass_name = "glass of Guarana"
+	glass_name = "glass of Guaraná"
 	glass_desc = "If you stare at the Guarana, it stares back at you."
 	quality = DRINK_VERYGOOD
 
