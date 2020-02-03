@@ -11,3 +11,17 @@
 /datum/reagent/consumable/guarana/on_mob_life(mob/living/carbon/M)
 	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
 	..()
+
+/datum/reagent/consumable/chimarrao
+	name = "Chimarrão"
+	description = "Chá de erva mate quente"
+	color = "#32CD32"
+	taste_description = "hot mate herb"
+	glass_icon_state  = "glass_green"
+	glass_name = "glass of Chimarrão"
+	glass_desc = "quem bebe isso num copo?"
+	quality = DRINK_VERYGOOD
+
+/datum/reagent/consumable/chimarrao/on_mob_life(mob/living/carbon/M)
+	M.adjust_bodytemperature(5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
