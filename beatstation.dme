@@ -35,6 +35,7 @@
 #include "beatstation\code\game\objects\items\stacks\stack.dm"
 #include "beatstation\code\game\objects\items\stacks\tiles\tile_types.dm"
 #include "beatstation\code\game\objects\structures\bar_stuff.dm"
+#include "beatstation\code\game\objects\structures\barsigns.dm"
 #include "beatstation\code\game\objects\structures\lattice.dm"
 #include "beatstation\code\game\objects\structures\table_frames.dm"
 #include "beatstation\code\game\objects\structures\tables_racks.dm"
@@ -105,5 +106,6 @@
 #include "beatstation\code\modules\stock_market\stocks.dm"
 #include "beatstation\code\modules\uplink\uplink_items.dm"
 #include "beatstation\code\modules\vending\clothesmate.dm"
+#include "beatstation\code\modules\vending\cola.dm"
 #include "beatstation\code\modules\vending\wardrobes.dm"
 // END_INCLUDE
