@@ -1,0 +1,4 @@
+author: "SrPiwin"
+delete-after: True
+changes: 
+  - bugfix: "Fixed the Guaraná Antarctica Vendor not showing the panel icon"
