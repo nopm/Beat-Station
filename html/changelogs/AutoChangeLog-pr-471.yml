@@ -1,0 +1,4 @@
+author: "SrPiwin"
+delete-after: True
+changes: 
+  - rscadd: "Adds a new cola vendor, Guaraná Antarctica Vendor."
