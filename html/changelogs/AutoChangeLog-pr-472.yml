@@ -1,0 +1,6 @@
+author: "SrPiwin"
+delete-after: True
+changes: 
+  - rscadd: "Added a sidewalk to the village"
+  - rscadd: "Added two food carts and orange juice boxes at the sidewalk"
+  - tweak: "The space was replaced by Turf Passthrough"
