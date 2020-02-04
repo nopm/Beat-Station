@@ -25,9 +25,9 @@
 	name = "\improper divine lightblade"
 	desc = "A giant blade of bright and holy light, said to cut down the wicked with ease."
 	force = 5
-	force_unwielded = 2
-	force_wielded = 15
-	block_chance = 15
+	force_unwielded = 3
+	force_wielded = 20
+	block_chance = 20
 	armour_penetration = 0
 	var/reskinned = FALSE
 	var/chaplain_spawnable = TRUE

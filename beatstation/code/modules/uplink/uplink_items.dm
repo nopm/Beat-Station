@@ -29,5 +29,5 @@
 			This particular model has a polychromic hardlight generator, allowing you to murder in style! \
 			The illegal modifications bring this weapon up to par with the classic energy sword, and also gives it the energy sword's distinctive sounds."
 	item = /obj/item/melee/transforming/energy/sword/cx/traitor
-	cost = 8
+	cost = 15
 	exclude_modes = list(/datum/game_mode/nuclear/clown_ops)
