@@ -1,383 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ar" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
 "bm" = (
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"bQ" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"bW" = (
-/obj/structure/chair/sofa/right,
-/obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"dq" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/glass/bottle/mutagen{
-	name = "Xarope"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"dA" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/snacks/store/cake/chocolate,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"dT" = (
-/obj/structure/table/glass,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"eO" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/mineral_door/wood{
-	name = "Vila do Chaves"
-	},
-/obj/structure/fans/tiny,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"fc" = (
-/obj/effect/decal/cleanable/cobweb,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"fo" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"fw" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/brown{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"gF" = (
-/obj/machinery/shower{
-	dir = 4
-	},
-/obj/structure/curtain,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/powered)
-"hx" = (
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"iP" = (
-/obj/structure/chair/wood{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"iY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"jO" = (
-/obj/structure/mineral_door/wood{
-	name = "14"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav/powered)
-"kp" = (
-/obj/structure/table/wood,
-/obj/item/kitchen/fork,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"kG" = (
-/obj/structure/fermenting_barrel,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"mh" = (
-/mob/living/simple_animal/hostile/feral_cat{
-	name = "Satanas"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"oa" = (
-/obj/structure/mineral_door/wood{
-	name = "Vila do Chaves"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/fans/tiny,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"oi" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"qX" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"rm" = (
-/obj/structure/sink/kitchen{
-	dir = 4;
-	pixel_x = -11
-	},
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"rs" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/wall/mineral/sandstone,
-/area/ruin/space/has_grav)
-"rK" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"rN" = (
-/obj/structure/chair/comfy/brown,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"sr" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"sy" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/brown{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"sI" = (
-/obj/structure/chair/wood{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"to" = (
-/obj/structure/mineral_door/wood,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"ts" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"tt" = (
-/obj/machinery/light,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"uJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/stairs,
-/area/ruin/space/has_grav)
-"uM" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"uQ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"wC" = (
-/obj/structure/chair/wood,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"wL" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/brown{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"xo" = (
-/obj/structure/mineral_door/wood{
-	name = "71"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"xq" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/reagent,
-/area/ruin/space/has_grav)
-"xt" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/window{
-	dir = 1
-	},
-/obj/item/reagent_containers/food/snacks/customizable/pie,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"xC" = (
-/obj/item/twohanded/required/kirbyplants,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"xH" = (
-/obj/machinery/atmospherics/components/unary/tank/air,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"ya" = (
-/obj/structure/chair/sofa/right{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"yq" = (
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"yM" = (
-/obj/item/toy/beach_ball,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"yW" = (
-/obj/item/staff/broom,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"zY" = (
-/obj/structure/table/wood,
-/obj/item/clothing/gloves/boxing/yellow,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"Aj" = (
-/obj/structure/mineral_door/wood{
-	name = "72"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"Am" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/brown,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"AJ" = (
-/obj/structure/table/wood,
-/obj/machinery/computer/security/wooden_tv,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"AP" = (
-/obj/item/clothing/head/foilhat,
-/turf/open/floor/plating/beach/water,
-/area/ruin/space/has_grav)
-"Cx" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/brown,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"Cz" = (
-/obj/structure/table/wood,
-/obj/item/book/granter/spell/random,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"Df" = (
-/obj/vehicle/ridden/scooter{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"Eb" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/brown{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"Eh" = (
-/obj/structure/chair/sofa/left{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"Ev" = (
-/obj/structure/table/wood,
-/obj/item/clothing/under/sailor,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"EL" = (
-/obj/machinery/atmospherics/components/unary/tank/air,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"EM" = (
-/obj/structure/chair/wood{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"EZ" = (
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"FA" = (
-/turf/closed/wall/mineral/sandstone,
-/area/ruin/space/has_grav)
-"FL" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/space/nearstation)
-"Gy" = (
-/turf/open/floor/plating/beach/water,
-/area/ruin/space/has_grav)
-"GN" = (
-/obj/item/toy/figure/clown,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"Ic" = (
-/obj/effect/turf_decal/tile/brown,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"Ih" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -386,85 +14,139 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
-"Iy" = (
+"bQ" = (
+/turf/template_noop,
+/area/template_noop)
+"bW" = (
 /obj/structure/table/wood,
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"Jk" = (
-/obj/structure/bed,
-/obj/item/bedsheet/red,
-/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/item/clothing/under/sailor,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
-"JE" = (
+"ct" = (
+/obj/machinery/light,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"cW" = (
+/obj/item/toy/figure/clown,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"cX" = (
+/obj/structure/mineral_door/wood{
+	name = "72"
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
-"KW" = (
+"dq" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/snacks/sausage,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"dA" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"dT" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"eO" = (
+/turf/template_noop,
+/area/template_noop)
+"fc" = (
+/turf/template_noop,
+/area/template_noop)
+"fo" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/gps{
 	name = "Vila do Chaves"
 	},
 /turf/open/floor/mineral/titanium,
 /area/ruin/space/has_grav)
-"LI" = (
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/item/twohanded/required/kirbyplants/random,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"Mp" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
+"fw" = (
+/obj/structure/chair/wood{
+	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"Mz" = (
-/turf/open/space/basic,
-/area/space)
-"MU" = (
-/obj/item/twohanded/required/kirbyplants/random,
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"NB" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"Oe" = (
-/obj/vehicle/ridden/bicycle{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
-"Ot" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/snacks/sausage,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
-"OO" = (
+"gF" = (
+/obj/structure/table/wood,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"gR" = (
 /obj/structure/toilet{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/freezer,
 /area/ruin/space/has_grav/powered)
-"PS" = (
+"hx" = (
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"iL" = (
+/obj/item/clothing/head/foilhat,
+/turf/open/floor/plating/beach/water,
+/area/ruin/space/has_grav)
+"iP" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space/nearstation)
+"iY" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small{
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"jO" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"kp" = (
+/obj/structure/table/wood,
+/obj/item/book/granter/spell/random,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"kG" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium/airless,
+/area/ruin/space/has_grav)
+"mh" = (
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"mG" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"oa" = (
+/turf/template_noop,
+/area/template_noop)
+"oi" = (
+/obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"PY" = (
-/obj/structure/chair/wood{
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"oP" = (
+/obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered)
-"Qf" = (
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"qn" = (
 /obj/structure/chair/wood{
 	dir = 1
 	},
@@ -472,22 +154,251 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
-"Qz" = (
+"qE" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"qX" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space/nearstation)
+"rm" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium/airless,
+/area/ruin/space/has_grav)
+"rs" = (
+/obj/structure/chair/comfy/brown,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"rK" = (
+/turf/template_noop,
+/area/template_noop)
+"rN" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space/nearstation)
+"sr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"sy" = (
+/obj/structure/chair/sofa/left{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"sF" = (
+/obj/vehicle/ridden/scooter{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"sI" = (
+/obj/item/reagent_containers/food/snacks/cookie,
+/obj/structure/table/glass,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"to" = (
+/mob/living/simple_animal/hostile/feral_cat{
+	name = "Satanas"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"ts" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"tt" = (
+/obj/item/twohanded/required/kirbyplants/random,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"tv" = (
+/obj/structure/table/wood,
+/obj/item/clothing/gloves/boxing/yellow,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"uJ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium/airless,
+/area/ruin/space/has_grav)
+"uM" = (
+/obj/structure/chair/sofa/right{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"uQ" = (
+/obj/structure/table/glass,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"vt" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"wC" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/snacks/store/cake/chocolate,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"wL" = (
+/obj/structure/mineral_door/wood{
+	name = "14"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav/powered)
+"xo" = (
+/obj/machinery/atmospherics/components/unary/tank/air,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"xq" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space/nearstation)
+"xt" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"xC" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space/nearstation)
+"xH" = (
+/obj/structure/table/wood,
+/obj/item/kitchen/knife,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"xR" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"ya" = (
+/obj/structure/table/wood,
+/obj/item/kitchen/fork,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"yq" = (
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"yM" = (
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plasteel/stairs,
 /area/ruin/space/has_grav)
-"RD" = (
-/obj/structure/table/wood,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
+"yW" = (
+/obj/machinery/atmospherics/components/unary/tank/air,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"zN" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"zY" = (
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/item/twohanded/required/kirbyplants/random,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"Aj" = (
+/obj/structure/mineral_door/wood{
+	name = "71"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"Am" = (
+/obj/item/staff/broom,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"AF" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
-"Sq" = (
-/obj/structure/chair/wood,
+"AG" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"AJ" = (
+/turf/template_noop,
+/area/template_noop)
+"AP" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/reagent,
+/area/ruin/space/has_grav)
+"Cm" = (
+/obj/structure/mineral_door/wood,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/freezer,
+/area/ruin/space/has_grav/powered)
+"Cx" = (
+/obj/structure/sink/kitchen{
+	dir = 4;
+	pixel_x = -11
+	},
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"Cz" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window{
+	dir = 1
+	},
+/obj/item/reagent_containers/food/snacks/customizable/pie,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
-"SD" = (
+"Df" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/stairs,
+/area/ruin/space/has_grav)
+"Di" = (
+/obj/structure/mineral_door/wood,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"DU" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/mineral/sandstone,
+/area/ruin/space/has_grav)
+"Eb" = (
 /obj/structure/sink{
 	dir = 4;
 	pixel_x = 11
@@ -502,30 +413,207 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/ruin/space/has_grav/powered)
-"SW" = (
-/turf/closed/wall/mineral/sandstone,
-/area/ruin/space/has_grav/powered)
-"Uw" = (
-/obj/machinery/light{
+"Eh" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space/nearstation)
+"Ev" = (
+/turf/template_noop,
+/area/template_noop)
+"Ew" = (
+/obj/vehicle/ridden/bicycle{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
 /area/ruin/space/has_grav)
-"WM" = (
-/obj/item/reagent_containers/food/snacks/cookie,
-/obj/structure/table/glass,
+"EL" = (
+/obj/structure/fermenting_barrel,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"EM" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/security/wooden_tv,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
-"Xd" = (
-/obj/structure/mineral_door/wood,
+"EZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"FA" = (
+/turf/closed/wall/mineral/sandstone,
+/area/ruin/space/has_grav)
+"FL" = (
+/obj/structure/chair/wood,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"Gy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"GN" = (
+/obj/machinery/food_cart{
+	name = "Super de Quico"
+	},
+/obj/item/reagent_containers/food/drinks/bottle/orangejuice,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium/airless,
+/area/ruin/space/has_grav)
+"GS" = (
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"Ic" = (
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"Ih" = (
+/obj/machinery/food_cart{
+	name = "Tienda del Chavo"
+	},
+/obj/item/reagent_containers/food/drinks/bottle/orangejuice,
+/turf/open/floor/mineral/titanium/airless,
+/area/ruin/space/has_grav)
+"Iy" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space/nearstation)
+"Jk" = (
+/obj/structure/chair/sofa/right,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"JE" = (
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"Ka" = (
+/obj/machinery/shower{
+	dir = 4
+	},
+/obj/structure/curtain,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/freezer,
 /area/ruin/space/has_grav/powered)
-"Xn" = (
+"KW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"LI" = (
+/obj/item/twohanded/required/kirbyplants,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"LS" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"Mp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium/airless,
+/area/ruin/space/has_grav)
+"Mz" = (
+/turf/template_noop,
+/area/template_noop)
+"MU" = (
+/turf/template_noop,
+/area/template_noop)
+"NB" = (
+/obj/structure/mineral_door/wood{
+	name = "Vila do Chaves"
+	},
+/obj/structure/fans/tiny,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"Oe" = (
+/obj/item/toy/beach_ball,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"Ot" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space/nearstation)
+"OO" = (
+/obj/structure/chair/wood,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"PS" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"PY" = (
+/turf/template_noop,
+/area/template_noop)
+"Qf" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"Qz" = (
+/turf/template_noop,
+/area/template_noop)
+"Ra" = (
 /obj/structure/table/wood,
-/obj/item/kitchen/knife,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
+/obj/item/reagent_containers/glass/bottle/mutagen{
+	name = "Xarope"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
+"RD" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"Sq" = (
+/turf/template_noop,
+/area/template_noop)
+"SD" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"SW" = (
+/turf/closed/wall/mineral/sandstone,
+/area/ruin/space/has_grav/powered)
+"Uw" = (
+/turf/open/floor/plating/beach/water,
+/area/ruin/space/has_grav)
+"WI" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown,
+/turf/open/floor/mineral/titanium,
+/area/ruin/space/has_grav)
+"WM" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space/nearstation)
+"Xd" = (
+/turf/open/floor/mineral/titanium/airless,
+/area/ruin/space/has_grav)
+"Xn" = (
+/obj/structure/chair/sofa/left,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "XF" = (
@@ -533,611 +621,707 @@
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "ZL" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 8
 	},
-/turf/open/floor/mineral/titanium,
-/area/ruin/space/has_grav)
+/turf/open/floor/plasteel,
+/area/ruin/space/has_grav/powered)
 "ZX" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/bed,
+/obj/item/bedsheet/red,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 
 (1,1,1) = {"
-Mz
-Mz
-Mz
-FL
-Mz
-Mz
-FL
-FA
-FA
-FA
-FA
-FA
-FA
-oa
-eO
-FA
-FA
-FA
-FL
-Mz
-Mz
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
 "}
 (2,1,1) = {"
-Mz
-Mz
-FL
-FL
-FL
-FL
-FL
-FA
-FA
-FA
-FA
-FA
-FA
-hx
-fo
-hx
-MU
-FA
-FL
-FL
-Mz
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+WM
+WM
+Sq
+WM
+Sq
+WM
+Sq
+Sq
+Sq
 "}
 (3,1,1) = {"
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-Qz
-xq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+WM
+WM
+Sq
+WM
 uJ
-qX
+WM
+uJ
+Xd
+uJ
+Xd
+WM
+WM
+Sq
+Sq
+"}
+(4,1,1) = {"
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+WM
+WM
+WM
+WM
+uJ
+uJ
+Ih
+Mp
+uJ
+GN
+uJ
+Xd
+WM
+WM
+Sq
+"}
+(5,1,1) = {"
+Sq
+Sq
+Sq
+WM
+Sq
+Sq
+WM
+FA
+FA
+FA
+FA
+FA
+FA
+NB
+NB
+FA
+FA
+FA
+WM
+Sq
+Sq
+"}
+(6,1,1) = {"
+Sq
+Sq
+WM
+WM
+WM
+WM
+WM
+FA
+FA
+FA
+FA
+FA
+FA
+hx
+KW
+hx
+tt
+FA
+WM
+WM
+Sq
+"}
+(7,1,1) = {"
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+yM
+AP
+Df
+oi
 hx
 ts
 hx
 ts
 FA
-FL
-Mz
-Mz
+WM
+Sq
+Sq
 "}
-(4,1,1) = {"
+(8,1,1) = {"
 SW
-fc
-PY
-bQ
+yq
+ar
+dT
 XF
 JE
 JE
 JE
 SW
-xC
-rm
-kG
-ts
-hx
-hx
-GN
-ts
-FA
-FL
-Mz
-Mz
-"}
-(5,1,1) = {"
-SW
-Sq
-Ev
-iP
-rK
-rK
-Eh
-ya
-SW
+LI
+Cx
 EL
 ts
 hx
 hx
-ts
-hx
-hx
+cW
 ts
 FA
-FL
-FL
-Mz
-"}
-(6,1,1) = {"
-SW
-Sq
-Ot
-iP
-JE
-rN
 WM
-dT
-sr
-xH
-ar
-ts
-KW
-yM
-ts
-hx
-tt
-FA
-Mz
-Mz
-Mz
-"}
-(7,1,1) = {"
-SW
-XF
-sI
-XF
-XF
-XF
-XF
-XF
-jO
-ts
-ts
-hx
-ts
-hx
-ts
-ts
-Oe
-FA
-FL
-Mz
-Mz
-"}
-(8,1,1) = {"
-SW
-JE
-JE
-JE
-JE
-uM
-AJ
-JE
-SW
-LI
-hx
-ts
-hx
-hx
-hx
-hx
-MU
-FA
-FL
-FL
-Mz
+Sq
+Sq
 "}
 (9,1,1) = {"
 SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
+FL
+bW
+fw
+iY
+iY
+sy
+uM
 SW
 xo
-SW
+ts
 hx
 hx
-SW
-sr
-Aj
-SW
-SW
-SW
-SW
-SW
+ts
+hx
+hx
+ts
+FA
+WM
+WM
+Sq
 "}
 (10,1,1) = {"
-Mz
-FL
-FL
 SW
-fc
-bQ
+FL
+dq
+fw
 JE
-JE
-XF
-JE
+rs
+sI
+uQ
+PS
+yW
 xt
 ts
 fo
-SW
-bW
-XF
-bQ
-Ih
-AJ
-Iy
-SW
+Oe
+ts
+hx
+ct
+FA
+Sq
+Sq
+Sq
 "}
 (11,1,1) = {"
-Mz
-Mz
-FL
 SW
-RD
 XF
-mh
-JE
+dA
 XF
-JE
-SW
+XF
+XF
+XF
+XF
+wL
 ts
 ts
-SW
-ZX
-XF
-JE
-XF
-PY
-XF
-SW
+hx
+ts
+hx
+ts
+ts
+Ew
+FA
+WM
+Sq
+Sq
 "}
 (12,1,1) = {"
-Mz
-Mz
-FL
 SW
-Cz
-XF
 JE
-Iy
-Xn
-XF
-SW
-uQ
-hx
-SW
-SW
-to
-SW
-wC
-Iy
-iP
-SW
-"}
-(13,1,1) = {"
-Mz
-FL
-FL
-SW
-Iy
-rK
 JE
-dA
-kp
 JE
-SW
-ts
-hx
-SW
-PS
-XF
-SW
-Sq
-zY
-Qf
-SW
-"}
-(14,1,1) = {"
-Mz
-Mz
-Mz
-SW
-yq
-XF
-XF
-XF
-XF
-yW
-SW
-ts
-ts
+JE
 sr
-Jk
-dq
-SW
-bm
 EM
 JE
 SW
-"}
-(15,1,1) = {"
-Mz
-Mz
-Mz
-SW
-SW
-SW
-SW
-SW
-SW
-SW
-SW
+zY
+hx
 ts
 hx
+hx
+hx
+hx
+tt
+FA
+WM
+WM
+Sq
+"}
+(13,1,1) = {"
 SW
 SW
 SW
 SW
-Xd
 SW
 SW
+SW
+SW
+SW
+Aj
+SW
+hx
+hx
+SW
+PS
+cX
+SW
+SW
+SW
+SW
+SW
+"}
+(14,1,1) = {"
+Sq
+WM
+WM
+SW
+yq
+dT
+JE
+JE
+XF
+JE
+Cz
+ts
+KW
+SW
+Jk
+XF
+dT
+bm
+EM
+gF
+SW
+"}
+(15,1,1) = {"
+Sq
+Sq
+WM
+SW
+jO
+XF
+to
+JE
+XF
+JE
+SW
+ts
+ts
+SW
+Xn
+XF
+JE
+XF
+ar
+XF
 SW
 "}
 (16,1,1) = {"
-Mz
-Mz
-Mz
-Mz
-Mz
-FL
-FL
-FL
-Mz
-Mz
-FA
-hx
-hx
-hx
+Sq
+Sq
+WM
+SW
+kp
+XF
+JE
+gF
+xH
+XF
+SW
+Gy
 hx
 SW
-SD
+SW
+Di
+SW
 OO
 gF
+fw
 SW
-Mz
 "}
 (17,1,1) = {"
-Mz
-Mz
-Mz
-Mz
-Mz
-FL
-Mz
-Mz
-Mz
-FL
-FA
-hx
+Sq
+WM
+WM
+SW
+gF
+iY
+JE
+wC
+ya
+JE
+SW
 ts
 hx
-ts
 SW
-SW
-SW
-SW
+ZL
+XF
 SW
 FL
+tv
+qn
+SW
 "}
 (18,1,1) = {"
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-FA
-hx
-fo
-hx
-hx
-hx
-qX
-hx
-FA
-FL
-FL
+Sq
+Sq
+Sq
+SW
+mh
+XF
+XF
+XF
+XF
+Am
+SW
+ts
+ts
+PS
+ZX
+Ra
+SW
+GS
+AF
+JE
+SW
 "}
 (19,1,1) = {"
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-FL
-FA
+Sq
+Sq
+Sq
+SW
+SW
+SW
+SW
+SW
+SW
+SW
+SW
 ts
 hx
-Ic
-Mp
-Am
-ZL
-ts
-FA
-FL
-Mz
+SW
+SW
+SW
+SW
+Cm
+SW
+SW
+SW
 "}
 (20,1,1) = {"
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
+Sq
+Sq
+Sq
+Sq
+Sq
+WM
+WM
+WM
+Sq
+Sq
 FA
-iY
 hx
-Cx
-Gy
-Gy
+hx
+hx
+hx
+SW
 Eb
-ts
-FA
-FL
-Mz
+gR
+Ka
+SW
+Sq
 "}
 (21,1,1) = {"
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-FL
+Sq
+Sq
+Sq
+Sq
+Sq
+WM
+Sq
+Sq
+Sq
+WM
 FA
 hx
 ts
-Cx
-AP
-Gy
-sy
 hx
-FA
-FL
-Mz
+ts
+SW
+SW
+SW
+SW
+SW
+WM
 "}
 (22,1,1) = {"
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-FL
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
 FA
-ts
 hx
-NB
-wL
-fw
+KW
+hx
+hx
+hx
 oi
 hx
 FA
-FL
-Mz
+WM
+WM
 "}
 (23,1,1) = {"
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+WM
 FA
-hx
 ts
 hx
-hx
+Qf
+WI
+AG
+xR
 ts
-hx
-Df
-rs
-FL
-FL
+FA
+WM
+Sq
 "}
 (24,1,1) = {"
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-FL
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
 FA
 EZ
 hx
-hx
-ts
+RD
 Uw
+Uw
+vt
 ts
-hx
 FA
-FL
-Mz
+WM
+Sq
 "}
 (25,1,1) = {"
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-FL
-FL
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+WM
 FA
+hx
+ts
+RD
+iL
+Uw
+qE
+hx
 FA
-FA
-FA
-FA
-FA
-FA
-FA
-FA
-FL
-Mz
+WM
+Sq
 "}
 (26,1,1) = {"
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-Mz
-FL
-Mz
-Mz
-FL
-Mz
-FL
-FL
-FL
-Mz
-FL
-Mz
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+WM
+FA
+ts
+hx
+SD
+LS
+zN
+mG
+hx
+FA
+WM
+Sq
+"}
+(27,1,1) = {"
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+FA
+hx
+ts
+hx
+hx
+ts
+hx
+sF
+DU
+WM
+WM
+"}
+(28,1,1) = {"
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+WM
+FA
+Ic
+hx
+hx
+ts
+oP
+ts
+hx
+FA
+WM
+Sq
+"}
+(29,1,1) = {"
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+WM
+WM
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+WM
+Sq
+"}
+(30,1,1) = {"
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+WM
+Sq
+Sq
+WM
+Sq
+WM
+WM
+WM
+Sq
+WM
+Sq
 "}
