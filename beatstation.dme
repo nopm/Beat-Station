@@ -62,6 +62,7 @@
 #include "beatstation\code\modules\food_and_drinks\drinks\drinks\drinkingglass.dm"
 #include "beatstation\code\modules\food_and_drinks\kitchen_machinery\smartfridge.dm"
 #include "beatstation\code\modules\jobs\job_types\botanist.dm"
+#include "beatstation\code\modules\jobs\job_types\cargo_technician.dm"
 #include "beatstation\code\modules\jobs\job_types\chemist.dm"
 #include "beatstation\code\modules\jobs\job_types\chief_medical_officer.dm"
 #include "beatstation\code\modules\jobs\job_types\geneticist.dm"
