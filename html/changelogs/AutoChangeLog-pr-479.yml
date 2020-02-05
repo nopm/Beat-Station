@@ -1,0 +1,4 @@
+author: "Neotw"
+delete-after: True
+changes: 
+  - bugfix: "Fixed cargo techs having access to the QM office"
