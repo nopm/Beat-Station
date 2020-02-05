@@ -30,4 +30,4 @@
 			The illegal modifications bring this weapon up to par with the classic energy sword, and also gives it the energy sword's distinctive sounds."
 	item = /obj/item/melee/transforming/energy/sword/cx/traitor
 	cost = 15
-	exclude_modes = list(/datum/game_mode/nuclear/clown_ops)
+	exclude_modes = list(/datum/game_mode/nuclear/clown_ops, /datum/game_mode/nuclear, /datum/game_mode/infiltration)
