@@ -1,0 +1,4 @@
+author: "SandPoot"
+delete-after: True
+changes: 
+  - bugfix: "made a difference between act_rest0 and act_rest so you actually know whether the button is on or off."
