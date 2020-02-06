@@ -1,0 +1,4 @@
+author: "Neotw"
+delete-after: True
+changes: 
+  - rscadd: "Added the non-eutactic blade. Combining two will create the Hypereutactic blade, a powerful two handed weapon. With that, added the Dragon's Tooth Non-Eutactic Blade to the traitor uplink. Also, added the Divine Lightblade, a nerfed version of the Hypereutactic blade as a null rod variant."
