@@ -10,6 +10,7 @@
 #include "beatstation\code\init.dm"
 #include "beatstation\code\controllers\subsystem\mapping.dm"
 #include "beatstation\code\datums\shuttles.dm"
+#include "beatstation\code\datums\components\storage\concrete\wallet.dm"
 #include "beatstation\code\datums\martial\krav_medical.dm"
 #include "beatstation\code\datums\ruins\space.dm"
 #include "beatstation\code\datums\ruins\station.dm"
