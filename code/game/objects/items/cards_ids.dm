@@ -113,12 +113,15 @@
 	slot_flags = ITEM_SLOT_ID
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 100, "acid" = 100)
 	resistance_flags = FIRE_PROOF | ACID_PROOF
+	var/id_type_name = "identification card" // beat -- id card icons
 	var/list/access = list()
 	var/registered_name = null // The name registered_name on the card
 	var/assignment = null
 	var/access_txt // mapping aid
 	var/datum/bank_account/registered_account
 	var/obj/machinery/paystand/my_store
+	var/uses_overlays = TRUE // beat
+	var/icon/cached_flat_icon // bat
 
 /obj/item/card/id/Initialize(mapload)
 	. = ..()
@@ -246,6 +249,46 @@
 /obj/item/card/id/GetID()
 	return src
 
+// beat start -- id card icons
+/obj/item/card/id/update_icon(blank=FALSE)
+	cut_overlays()
+	cached_flat_icon = null
+	if(!uses_overlays)
+		return
+	var/job = assignment ? ckey(GetJobName()) : null
+	var/list/add_overlays = list()
+	if(assignment == "Captain")
+		icon_state = "gold"
+	else if(assignment == "Head of Personnel" || assignment == "Head of Security" || assignment == "Research Director" || assignment == "Chief Engineer" || assignment == "Chief Medical Officer")
+		icon_state = "silver"
+	else
+		icon_state = initial(icon_state)
+	if(!blank)
+		add_overlays += mutable_appearance(icon, "assigned")
+	if(job)
+		add_overlays += mutable_appearance(icon, "id[job]")
+	add_overlay(add_overlays)
+	update_in_wallet(add_overlays)
+
+/obj/item/card/id/proc/update_in_wallet(overlays)
+	if(istype(loc, /obj/item/storage/wallet))
+		var/obj/item/storage/wallet/powergaming = loc
+		if(powergaming.front_id == src)
+			powergaming.update_label()
+			powergaming.update_icon(overlays)
+
+/obj/item/card/id/proc/get_cached_flat_icon()
+	if(!cached_flat_icon)
+		cached_flat_icon = getFlatIcon(src)
+	return cached_flat_icon
+
+
+/obj/item/card/id/get_examine_string(mob/user, thats = FALSE)
+	if(uses_overlays)
+		return "[icon2html(get_cached_flat_icon(), user)] [thats? "That's ":""][get_examine_name(user)]" //displays all overlays in chat
+	return ..()
+// beat end 
+
 /*
 Usage:
 update_label()
@@ -253,16 +296,22 @@ update_label()
 
 update_label("John Doe", "Clowny")
 	Properly formats the name and occupation and sets the id name to the arguments
-*/
-/obj/item/card/id/proc/update_label(newname, newjob)
+*/		// beat start
+/*/obj/item/card/id/proc/update_label(newname, newjob)
 	if(newname || newjob)
 		name = "[(!newname)	? "identification card"	: "[newname]'s ID Card"][(!newjob) ? "" : " ([newjob])"]"
 		return
 
-	name = "[(!registered_name)	? "identification card"	: "[registered_name]'s ID Card"][(!assignment) ? "" : " ([assignment])"]"
+	name = "[(!registered_name)	? "identification card"	: "[registered_name]'s ID Card"][(!assignment) ? "" : " ([assignment])"]"*/
+
+/obj/item/card/id/proc/update_label()
+	var/blank = !registered_name
+	name = "[blank ? id_type_name : "[registered_name]'s ID Card"][(!assignment) ? "" : " ([assignment])"]" // beat end
+	update_icon(blank)
 
 /obj/item/card/id/silver
 	name = "silver identification card"
+	id_type_name = "silver identification card" // beat
 	desc = "A silver card which shows honour and dedication."
 	icon_state = "silver"
 	item_state = "silver_id"
@@ -277,6 +326,7 @@ update_label("John Doe", "Clowny")
 
 /obj/item/card/id/gold
 	name = "gold identification card"
+	id_type_name = "gold identification card" // beat
 	desc = "A golden card which shows power and might."
 	icon_state = "gold"
 	item_state = "gold_id"
@@ -339,6 +389,7 @@ update_label("John Doe", "Clowny")
 
 /obj/item/card/id/syndicate_command
 	name = "syndicate ID card"
+	id_type_name = "syndicate ID card" // beat
 	desc = "An ID straight from the Syndicate."
 	registered_name = "Syndicate"
 	assignment = "Syndicate Overlord"
@@ -346,6 +397,7 @@ update_label("John Doe", "Clowny")
 
 /obj/item/card/id/captains_spare
 	name = "captain's spare ID"
+	id_type_name = "captain's spare ID" // beat
 	desc = "The spare ID of the High Lord himself."
 	icon_state = "gold"
 	item_state = "gold_id"
@@ -358,13 +410,23 @@ update_label("John Doe", "Clowny")
 	var/datum/job/captain/J = new/datum/job/captain
 	access = J.get_access()
 	. = ..()
+	update_label() // beat start
+
+/obj/item/card/id/captains_spare/update_label() //so it doesn't change to Captain's ID card (Captain) on a sneeze
+	if(registered_name == "Captain")
+		name = "[id_type_name][(!assignment || assignment == "Captain") ? "" : " ([assignment])"]"
+		update_icon(TRUE)
+	else
+		..() // beat end
 
 /obj/item/card/id/centcom
 	name = "\improper CentCom ID"
+	id_type_name = "\improper CentCom ID" // beat
 	desc = "An ID straight from Central Command."
 	icon_state = "centcom"
 	registered_name = "Central Command"
 	assignment = "General"
+	uses_overlays = FALSE // beat
 
 /obj/item/card/id/centcom/Initialize()
 	access = get_all_centcom_access()
@@ -372,10 +434,12 @@ update_label("John Doe", "Clowny")
 
 /obj/item/card/id/ert
 	name = "\improper CentCom ID"
+	id_type_name = "\improper CentCom ID" // beat
 	desc = "An ERT ID card."
-	icon_state = "centcom"
+	icon_state = "ert_commander" // beat
 	registered_name = "Emergency Response Team Commander"
 	assignment = "Emergency Response Team Commander"
+	uses_overlays = FALSE
 
 /obj/item/card/id/ert/Initialize()
 	access = get_all_accesses()+get_ert_access("commander")-ACCESS_CHANGE_IDS
@@ -384,6 +448,7 @@ update_label("John Doe", "Clowny")
 /obj/item/card/id/ert/Security
 	registered_name = "Security Response Officer"
 	assignment = "Security Response Officer"
+	icon_state = "ert_security" // beat
 
 /obj/item/card/id/ert/Security/Initialize()
 	access = get_all_accesses()+get_ert_access("sec")-ACCESS_CHANGE_IDS
@@ -392,6 +457,7 @@ update_label("John Doe", "Clowny")
 /obj/item/card/id/ert/Engineer
 	registered_name = "Engineer Response Officer"
 	assignment = "Engineer Response Officer"
+	icon_state = "ert_engineer" // beat
 
 /obj/item/card/id/ert/Engineer/Initialize()
 	access = get_all_accesses()+get_ert_access("eng")-ACCESS_CHANGE_IDS
@@ -400,6 +466,7 @@ update_label("John Doe", "Clowny")
 /obj/item/card/id/ert/Medical
 	registered_name = "Medical Response Officer"
 	assignment = "Medical Response Officer"
+	icon_state = "ert_medic" // beat
 
 /obj/item/card/id/ert/Medical/Initialize()
 	access = get_all_accesses()+get_ert_access("med")-ACCESS_CHANGE_IDS
@@ -408,6 +475,7 @@ update_label("John Doe", "Clowny")
 /obj/item/card/id/ert/chaplain
 	registered_name = "Religious Response Officer"
 	assignment = "Religious Response Officer"
+	icon_state = "ert_chaplain" // beat
 
 /obj/item/card/id/ert/chaplain/Initialize()
 	access = get_all_accesses()+get_ert_access("sec")-ACCESS_CHANGE_IDS
@@ -416,13 +484,36 @@ update_label("John Doe", "Clowny")
 /obj/item/card/id/ert/Janitor
 	registered_name = "Janitorial Response Officer"
 	assignment = "Janitorial Response Officer"
+	icon_state = "ert_janitor" // beat
 
 /obj/item/card/id/ert/Janitor/Initialize()
 	access = get_all_accesses()
 	. = ..()
 
+/obj/item/card/id/ert/deathsquad // beat start
+	name = "\improper Death Squad ID"
+	id_type_name = "\improper Death Squad ID"
+	desc = "A Death Squad ID card."
+	icon_state = "deathsquad" //NO NO SIR DEATH SQUADS ARENT A PART OF NANOTRASEN AT ALL
+	registered_name = "Death Commando"
+	assignment = "Death Commando"
+	uses_overlays = FALSE
+
+/obj/item/card/id/debug
+	name = "\improper Debug ID"
+	desc = "A debug ID card. Has ALL the all access, you really shouldn't have this."
+	icon_state = "ert_janitor"
+	assignment = "Jannie"
+	uses_overlays = FALSE
+
+/obj/item/card/id/debug/Initialize()
+	access = get_all_accesses()+get_all_centcom_access()+get_all_syndicate_access()
+	registered_account = SSeconomy.get_dep_account(ACCOUNT_CAR)
+	. = ..() // beat end
+
 /obj/item/card/id/prisoner
 	name = "prisoner ID card"
+	id_type_name = "prisoner ID card" // beat
 	desc = "You are a number, you are not a free man."
 	icon_state = "orange"
 	item_state = "orange-id"
@@ -430,6 +521,7 @@ update_label("John Doe", "Clowny")
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
 	assignment = "Prisoner"
 	registered_name = "Scum"
+	uses_overlays = FALSE // beat
 	var/goal = 0 //How far from freedom?
 	var/points = 0
 
@@ -439,30 +531,37 @@ update_label("John Doe", "Clowny")
 /obj/item/card/id/prisoner/one
 	name = "Prisoner #13-001"
 	registered_name = "Prisoner #13-001"
+	icon_state = "prisoner_001" // beat
 
 /obj/item/card/id/prisoner/two
 	name = "Prisoner #13-002"
 	registered_name = "Prisoner #13-002"
+	icon_state = "prisoner_002" // beat
 
 /obj/item/card/id/prisoner/three
 	name = "Prisoner #13-003"
 	registered_name = "Prisoner #13-003"
+	icon_state = "prisoner_003" // beat
 
 /obj/item/card/id/prisoner/four
 	name = "Prisoner #13-004"
 	registered_name = "Prisoner #13-004"
+	icon_state = "prisoner_004" // beat
 
 /obj/item/card/id/prisoner/five
 	name = "Prisoner #13-005"
 	registered_name = "Prisoner #13-005"
+	icon_state = "prisoner_005" // beat
 
 /obj/item/card/id/prisoner/six
 	name = "Prisoner #13-006"
 	registered_name = "Prisoner #13-006"
+	icon_state = "prisoner_006" // beat
 
 /obj/item/card/id/prisoner/seven
 	name = "Prisoner #13-007"
 	registered_name = "Prisoner #13-007"
+	icon_state = "prisoner_007" // beat
 
 /obj/item/card/id/mining
 	name = "mining ID"
@@ -478,6 +577,8 @@ update_label("John Doe", "Clowny")
 	name = "a perfectly generic identification card"
 	desc = "A perfectly generic identification card. Looks like it could use some flavor."
 	access = list(ACCESS_AWAY_GENERAL)
+	icon_state = "retro" // beat
+	uses_overlays = FALSE // beat
 
 /obj/item/card/id/away/hotel
 	name = "Staff ID"
@@ -491,7 +592,7 @@ update_label("John Doe", "Clowny")
 /obj/item/card/id/away/old
 	name = "a perfectly generic identification card"
 	desc = "A perfectly generic identification card. Looks like it could use some flavor."
-	icon_state = "centcom"
+	//icon_state = "centcom" // beat
 
 /obj/item/card/id/away/old/sec
 	name = "Charlie Station Security Officer's ID card"
@@ -522,6 +623,8 @@ update_label("John Doe", "Clowny")
 /obj/item/card/id/departmental_budget
 	name = "departmental card (FUCK)"
 	desc = "Provides access to the departmental budget."
+	icon_state = "budgetcard" // beat
+	uses_overlays = FALSE // beat
 	var/department_ID = ACCOUNT_CIV
 	var/department_name = ACCOUNT_CIV_NAME
 
@@ -540,30 +643,40 @@ update_label("John Doe", "Clowny")
 	SSeconomy.dep_cards -= src
 	return ..()
 
+/obj/item/card/id/departmental_budget/update_label() // beat start
+	return // beat end
+
 /obj/item/card/id/departmental_budget/civ
 	department_ID = ACCOUNT_CIV
 	department_name = ACCOUNT_CIV_NAME
+	icon_state = "civ_budget" // beat
 
 /obj/item/card/id/departmental_budget/eng
 	department_ID = ACCOUNT_ENG
 	department_name = ACCOUNT_ENG_NAME
+	icon_state = "eng_budget" // beat
 
 /obj/item/card/id/departmental_budget/sci
 	department_ID = ACCOUNT_SCI
 	department_name = ACCOUNT_SCI_NAME
+	icon_state = "sci_budget" // beat
 
 /obj/item/card/id/departmental_budget/med
 	department_ID = ACCOUNT_MED
 	department_name = ACCOUNT_MED_NAME
+	icon_state = "med_budget" // beat
 
 /obj/item/card/id/departmental_budget/srv
 	department_ID = ACCOUNT_SRV
 	department_name = ACCOUNT_SRV_NAME
+	icon_state = "srv_budget" // beat
 
 /obj/item/card/id/departmental_budget/car
 	department_ID = ACCOUNT_CAR
 	department_name = ACCOUNT_CAR_NAME
+	icon_state = "car_budget" //saving up for a new tesla // beat
 
 /obj/item/card/id/departmental_budget/sec
 	department_ID = ACCOUNT_SEC
 	department_name = ACCOUNT_SEC_NAME
+	icon_state = "sec_budget" // beat
