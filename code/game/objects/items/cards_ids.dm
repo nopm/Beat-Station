@@ -257,6 +257,7 @@
 		return
 	var/job = assignment ? ckey(GetJobName()) : null
 	var/list/add_overlays = list()
+	assignment == "Captain" ? (icon_state = "gold") : (icon_state = initial(icon_state))
 	if(!blank)
 		add_overlays += mutable_appearance(icon, "assigned")
 	if(job)
