@@ -19804,6 +19804,24 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"aUx" = (
+/obj/structure/table,
+/obj/item/stack/sheet/plasteel{
+	amount = 10
+	},
+/obj/item/stack/cable_coil,
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
+/turf/open/floor/plasteel,
+/area/science/robotics/lab)
 "aUy" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -19864,6 +19882,23 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/science/xenobiology)
+"aUD" = (
+/obj/structure/table,
+/obj/item/flashlight{
+	pixel_x = 1;
+	pixel_y = 5
+	},
+/obj/item/flashlight{
+	pixel_x = 1;
+	pixel_y = 5
+	},
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
+/obj/machinery/status_display/ai{
+	pixel_x = -32
+	},
+/turf/open/floor/plating,
+/area/storage/tech)
 "aUH" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/turf_decal/tile/green{
@@ -28196,24 +28231,6 @@
 "buo" = (
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
-"bup" = (
-/obj/structure/table,
-/obj/item/stack/sheet/plasteel{
-	amount = 10
-	},
-/obj/item/stack/cable_coil,
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = 24
-	},
-/turf/open/floor/plasteel,
-/area/science/robotics/lab)
 "buq" = (
 /turf/closed/wall/r_wall,
 /area/science/research)
@@ -33721,23 +33738,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
-"bKN" = (
-/obj/structure/table,
-/obj/item/flashlight{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/item/flashlight{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
-/obj/machinery/status_display/ai{
-	pixel_x = -32
-	},
-/turf/open/floor/plating,
-/area/storage/tech)
 "bKO" = (
 /obj/structure/table,
 /obj/item/electronics/apc,
@@ -88477,7 +88477,7 @@ aQn
 aNa
 brR
 bJT
-bKN
+aUD
 bMs
 bKU
 bPi
@@ -107482,7 +107482,7 @@ boh
 bpB
 brj
 bsG
-bup
+aUx
 bvI
 bxr
 byP

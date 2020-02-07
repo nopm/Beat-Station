@@ -215,8 +215,8 @@
 	medium_burn_msg = ROBOTIC_MEDIUM_BURN_MSG
 	heavy_burn_msg = ROBOTIC_HEAVY_BURN_MSG
 
-	var/obj/item/assembly/flash/handheld/flash1 = null
-	var/obj/item/assembly/flash/handheld/flash2 = null
+	var/obj/item/assembly/flash/synthetic/flash1 = null // beat
+	var/obj/item/assembly/flash/synthetic/flash2 = null // beat
 
 
 /obj/item/bodypart/head/robot/handle_atom_del(atom/A)
@@ -246,8 +246,8 @@
 		. += "<span class='notice'>You can remove the seated flash[single_flash ? "":"es"] with a <b>crowbar</b>.</span>"
 
 /obj/item/bodypart/head/robot/attackby(obj/item/W, mob/user, params)
-	if(istype(W, /obj/item/assembly/flash/handheld))
-		var/obj/item/assembly/flash/handheld/F = W
+	if(istype(W, /obj/item/assembly/flash/handheld) || istype(W, /obj/item/assembly/flash/synthetic)) // beat
+		var/obj/item/assembly/flash/handheld/F = W // beat
 		if(flash1 && flash2)
 			to_chat(user, "<span class='warning'>You have already inserted the eyes!</span>")
 			return
@@ -255,12 +255,12 @@
 			to_chat(user, "<span class='warning'>You can't use a broken flash!</span>")
 			return
 		else
-			if(!user.transferItemToLoc(F, src))
+			if(!user.transferItemToLoc(W, src)) // beat
 				return
 			if(flash1)
-				flash2 = F
+				flash2 = W // beat
 			else
-				flash1 = F
+				flash1 = W // beat
 			to_chat(user, "<span class='notice'>You insert the flash into the eye socket.</span>")
 			return
 	return ..()
