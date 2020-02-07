@@ -90488,6 +90488,13 @@
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/starboard/fore)
+"cIe" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "xenobiology maintenance";
+	req_access_txt = "55"
+	},
+/turf/open/floor/plasteel/dark,
+/area/maintenance/starboard/fore)
 "cIf" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 4
@@ -130089,7 +130096,7 @@ aWJ
 ayv
 aWJ
 alB
-alB
+cIe
 bhl
 alB
 bbx
