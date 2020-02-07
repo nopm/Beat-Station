@@ -1,0 +1,5 @@
+author: "Neotw"
+delete-after: True
+changes: 
+  - rscadd: "Added Synthetic Flash"
+  - balance: "All flashes from science has been replaced with synthetic flash"
