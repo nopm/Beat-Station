@@ -4,8 +4,11 @@ on:
   push:
     branches:
       - 'master'
+<<<<<<< HEAD:.github/workflows/autochangelog_compile.yml
     paths:
       - 'html/changelogs/**.yml'
+=======
+>>>>>>> f7cabf28f0... Updates token to be secret name (#12599):.github/workflows/compile_changelogs.yml
       
 jobs:
   compile:
@@ -42,6 +45,10 @@ jobs:
     - name: Push Artifacts
       uses: ad-m/github-push-action@master
       with:
+<<<<<<< HEAD:.github/workflows/autochangelog_compile.yml
         github_token: ${{ secrets.GITHUB_TOKEN }}
         
         
+=======
+        github_token: ${{ secrets.ACTION_SECRET }}
+>>>>>>> f7cabf28f0... Updates token to be secret name (#12599):.github/workflows/compile_changelogs.yml
