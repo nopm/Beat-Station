@@ -1,0 +1,11 @@
+{
+    "map_name": "Beat!Pubby",
+    "map_path": "map_files/Beat!Pubby",
+    "map_file": "Beat!Pubby.dmm",
+    "shuttles": {
+	    "emergency": "emergency_pubby",
+	    "whiteship": "whiteship_pubby",
+	    "ferry": "ferry_fancy",
+	    "cargo": "cargo_box"
+    }
+}
