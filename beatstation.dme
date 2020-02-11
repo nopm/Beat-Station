@@ -83,6 +83,8 @@
 #include "beatstation\code\modules\paperwork\photocopier.dm"
 #include "beatstation\code\modules\portal_visual\zvis.dm"
 #include "beatstation\code\modules\projectiles\pins.dm"
+#include "beatstation\code\modules\projectiles\boxes_magazines\external_mag.dm"
+#include "beatstation\code\modules\projectiles\guns\ballistic\pistols.dm"
 #include "beatstation\code\modules\projectiles\guns\ballistic\xcomrifle.dm"
 #include "beatstation\code\modules\projectiles\guns\energy\kinetic_accelerator.dm"
 #include "beatstation\code\modules\projectiles\guns\energy\special.dm"
