@@ -1,5 +1,5 @@
 /obj/item/ammo_box/magazine/sec_glock
-	name = "Security Glock magazine (9mm)"
+	name = "\improper Security Glock magazine (9mm)"
 	desc = "A gun magazine."
 	icon = 'beatstation/icons/obj/ammo/ammo.dmi'
 	icon_state = "sec_g"
