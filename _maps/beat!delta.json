@@ -1,0 +1,11 @@
+{
+    "map_name": "Beat!Delta",
+    "map_path": "map_files/Beat!Delta",
+    "map_file": "Beat!Delta.dmm",
+    "shuttles": {
+	    "emergency": "emergency_delta",
+	    "ferry": "ferry_fancy",
+	    "cargo": "cargo_delta",
+	    "whiteship": "whiteship_delta"
+    }
+}
