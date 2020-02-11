@@ -1,5 +1,5 @@
 /obj/item/gun/ballistic/automatic/pistol/sec_glock
-	name = "Security Glock"
+	name = "\improper Security Glock"
 	desc = "A burst 9mm gun used by NanoTrasen security officers."
 	icon = 'hippiestation/icons/obj/guns/projectile.dmi'
 	icon_state = "glock17"
