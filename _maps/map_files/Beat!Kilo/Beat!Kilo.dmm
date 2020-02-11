@@ -7070,15 +7070,12 @@
 /area/maintenance/fore)
 "alx" = (
 /obj/structure/rack,
-/obj/item/gun/energy/e_gun{
-	pixel_x = -3;
-	pixel_y = 3
-	},
 /obj/item/gun/energy/e_gun,
 /obj/item/gun/energy/e_gun{
 	pixel_x = 3;
 	pixel_y = -3
 	},
+/obj/item/gun/ballistic/automatic/pistol/sec_glock,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
@@ -7099,15 +7096,12 @@
 /area/ai_monitored/security/armory)
 "aly" = (
 /obj/structure/rack,
-/obj/item/gun/energy/laser{
-	pixel_x = -3;
-	pixel_y = 3
-	},
 /obj/item/gun/energy/laser,
 /obj/item/gun/energy/laser{
 	pixel_x = 3;
 	pixel_y = -3
 	},
+/obj/item/gun/ballistic/automatic/pistol/sec_glock,
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -18163,6 +18157,7 @@
 	pixel_x = 3;
 	pixel_y = -3
 	},
+/obj/item/gun/ballistic/automatic/pistol/sec_glock,
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
