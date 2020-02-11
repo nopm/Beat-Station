@@ -1,4 +1,4 @@
-#define JOB_MODIFICATION_MAP_NAME "PubbyStation"
+#define JOB_MODIFICATION_MAP_NAME "Beat!Pubby"
 
 /datum/job/hos/New()
 	..()
