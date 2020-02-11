@@ -3,7 +3,7 @@
 	desc = "A gun magazine."
 	icon = 'beatstation/icons/obj/ammo/ammo.dmi'
 	icon_state = "sec_g"
-	ammo_type = /obj/item/ammo_casing/c9mm
+	ammo_type = /obj/item/ammo_casing/g9mm
 	caliber = "9mm"
 	max_ammo = 9
 
