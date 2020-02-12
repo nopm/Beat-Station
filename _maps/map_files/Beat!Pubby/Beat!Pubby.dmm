@@ -2849,6 +2849,13 @@
 /obj/structure/sign/warning/nosmoking{
 	pixel_x = 32
 	},
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/g9mm,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "ajk" = (
