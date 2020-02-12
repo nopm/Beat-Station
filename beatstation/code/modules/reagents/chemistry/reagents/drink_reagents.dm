@@ -14,12 +14,12 @@
 
 /datum/reagent/consumable/chimarrao
 	name = "Chimarrão"
-	description = "Chá de erva mate quente"
+	description = "Hot mate herb tea."
 	color = "#32CD32"
 	taste_description = "hot mate herb"
 	glass_icon_state  = "glass_green"
 	glass_name = "glass of Chimarrão"
-	glass_desc = "Quem bebe isso num copo?"
+	glass_desc = "Who the hell drinks this stuff on a cup?"
 	quality = DRINK_VERYGOOD
 
 /datum/reagent/consumable/chimarrao/on_mob_life(mob/living/carbon/M)
