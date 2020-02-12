@@ -9,7 +9,10 @@
 // BEGIN_INCLUDE
 #include "beatstation\_hippiestation.dm"
 #include "beatstation\code\init.dm"
+#include "beatstation\code\controllers\configuration\entries\general.dm"
 #include "beatstation\code\controllers\subsystem\mapping.dm"
+#include "beatstation\code\controllers\subsystem\ticker.dm"
+#include "beatstation\code\controllers\subsystem\vote.dm"
 #include "beatstation\code\datums\shuttles.dm"
 #include "beatstation\code\datums\components\storage\concrete\wallet.dm"
 #include "beatstation\code\datums\martial\krav_medical.dm"

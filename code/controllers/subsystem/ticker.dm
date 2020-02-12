@@ -57,6 +57,8 @@ SUBSYSTEM_DEF(ticker)
 	var/mode_result = "undefined"
 	var/end_state = "undefined"
 
+	var/initialtpass = 0 //holder for inital autotransfer vote timer // beat
+
 /datum/controller/subsystem/ticker/Initialize(timeofday)
 	load_mode()
 
@@ -298,6 +300,8 @@ SUBSYSTEM_DEF(ticker)
 			var/datum/holiday/holiday = SSevents.holidays[holidayname]
 			to_chat(world, "<h4>[holiday.greet()]</h4>")
 
+	if(CONFIG_GET(flag/auto_crew_transfer)) // beat start
+		votetimer() // beat end
 	PostSetup()
 
 	return TRUE
