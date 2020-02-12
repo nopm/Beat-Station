@@ -1,5 +1,0 @@
-author: "Nopm"
-delete-after: True
-changes: 
-  - tweak: "Added back the hybrid tasers to the maps that were missing them."
-  - rscdel: "Removed all the disablers from those maps."
