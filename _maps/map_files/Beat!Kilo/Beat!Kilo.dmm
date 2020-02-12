@@ -19624,6 +19624,13 @@
 	},
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/g9mm,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "aEY" = (

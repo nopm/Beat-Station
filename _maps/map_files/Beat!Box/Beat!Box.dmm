@@ -2482,6 +2482,11 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 5
 	},
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/magazine/sec_glock,
+/obj/item/ammo_box/magazine/sec_glock,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "afj" = (
@@ -2501,6 +2506,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
+/obj/item/ammo_box/g9mm,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "afk" = (

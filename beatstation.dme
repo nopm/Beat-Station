@@ -84,6 +84,7 @@
 #include "beatstation\code\modules\portal_visual\zvis.dm"
 #include "beatstation\code\modules\projectiles\pins.dm"
 #include "beatstation\code\modules\projectiles\ammunition\ballistic\pistol.dm"
+#include "beatstation\code\modules\projectiles\boxes_magazines\ammo_boxes.dm"
 #include "beatstation\code\modules\projectiles\boxes_magazines\external_mag.dm"
 #include "beatstation\code\modules\projectiles\guns\ballistic\pistols.dm"
 #include "beatstation\code\modules\projectiles\guns\ballistic\xcomrifle.dm"
