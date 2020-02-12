@@ -9,6 +9,3 @@
 	min_val = 6000 // 10 minutes
 
 /datum/config_entry/flag/auto_crew_transfer
-
-/client/verb/teste()
-	to_chat(world, "<span class='boldannounce'>[CONFIG_GET(number/vote_autotransfer_initial)]</span>")

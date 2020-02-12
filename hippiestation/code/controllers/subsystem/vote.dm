@@ -90,8 +90,8 @@ datum/controller/subsystem/vote
 		log_vote(text)
 		var/vp = CONFIG_GET(number/vote_period)
 		to_chat(world, "\n<font color='purple'><b>[text]</b>\n<div style='font-size: 18px'>Type <b>vote</b> or click <a href='?src=[REF(src)]'>here</a> to place your votes.\nYou have [DisplayTimeText(vp)] to vote.</font></div>")
-		if(vote_type == "crew_transfer")
-			SEND_SOUND(world, sound('beatstation/sound/ai/alarm4.ogg')) // beat start
+		if(vote_type == "crew_transfer") // beat start
+			SEND_SOUND(world, sound('beatstation/sound/ai/alarm4.ogg'))
 		else
 			SEND_SOUND(world, sound('sound/ai/attention.ogg')) // beat end
 		time_remaining = round(vp/10)
