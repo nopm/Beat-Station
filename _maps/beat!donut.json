@@ -1,0 +1,11 @@
+{
+    "map_name": "Beat!Donut",
+    "map_path": "map_files/Beat!Donut",
+    "map_file": "Beat!Donut.dmm",
+    "shuttles": {
+	    "cargo": "cargo_box",
+	    "ferry": "ferry_fancy",
+	    "whiteship": "whiteship_box",
+	    "emergency": "emergency_donut"
+    }
+}
