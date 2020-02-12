@@ -40,7 +40,7 @@
 
 	process()
 
-/obj/docking_port/mobile/emergency/request(obj/docking_port/stationary/S, area/signalOrigin, reason, redAlert, set_coefficient=null)
+/obj/docking_port/mobile/emergency/request(obj/docking_port/stationary/S, area/signalOrigin, reason, redAlert, set_coefficient=null, override_timer = FALSE) // beat
 	if(mode == SHUTTLE_DISABLED) //Shuttle disable check
 		return
 
@@ -62,6 +62,9 @@
 			setTimer(call_time)
 		else
 			return
+
+	if(override_timer) // beat start
+		setTimer(override_timer) // beat end
 
 	SSshuttle.emergencyCallAmount++
 
