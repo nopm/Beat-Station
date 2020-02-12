@@ -19,7 +19,7 @@
 	taste_description = "hot mate herb"
 	glass_icon_state  = "glass_green"
 	glass_name = "glass of Chimarrão"
-	glass_desc = "Who the hell drinks this stuff on a cup?"
+	glass_desc = "Who the hell drinks this stuff from a cup?"
 	quality = DRINK_VERYGOOD
 
 /datum/reagent/consumable/chimarrao/on_mob_life(mob/living/carbon/M)
