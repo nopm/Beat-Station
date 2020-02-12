@@ -1,0 +1,5 @@
+author: "Nopm"
+delete-after: True
+changes: 
+  - rscadd: "Added missing g9mm ammo box"
+  - rscadd: "Added g9mm magazines to the armory on all maps."
