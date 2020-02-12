@@ -264,15 +264,15 @@ datum/controller/subsystem/vote
 		if(shuttle_timer >= 300 || (SSshuttle.emergency.mode != SHUTTLE_CALL && SSshuttle.emergency.mode != SHUTTLE_DOCKED && SSshuttle.emergency.mode != SHUTTLE_ESCAPE))
 			if(SSshuttle.emergency.mode == SHUTTLE_CALL && shuttle_timer >= 300)
 				SSshuttle.emergencyNoRecall = TRUE
-				sleep(100)
 				SSshuttle.emergency.setTimer(6000)
-				priority_announce("The emergency shuttle will arrive in [SSshuttle.emergency.timeLeft()/60] minutes due to Crew Transfer.")
+				priority_announce("The emergency shuttle will arrive in [SSshuttle.emergency.timeLeft()/60] minutes due to crew transfer.")
 			else if(SSshuttle.emergency.mode != SHUTTLE_CALL)
 				SSshuttle.emergency.request(reason = " Automatic Crew Transfer")
 				SSshuttle.emergencyNoRecall = TRUE
-				sleep(100)
-				SSshuttle.emergency.setTimer(6000)
-				priority_announce("The emergency shuttle will arrive in [SSshuttle.emergency.timeLeft()/60] minutes due to Crew Transfer.")
+				if(get_security_level() == "green")
+					sleep(100)
+					SSshuttle.emergency.setTimer(6000)
+					priority_announce("The emergency shuttle will arrive in [SSshuttle.emergency.timeLeft()/60] minutes due to crew transfer.")
 			message_admins("The emergency shuttle has been force-called due to a successful crew transfer vote.")
 		else
 			to_chat(world, "<span style='boldannounce'>Notice: The crew transfer vote has failed because the shuttle has already been called.</span>") // beat end
