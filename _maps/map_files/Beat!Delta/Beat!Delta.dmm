@@ -82793,7 +82793,6 @@
 "cXw" = (
 /obj/structure/table,
 /obj/item/gps,
-/obj/item/assembly/flash/handheld,
 /obj/machinery/status_display/evac{
 	pixel_y = -32
 	},
@@ -82801,6 +82800,7 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+/obj/item/assembly/flash/synthetic,
 /turf/open/floor/plasteel/white,
 /area/science/research)
 "cXx" = (
@@ -98224,6 +98224,12 @@
 	pixel_x = -24
 	},
 /obj/effect/turf_decal/bot,
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
 "dAK" = (
@@ -99012,8 +99018,6 @@
 /obj/item/bodypart/l_arm/robot{
 	pixel_x = -3
 	},
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
 /obj/structure/table/reinforced,
 /obj/machinery/light_switch{
 	pixel_x = -38;
@@ -99022,10 +99026,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)

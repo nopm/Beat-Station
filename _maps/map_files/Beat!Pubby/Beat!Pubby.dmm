@@ -25292,17 +25292,17 @@
 /obj/item/stack/sheet/plasteel{
 	amount = 10
 	},
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
-/obj/item/assembly/flash/handheld,
 /obj/machinery/airalarm{
 	dir = 8;
 	pixel_x = 23
 	},
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
+/obj/item/assembly/flash/synthetic,
 /turf/open/floor/plasteel/dark,
 /area/science/robotics/lab)
 "bnT" = (
