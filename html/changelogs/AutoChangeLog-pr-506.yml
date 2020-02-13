@@ -1,0 +1,4 @@
+author: "Nopm"
+delete-after: True
+changes: 
+  - tweak: "Replaced sci flashes with synthflashes on the maps that still had them."
