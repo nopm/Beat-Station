@@ -1,5 +1,0 @@
-author: "Neotw"
-delete-after: True
-changes: 
-  - tweak: "Map vote will automatically run as the shuttle leaves, and if no map vote has been run by round end map rotation will trigger"
-  - tweak: "The last 3 maps are now stored. This means that any map in the last four (including current) rounds are disqualified from map vote and map rotation"
