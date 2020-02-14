@@ -1,7 +1,7 @@
 datum/controller/subsystem/vote
 	var/min_restart_time = 60 MINUTES
 	var/min_shuttle_time = 30 MINUTES
-
+/* beat start -- map voting
 /datum/controller/subsystem/vote/proc/get_result()
 	//get the highest number of votes
 	var/greatest_votes = 0
@@ -26,9 +26,6 @@ datum/controller/subsystem/vote
 			if(mode == "shuttlecall")
 				if(choices["Do not call Shuttle"] >= greatest_votes)
 					greatest_votes = choices["Do not call Shuttle"]
-			if(mode == "crew_transfer") // beat start
-				if(choices["Initiate Crew Transfer"] >= greatest_votes)
-					greatest_votes = choices["Initiate Crew Transfer"] // beat end
 			if(mode == "gamemode")
 				if(GLOB.master_mode in choices)
 					choices[GLOB.master_mode] += non_voters.len
@@ -76,9 +73,6 @@ datum/controller/subsystem/vote
 					if(!option || mode || !usr.client)
 						break
 					choices.Add(option)
-			if("crew_transfer") // beat start
-				question = "End the shift?"
-				choices.Add("Initiate Crew Transfer","Continue The Round") // beat end
 			else
 				return 0
 		mode = vote_type
@@ -90,10 +84,7 @@ datum/controller/subsystem/vote
 		log_vote(text)
 		var/vp = CONFIG_GET(number/vote_period)
 		to_chat(world, "\n<font color='purple'><b>[text]</b>\n<div style='font-size: 18px'>Type <b>vote</b> or click <a href='?src=[REF(src)]'>here</a> to place your votes.\nYou have [DisplayTimeText(vp)] to vote.</font></div>")
-		if(vote_type == "crew_transfer") // beat start
-			SEND_SOUND(world, sound('beatstation/sound/ai/alarm4.ogg'))
-		else
-			SEND_SOUND(world, sound('sound/ai/attention.ogg')) // beat end
+		SEND_SOUND(world, sound('sound/ai/attention.ogg'))
 		time_remaining = round(vp/10)
 		for(var/c in GLOB.clients)
 			var/client/C = c
@@ -215,7 +206,6 @@ datum/controller/subsystem/vote
 	. = announce_result()
 	var/restart = 0
 	var/shuttlecall = 0
-	var/crewtransfer = 0 // beat
 	if(.)
 		switch(mode)
 			if("restart")
@@ -231,9 +221,6 @@ datum/controller/subsystem/vote
 			if("shuttlecall")
 				if(. == "Call Shuttle")
 					shuttlecall = 1
-			if("crew_transfer") // beat start
-				if(. == "Initiate Crew Transfer")
-					crewtransfer = 1 // beat end
 	if(restart)
 		var/active_admins = 0
 		for(var/client/C in GLOB.admins)
@@ -249,29 +236,18 @@ datum/controller/subsystem/vote
 		var/shuttle_timer = SSshuttle.emergency.timeLeft()
 		if(shuttle_timer >= 300 || (SSshuttle.emergency.mode != SHUTTLE_CALL && SSshuttle.emergency.mode != SHUTTLE_DOCKED && SSshuttle.emergency.mode != SHUTTLE_ESCAPE)) // hippie -- fix shuttle votes upping timers to 5 minutes
 			if(SSshuttle.emergency.mode == SHUTTLE_CALL && shuttle_timer >= 300)	//Apparently doing the emergency request twice cancels the call so these check are just in case
-				SSshuttle.emergency.setTimer(3000)
+				SSshuttle.emergency.setTimer(6000)
 				priority_announce("The emergency shuttle will arrive in [SSshuttle.emergency.timeLeft()/60] minutes.")
 			else if (SSshuttle.emergency.mode != SHUTTLE_CALL)
 				SSshuttle.emergency.request()
-				SSshuttle.emergency.setTimer(3000)
+				SSshuttle.emergency.setTimer(6000)
+				SSshuttle.emergencyNoRecall = TRUE
 				priority_announce("The emergency shuttle will arrive in [SSshuttle.emergency.timeLeft()/60] minutes.")
 
 			message_admins("The emergency shuttle has been force-called due to a successful shuttle call vote.")
 		else
 			to_chat(world, "<span style='boldannounce'>Notice: The shuttle vote has failed because the shuttle has already been called.</span>")
-	if(crewtransfer) // beat start
-		var/shuttle_timer = SSshuttle.emergency.timeLeft()
-		if(shuttle_timer >= 300 || (SSshuttle.emergency.mode != SHUTTLE_CALL && SSshuttle.emergency.mode != SHUTTLE_DOCKED && SSshuttle.emergency.mode != SHUTTLE_ESCAPE))
-			if(SSshuttle.emergency.mode == SHUTTLE_CALL && shuttle_timer >= 300)
-				SSshuttle.emergencyNoRecall = TRUE
-				SSshuttle.emergency.setTimer(6000)
-				priority_announce("The emergency shuttle will arrive in [SSshuttle.emergency.timeLeft()/60] minutes due to crew transfer.")
-			else if(SSshuttle.emergency.mode != SHUTTLE_CALL)
-				SSshuttle.emergency.request(reason = " Automatic Crew Transfer", override_timer = 6000)
-				SSshuttle.emergencyNoRecall = TRUE
-			message_admins("The emergency shuttle has been force-called due to a successful crew transfer vote.")
-		else
-			to_chat(world, "<span style='boldannounce'>Notice: The crew transfer vote has failed because the shuttle has already been called.</span>") // beat end
+
 	return .
 
 /datum/action/vote/proc/remove_from_client()
@@ -281,4 +257,4 @@ datum/controller/subsystem/vote
 		else if(owner.ckey)
 			var/datum/player_details/P = GLOB.player_details[owner.ckey]
 			if(P)
-				P.player_actions -= src
+				P.player_actions -= src */ // beat end

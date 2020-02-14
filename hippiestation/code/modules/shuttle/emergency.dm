@@ -176,7 +176,8 @@
 				mode = SHUTTLE_ESCAPE
 				launch_status = ENDGAME_LAUNCHED
 				setTimer(SSshuttle.emergencyEscapeTime * engine_coeff)
-				priority_announce("The Emergency Shuttle has left the station. Estimate [timeLeft(600)] minutes until the shuttle docks at Central Command.", null, null, "Priority") // beat
+				priority_announce("The Emergency Shuttle has left the station. Estimate [timeLeft(600)] minutes until the shuttle docks at Central Command.", null, null, "Priority") // beat -- removes pykoAI
+				SSmapping.mapvote() //If no map vote has been run yet, start one. // beat -- map voting
 
 		if(SHUTTLE_STRANDED)
 			SSshuttle.checkHostileEnvironment()
