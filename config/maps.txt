@@ -24,9 +24,26 @@ map beat!kilo
 	votable
 endmap
 
+map beat!delta
+	votable
+endmap
+
+map beat!donut
+	votable
+endmap
+
+map beat!meta
+	votable
+endmap
+
+map beat!pubby
+	minplayers 20
+	votable
+endmap
+
 map hippiestation
 	#voteweight 1.5
-	votable
+	#votable
 endmap
 
 map metalake
@@ -40,11 +57,11 @@ endmap
 map metastation
 	minplayers 25
 	#voteweight 0.5
-	votable
+	#votable
 endmap
 
 map pubbystation
-	votable
+	#votable
 endmap
 
 map multiz_debug
@@ -52,12 +69,12 @@ endmap
 
 map deltastation
 	minplayers 50
-	votable
+	#votable
 endmap
 
 map donutstation
 	minplayers 50
-	votable
+	#votable
 endmap
 
 map donutstation

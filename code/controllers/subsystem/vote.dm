@@ -43,7 +43,7 @@ SUBSYSTEM_DEF(vote)
 	voted.Cut()
 	voting.Cut()
 	remove_action_buttons()
-
+/* beat start -- map voting
 /* hippie start -- shuttlecall votes
 
 /datum/controller/subsystem/vote/proc/get_result()
@@ -383,4 +383,4 @@ hippie end */
 			P.player_actions -= src
 	else
 		return
-hippie end */
+hippie end */ */ // beat end
