@@ -1,8 +1,8 @@
 ## automatic crew transfer vote
 AUTO_CREW_TRANSFER
 
-## autovote initial delay (deciseconds) before first automatic transfer vote call (default 180 minutes)
-VOTE_AUTOTRANSFER_INITIAL 108000
+## autovote initial delay (deciseconds) before first automatic transfer vote call (default 2 hours)
+VOTE_AUTOTRANSFER_INITIAL 72000
 
-## autovote delay (deciseconds) before sequential automatic transfer votes are called (default 60 minutes)
-VOTE_AUTOTRANSFER_INTERVAL 36000
+## autovote delay (deciseconds) before sequential automatic transfer votes are called (default 30 minutes)
+VOTE_AUTOTRANSFER_INTERVAL 18000
