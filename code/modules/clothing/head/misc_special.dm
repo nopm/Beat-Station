@@ -61,8 +61,8 @@
 
 /obj/item/clothing/head/hardhat/cakehat/turn_on()
 	..()
-	force = 15
-	throwforce = 15
+	force = 0 // beat
+	throwforce = 0 // beat
 	damtype = BURN
 	hitsound = 'sound/weapons/sear.ogg'
 	START_PROCESSING(SSobj, src)
