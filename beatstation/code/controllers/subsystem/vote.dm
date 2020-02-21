@@ -1,3 +1,8 @@
+/datum/controller/subsystem/vote/Initialize(timeofday)
+	starttime = world.time
+	targettime = starttime + CONFIG_GET(number/vote_autotransfer_initial)
+	return ..()
+
 /datum/controller/subsystem/vote/proc/autotransfer()
 	initiate_vote("crew_transfer","the server")
 
