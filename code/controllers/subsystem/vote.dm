@@ -16,6 +16,10 @@ SUBSYSTEM_DEF(vote)
 	var/list/voting = list()
 	var/list/generated_actions = list()
 
+	var/starttime // beat start
+	var/targettime
+	var/start_timer = FALSE // beat end
+
 /datum/controller/subsystem/vote/fire()	//called by master_controller
 	if(mode)
 		time_remaining = round((started_time + CONFIG_GET(number/vote_period) - world.time)/10)
@@ -33,6 +37,9 @@ SUBSYSTEM_DEF(vote)
 				client_popup.set_content(interface(C))
 				client_popup.open(FALSE)
 
+	if(start_timer && world.time >= targettime) // beat start
+		autotransfer()
+		targettime = targettime + CONFIG_GET(number/vote_autotransfer_interval) // beat end
 
 /datum/controller/subsystem/vote/proc/reset()
 	initiator = null
