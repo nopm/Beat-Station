@@ -1,6 +1,11 @@
 /datum/controller/subsystem/vote/proc/autotransfer()
 	initiate_vote("crew_transfer","the server")
 
+/datum/controller/subsystem/vote/proc/votetimer()
+	starttime = world.time
+	targettime = starttime + CONFIG_GET(number/vote_autotransfer_initial)
+	start_timer = TRUE
+
 /datum/controller/subsystem/vote/proc/get_result()
 	//get the highest number of votes
 	var/greatest_votes = 0

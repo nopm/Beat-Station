@@ -18,7 +18,7 @@ SUBSYSTEM_DEF(vote)
 
 	var/starttime // beat start
 	var/targettime
-	var/initialize = FALSE // beat end
+	var/start_timer = FALSE // beat end
 
 /datum/controller/subsystem/vote/fire()	//called by master_controller
 	if(mode)
@@ -37,14 +37,9 @@ SUBSYSTEM_DEF(vote)
 				client_popup.set_content(interface(C))
 				client_popup.open(FALSE)
 
-	if(CONFIG_GET(flag/auto_crew_transfer)) // beat start
-		if(!initialized)
-			starttime = world.time
-			targettime = starttime + CONFIG_GET(number/vote_autotransfer_initial)
-			initialized = TRUE
-		if(world.time >= targettime)
-			autotransfer()
-			targettime = targettime + CONFIG_GET(number/vote_autotransfer_interval) // beat end
+	if(start_timer && world.time >= targettime) // beat start
+		autotransfer()
+		targettime = targettime + CONFIG_GET(number/vote_autotransfer_interval) // beat end
 
 /datum/controller/subsystem/vote/proc/reset()
 	initiator = null
