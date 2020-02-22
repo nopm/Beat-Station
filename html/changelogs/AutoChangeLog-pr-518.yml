@@ -1,6 +1,0 @@
-author: "Neotw"
-delete-after: True
-changes: 
-  - rscadd: "Replaced all sci departamental protolathes with a normal one"
-  - bugfix: "Fixed some windows spawner in Beat!Pubby"
-  - bugfix: "Fixed a visible pipe layer in Beat!Box"
