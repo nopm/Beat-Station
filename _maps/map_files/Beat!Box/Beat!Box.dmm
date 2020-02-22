@@ -8201,9 +8201,7 @@
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "asr" = (
-/obj/machinery/atmospherics/pipe/layer_manifold{
-	level = 2
-	},
+/obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/closed/wall/r_wall,
 /area/engine/atmos_distro)
 "ass" = (

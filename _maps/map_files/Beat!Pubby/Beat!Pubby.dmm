@@ -836,7 +836,8 @@
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/AIsatextAP)
 "aef" = (
-/obj/structure/window/reinforced/fulltile,
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/AIsatextAP)
 "aeg" = (
@@ -847,7 +848,8 @@
 /turf/open/floor/plating/airless,
 /area/ai_monitored/turret_protected/aisat_interior)
 "aeh" = (
-/obj/structure/window/reinforced/fulltile,
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/aisat_interior)
 "aei" = (
@@ -862,7 +864,8 @@
 /turf/open/floor/plating/airless,
 /area/ai_monitored/turret_protected/aisat_interior)
 "aek" = (
-/obj/structure/window/reinforced/fulltile,
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/AIsatextAS)
 "ael" = (
@@ -939,6 +942,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/AIsatextAP)
 "aew" = (
@@ -984,6 +988,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/AIsatextAS)
 "aeC" = (
@@ -1089,6 +1094,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/AIsatextAS)
 "aeT" = (
@@ -12412,8 +12418,20 @@
 /obj/item/twohanded/required/kirbyplants/photosynthetic{
 	layer = 3.1
 	},
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plating,
+/obj/structure/window/reinforced{
+	dir = 1;
+	pixel_y = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	layer = 2.9
+	},
+/obj/structure/window/reinforced{
+	dir = 8;
+	pixel_x = -4
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/grass,
 /area/hallway/primary/central)
 "aGo" = (
 /obj/structure/lattice,
@@ -13912,6 +13930,7 @@
 /area/storage/eva)
 "aKZ" = (
 /obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/storage/eva)
 "aLa" = (
@@ -14178,6 +14197,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/plasteel/dark,
 /area/storage/eva)
 "aLR" = (
@@ -14186,12 +14206,14 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/storage/eva)
 "aLS" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/storage/eva)
 "aLT" = (
@@ -14199,6 +14221,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/storage/eva)
 "aLU" = (
@@ -14206,6 +14229,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/plasteel/dark,
 /area/storage/eva)
 "aLV" = (
@@ -14805,6 +14829,7 @@
 /obj/effect/turf_decal/stripes/end{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/storage/eva)
 "aNs" = (
@@ -15255,6 +15280,7 @@
 "aOC" = (
 /obj/structure/tank_dispenser/oxygen,
 /obj/effect/turf_decal/stripes/end,
+/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/storage/eva)
 "aOD" = (
@@ -15646,6 +15672,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
+/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/storage/eva)
 "aPK" = (
@@ -28091,7 +28118,7 @@
 /area/science/lab)
 "bur" = (
 /obj/effect/turf_decal/delivery,
-/obj/machinery/rnd/production/protolathe/department/science,
+/obj/machinery/rnd/production/protolathe,
 /turf/open/floor/plasteel,
 /area/science/lab)
 "bus" = (
@@ -30786,8 +30813,8 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "bAJ" = (
-/obj/structure/transit_tube/horizontal,
 /obj/structure/window/reinforced/fulltile,
+/obj/structure/transit_tube/horizontal,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "bAK" = (
@@ -40489,9 +40516,6 @@
 	},
 /turf/open/floor/engine/co2,
 /area/engine/atmos)
-"bWh" = (
-/turf/open/floor/plating/asteroid,
-/area/chapel/office)
 "bWi" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/structure/flora/ausbushes/reedbush,
@@ -42441,10 +42465,10 @@
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
 "cbG" = (
-/obj/structure/window/reinforced/fulltile,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/chapel/office)
 "cbK" = (
@@ -43193,10 +43217,10 @@
 /turf/open/floor/plating/airless,
 /area/maintenance/disposal/incinerator)
 "ceB" = (
-/obj/structure/window/reinforced/fulltile,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/chapel/office)
 "ceC" = (
@@ -43718,7 +43742,7 @@
 /turf/open/floor/engine,
 /area/engine/engineering)
 "cgG" = (
-/obj/structure/window/reinforced/fulltile,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/chapel/main/monastery)
 "cgH" = (
@@ -47923,8 +47947,9 @@
 /turf/closed/wall,
 /area/library/lounge)
 "cxJ" = (
-/obj/structure/window/reinforced/fulltile,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/library/lounge)
 "cxK" = (
@@ -47964,8 +47989,9 @@
 /turf/open/floor/plasteel/dark,
 /area/library/lounge)
 "cxM" = (
-/obj/structure/window/reinforced/fulltile,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/library/lounge)
 "cxX" = (
@@ -47987,6 +48013,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/plasteel/dark,
 /area/library/lounge)
 "cxY" = (
@@ -51837,6 +51864,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/AIsatextAP)
 "kkk" = (
@@ -54363,6 +54391,22 @@
 /obj/item/stack/sheet/mineral/wood,
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
+"qih" = (
+/obj/item/twohanded/required/kirbyplants/photosynthetic{
+	layer = 3.1
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/grass,
+/area/hallway/primary/central)
 "qjx" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/turf_decal/stripes/line,
@@ -55191,6 +55235,22 @@
 /obj/structure/cable,
 /turf/open/floor/engine,
 /area/engine/supermatter)
+"swP" = (
+/obj/item/twohanded/required/kirbyplants/photosynthetic{
+	layer = 3.1
+	},
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/hallway/primary/central)
 "syn" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -55803,7 +55863,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/space)
+/area/maintenance/department/chapel/monastery)
 "tYU" = (
 /obj/structure/reflector/box/anchored,
 /turf/open/floor/plating,
@@ -72069,7 +72129,7 @@ aaa
 bOv
 bNs
 bNs
-bWh
+bOw
 bOw
 bOw
 bOw
@@ -73370,13 +73430,13 @@ cfm
 ceJ
 cfn
 bWV
-cgG
-cgG
+fIT
+fIT
 bWV
 cuX
 bWV
-cgG
-cgG
+fIT
+fIT
 bWV
 cfn
 ceJ
@@ -73626,7 +73686,7 @@ bWV
 cfm
 cfF
 cfn
-cgG
+fIT
 chi
 cid
 cuM
@@ -73634,7 +73694,7 @@ chj
 cvb
 ciT
 cvh
-cgG
+fIT
 cfn
 ctL
 cwa
@@ -73883,7 +73943,7 @@ ceK
 cfm
 cfG
 cfn
-cgG
+fIT
 cid
 cuA
 cib
@@ -73891,7 +73951,7 @@ cgH
 cgH
 ciS
 cid
-cgG
+fIT
 cfn
 cvH
 cwc
@@ -74397,7 +74457,7 @@ cdw
 cej
 ceM
 cfo
-cgG
+fIT
 cgk
 cuA
 ciS
@@ -74405,7 +74465,7 @@ chk
 cgH
 cgH
 cvi
-cgG
+fIT
 cfn
 ceJ
 cwa
@@ -74654,7 +74714,7 @@ cdx
 cek
 ceN
 cfn
-cgG
+fIT
 cuo
 ciV
 cgI
@@ -74662,7 +74722,7 @@ chl
 cib
 cvg
 cid
-cgG
+fIT
 cfn
 ceJ
 cwe
@@ -75168,7 +75228,7 @@ ceK
 cfm
 cfG
 cfn
-cgG
+fIT
 ciV
 cgH
 cgH
@@ -75176,7 +75236,7 @@ cgH
 cic
 ciV
 cjq
-cgG
+fIT
 cfn
 cvH
 ckT
@@ -75425,7 +75485,7 @@ bWV
 cfm
 ctO
 cfn
-cgG
+fIT
 cgm
 cuE
 cuO
@@ -75433,7 +75493,7 @@ cgH
 ciE
 ciW
 cjr
-cgG
+fIT
 cvw
 cvK
 cwg
@@ -75683,13 +75743,13 @@ cfm
 ceP
 cfn
 bWV
-cgG
-cgG
+fIT
+fIT
 bWV
 cuY
 bWV
-cgG
-cgG
+fIT
+fIT
 bWV
 cfn
 ceP
@@ -87430,7 +87490,7 @@ aHW
 aBJ
 aJO
 aAN
-aGn
+qih
 aKT
 coF
 aPE
@@ -88926,7 +88986,7 @@ adH
 adT
 aee
 aee
-aee
+cgG
 aev
 kjK
 aeZ
@@ -88966,13 +89026,13 @@ aCM
 aDN
 aEI
 aAB
-aGn
+swP
 axi
 aHZ
 aDZ
 aJO
 aAN
-aGn
+swP
 aKT
 aOz
 aPF
@@ -92010,7 +92070,7 @@ adQ
 aec
 ael
 ael
-ael
+afl
 aeB
 aeS
 afl

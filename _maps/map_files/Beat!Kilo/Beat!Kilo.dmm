@@ -30047,7 +30047,6 @@
 /turf/open/floor/plasteel/dark,
 /area/maintenance/central)
 "aUm" = (
-/obj/machinery/rnd/production/protolathe/department/science,
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -30065,6 +30064,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+/obj/machinery/rnd/production/protolathe,
 /turf/open/floor/plasteel/dark,
 /area/science/lab)
 "aUn" = (

@@ -1604,7 +1604,7 @@
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "aeD" = (
-/obj/machinery/rnd/production/protolathe/department/science,
+/obj/machinery/rnd/production/protolathe,
 /turf/open/floor/plasteel,
 /area/science/lab)
 "aeE" = (
