@@ -13,6 +13,10 @@
 	description = "Seemingly plucked from a tropical destination, this beach is calm and cool, with the salty waves roaring softly in the background. \
 	Comes with a rustic wooden bar and suicidal bartender."
 	suffix = "lavaland_biodome_beach.dmm"
+<<<<<<< HEAD
+=======
+*/
+>>>>>>> b4f100dbdc... Merge pull request #12613 from AnthonyJNgo/ruinsstowquickfix
 
 /datum/map_template/ruin/lavaland/biodome/winter
 	name = "Biodome Winter"
@@ -43,7 +47,16 @@
 	suffix = "lavaland_surface_seed_vault.dmm"
 	cost = 10
 	allow_duplicates = FALSE
-
+/*
+/datum/map_template/ruin/lavaland/dwarves
+	name = "Dwarven Settlement"
+	id = "dwarves"
+	description = "A settlement of dwarves from a strange faraway land."
+	suffix = "lavaland_surface_dwarves.dmm"
+	cost = 20
+	always_place = FALSE
+	allow_duplicates = FALSE
+*/
 /datum/map_template/ruin/lavaland/ash_walker
 	name = "Ash Walker Nest"
 	id = "ash-walker"
