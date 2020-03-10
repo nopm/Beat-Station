@@ -13,10 +13,6 @@
 	description = "Seemingly plucked from a tropical destination, this beach is calm and cool, with the salty waves roaring softly in the background. \
 	Comes with a rustic wooden bar and suicidal bartender."
 	suffix = "lavaland_biodome_beach.dmm"
-<<<<<<< HEAD
-=======
-*/
->>>>>>> b4f100dbdc... Merge pull request #12613 from AnthonyJNgo/ruinsstowquickfix
 
 /datum/map_template/ruin/lavaland/biodome/winter
 	name = "Biodome Winter"
