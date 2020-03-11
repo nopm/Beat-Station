@@ -43,7 +43,16 @@
 	suffix = "lavaland_surface_seed_vault.dmm"
 	cost = 10
 	allow_duplicates = FALSE
-
+/*
+/datum/map_template/ruin/lavaland/dwarves
+	name = "Dwarven Settlement"
+	id = "dwarves"
+	description = "A settlement of dwarves from a strange faraway land."
+	suffix = "lavaland_surface_dwarves.dmm"
+	cost = 20
+	always_place = FALSE
+	allow_duplicates = FALSE
+*/
 /datum/map_template/ruin/lavaland/ash_walker
 	name = "Ash Walker Nest"
 	id = "ash-walker"
