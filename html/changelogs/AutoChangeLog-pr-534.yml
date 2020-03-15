@@ -1,0 +1,5 @@
+author: "ProtozoaPrime"
+delete-after: True
+changes: 
+  - rscadd: "Added Botanical Engineering research node, now you can actually make the botany stuff!"
+  - refactor: "Moved Floral Somatoray to Tool Designs rather than Weapon Designs"
