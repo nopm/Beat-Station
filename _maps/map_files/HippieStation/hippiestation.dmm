@@ -49683,6 +49683,13 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
+<<<<<<< HEAD
+=======
+"ejc" = (
+/obj/item/bikehorn/airhorn,
+/turf/open/floor/mineral/bananium,
+/area/maintenance/longface)
+>>>>>>> 07a55ffa1a... Merge pull request #12640 from carlopault/longface
 "eje" = (
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/manifold/cyan/visible{
@@ -50128,6 +50135,11 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plating/airless,
 /area/engine/port_engineering)
+"eXd" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/maintenance/longface)
 "eXs" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/line{
@@ -50138,6 +50150,10 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
+"eYb" = (
+/obj/machinery/door/airlock/external,
+/turf/open/floor/plating,
+/area/maintenance/longface)
 "eYA" = (
 /obj/machinery/vending/cart/old,
 /turf/open/floor/plating,
@@ -50938,6 +50954,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/misc_lab)
+"glx" = (
+/obj/structure/lattice/catwalk,
+/obj/item/stack/rods,
+/turf/open/space/basic,
+/area/space/nearstation)
 "glI" = (
 /obj/machinery/camera{
 	c_tag = "Toxins Lab - West";
@@ -51708,6 +51729,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
+"hFy" = (
+/obj/item/stack/rods,
+/turf/open/space/basic,
+/area/space/nearstation)
 "hGp" = (
 /turf/closed/wall,
 /area/security/checkpoint/auxiliary{
@@ -53666,6 +53691,14 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/science/nanite)
+"kGL" = (
+/obj/item/bedsheet/rainbow,
+/obj/structure/bed,
+/obj/item/grown/corncob,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/maintenance/longface)
 "kHC" = (
 /obj/machinery/door/airlock/research{
 	name = "Testing Lab";
@@ -53866,6 +53899,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/engine/gravity_generator)
+<<<<<<< HEAD
+=======
+"lak" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/plating,
+/area/maintenance/starboard/fore)
+>>>>>>> 07a55ffa1a... Merge pull request #12640 from carlopault/longface
 "laI" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/carpet,
@@ -55770,6 +55810,11 @@
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"ofC" = (
+/obj/item/flashlight/lamp/bananalamp,
+/obj/structure/table/wood,
+/turf/open/floor/mineral/bananium,
+/area/maintenance/longface)
 "ofH" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/decal/cleanable/dirt,
@@ -56139,6 +56184,12 @@
 /obj/machinery/door/firedoor/heavy,
 /turf/open/floor/plasteel/white,
 /area/science/research)
+"oLw" = (
+/obj/item/bikehorn/airhorn{
+	dir = 8
+	},
+/turf/open/floor/mineral/bananium,
+/area/maintenance/longface)
 "oLC" = (
 /turf/open/floor/plasteel,
 /area/security/prison)
@@ -57226,6 +57277,12 @@
 /obj/structure/lattice,
 /turf/open/space/basic,
 /area/space/nearstation)
+"qBf" = (
+/obj/structure/table/wood,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/maintenance/longface)
 "qBB" = (
 /obj/machinery/vending/cola/random,
 /turf/open/floor/carpet,
@@ -57319,6 +57376,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/port_engineering)
+"qJs" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/bananalamp,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/maintenance/longface)
 "qJw" = (
 /turf/open/floor/plating/airless,
 /area/science/mixing)
@@ -58331,6 +58395,13 @@
 	},
 /turf/open/floor/engine,
 /area/engine/engineering)
+"sII" = (
+/obj/structure/lattice,
+/obj/structure/window{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/maintenance/longface)
 "sJq" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -59053,6 +59124,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
+"tOa" = (
+/obj/structure/lattice/catwalk,
+/turf/closed/wall,
+/area/maintenance/longface)
 "tOr" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -59268,6 +59343,10 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
+"udZ" = (
+/obj/item/stack/rods,
+/turf/open/floor/plating,
+/area/maintenance/starboard/fore)
 "uet" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -59991,6 +60070,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/mixing)
+"vtp" = (
+/obj/item/stack/rods{
+	amount = 50
+	},
+/turf/open/space/basic,
+/area/space)
 "vuq" = (
 /obj/machinery/button/door{
 	desc = "A remote control-switch for secure storage.";
@@ -60262,6 +60347,11 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
+"vUF" = (
+/obj/structure/lattice,
+/obj/item/stack/rods,
+/turf/open/space/basic,
+/area/space/nearstation)
 "vVb" = (
 /obj/machinery/door/airlock/external{
 	name = "External Access";
@@ -60843,6 +60933,10 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/engine/engineering)
+"wNw" = (
+/obj/item/stack/rods,
+/turf/open/space/basic,
+/area/space)
 "wOn" = (
 /obj/structure/table/wood,
 /obj/structure/cable,
@@ -111701,9 +111795,24 @@ aaa
 aaa
 aaa
 aad
+<<<<<<< HEAD
 aaj
 aaa
 aaa
+=======
+ajz
+olw
+qqx
+alO
+xsI
+qqx
+qqx
+uha
+udZ
+ajz
+avB
+aai
+>>>>>>> 07a55ffa1a... Merge pull request #12640 from carlopault/longface
 aai
 avB
 avB
@@ -111948,6 +112057,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -111957,6 +112067,22 @@ aaa
 aaa
 aaa
 aaa
+=======
+bqy
+aaj
+vUF
+pUU
+pUU
+pUU
+pUU
+jAc
+pUU
+pUU
+pUU
+pUU
+pUU
+ajz
+>>>>>>> 07a55ffa1a... Merge pull request #12640 from carlopault/longface
 aad
 aaj
 aaj
@@ -112205,6 +112331,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -112222,6 +112349,25 @@ avB
 avB
 avB
 avB
+=======
+bqy
+glx
+glx
+pUU
+obP
+pUU
+ejc
+oZa
+ejc
+pUU
+qJs
+qBf
+uTC
+hFy
+hFy
+aFi
+aai
+>>>>>>> 07a55ffa1a... Merge pull request #12640 from carlopault/longface
 aai
 avB
 avB
@@ -112462,6 +112608,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -112478,6 +112625,24 @@ aaa
 aaa
 aaa
 aaa
+=======
+bqy
+aad
+vUF
+pUU
+pUU
+pUU
+kdS
+yfw
+oZa
+eYb
+eXd
+kGL
+tOa
+hFy
+hFy
+aFi
+>>>>>>> 07a55ffa1a... Merge pull request #12640 from carlopault/longface
 aaa
 aaa
 aaa
@@ -112720,6 +112885,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -112733,6 +112899,21 @@ aaa
 aaa
 aaa
 aaa
+=======
+aFi
+aad
+pUU
+ybG
+ptn
+oLw
+ofC
+oLw
+pUU
+pUU
+uTC
+tOa
+wNw
+>>>>>>> 07a55ffa1a... Merge pull request #12640 from carlopault/longface
 aaa
 aaa
 aaa
@@ -112979,6 +113160,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -112990,6 +113172,19 @@ aaa
 aaa
 aaa
 aaa
+=======
+pUU
+uTC
+pUU
+pUU
+sII
+pUU
+pUU
+vtp
+ahy
+wNw
+wNw
+>>>>>>> 07a55ffa1a... Merge pull request #12640 from carlopault/longface
 aaa
 aaa
 aaa
@@ -113234,6 +113429,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -113246,6 +113442,20 @@ aaa
 aaa
 aaa
 aaa
+=======
+aaa
+aaa
+aaa
+aaa
+aad
+aad
+hFy
+aad
+aad
+wNw
+wNw
+wNw
+>>>>>>> 07a55ffa1a... Merge pull request #12640 from carlopault/longface
 aaa
 aaa
 aaa
