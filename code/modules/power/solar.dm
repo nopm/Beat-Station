@@ -111,11 +111,6 @@
 
 //calculates the fraction of the sunlight that the panel receives
 /obj/machinery/power/solar/proc/update_solar_exposure()
-<<<<<<< HEAD
-=======
-	needs_to_update_solar_exposure = FALSE
-	sunfrac = 0
->>>>>>> 4e31a27716... Merge pull request #12656 from yoyobatty/MC_Improvements
 	if(obscured)
 		sunfrac = 0
 		return
