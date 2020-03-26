@@ -1,4 +1,0 @@
-author: "Neotw"
-delete-after: True
-changes: 
-  - rscadd: "The test dummies now display the damage received"
