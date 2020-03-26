@@ -90,6 +90,7 @@
 		else
 			bullet_hole.icon_state = "dent"
 		add_overlay(bullet_hole)
+		new /obj/effect/temp_visual/damage_number(loc, P.damage) // beat
 		return BULLET_ACT_HIT
 	return BULLET_ACT_FORCE_PIERCE
 
