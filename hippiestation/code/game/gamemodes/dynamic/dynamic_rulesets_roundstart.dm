@@ -68,15 +68,11 @@
 		M.mind.restricted_roles = restricted_roles
 		M.mind.special_role = ROLE_HIVE
 	return TRUE
-<<<<<<< HEAD
 */ // beat -- end
 
 
 // beat -- begin -- THE MOST ANNOYING FUCKING MODE EVER. No, seriously, WET GET AYYLMAOS EVERY SINGLE ROUND. LITERALLY.
 /*
-=======
-
->>>>>>> d6c178ff26... Merge pull request #12645 from ProtozoaPrime/DynamicChoiceFix
 /datum/dynamic_ruleset/roundstart/abductors
 	name = "Abductors"
 	antag_flag = ROLE_ABDUCTOR
@@ -145,14 +141,10 @@
 	weight = 3
 	requirements = list(100,90,80,60,40,30,10,10,10,10)
 	high_population_requirement = 10
-<<<<<<< HEAD
 	
 /datum/dynamic_ruleset/roundstart/changeling
 	weight = 30
-	
-=======
 
->>>>>>> d6c178ff26... Merge pull request #12645 from ProtozoaPrime/DynamicChoiceFix
 /datum/dynamic_ruleset/roundstart/wizard
 	weight = 20
 
