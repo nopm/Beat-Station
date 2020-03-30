@@ -3,6 +3,7 @@
 	suffix = "viladochavesabandonada.dmm"
 	name = "Vila do Chaves"
 	description = "A small old village floating in the space from a Mexican TV show."
+
 /datum/map_template/ruin/space/oldguaranastation
 	id = "oldguaranastation"
 	suffix = "oldguaranastation.dmm"
