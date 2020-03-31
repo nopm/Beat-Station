@@ -82,7 +82,7 @@
 		UnregisterSignal(picked_bomb, list(COMSIG_PARENT_ATTACKBY, COMSIG_ATOM_BUMPED, COMSIG_ATOM_ATTACK_HAND));
 		UnregisterSignal(picked_bomb, COMSIG_PARENT_EXAMINE);
 		summoner.current.emote("snap")
-		playsound(picked bomb, 'sound/effects/snap.ogg', 50, TRUE)
+		playsound(picked_bomb, 'sound/effects/snap.ogg', 50, TRUE)
 		explosion(picked_bomb, -1, 1, 1, 1)
 		to_chat(src, "<span class='danger'><B>Bomb detonated.</span></B>")
 
