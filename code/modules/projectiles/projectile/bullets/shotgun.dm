@@ -6,7 +6,8 @@
 	name = "beanbag slug"
 	damage = 5
 	stamina = 55
-
+	hitsound = 'hippiestation/sound/misc/hitsounds/cartoon_hit_on_head.ogg'
+	
 /obj/item/projectile/bullet/incendiary/shotgun
 	name = "incendiary slug"
 	damage = 20
