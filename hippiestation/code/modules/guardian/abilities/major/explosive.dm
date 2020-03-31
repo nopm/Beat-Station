@@ -57,7 +57,7 @@
 	to_chat(explodee, "<span class='danger'><B>[source] was boobytrapped!</B></span>")
 	to_chat(guardian, "<span class='danger'><B>Success! Your trap caught [explodee]</B></span>")
 	var/turf/T = get_turf(source)
-	playsound(T,'sound/effects/explosion2.ogg', 200, 1)
+	playsound(T,'sound/effects/explosion2.ogg', 100, 1)
 	new /obj/effect/temp_visual/explosion(T)
 	explodee.ex_act(EXPLODE_HEAVY)
 	guardian.bombs -= source
@@ -81,6 +81,8 @@
 		bombs -= picked_bomb
 		UnregisterSignal(picked_bomb, list(COMSIG_PARENT_ATTACKBY, COMSIG_ATOM_BUMPED, COMSIG_ATOM_ATTACK_HAND));
 		UnregisterSignal(picked_bomb, COMSIG_PARENT_EXAMINE);
+		summoner.current.emote("snap")
+		playsound(picked_bomb, 'sound/effects/snap.ogg', 200, TRUE)
 		explosion(picked_bomb, -1, 1, 1, 1)
 		to_chat(src, "<span class='danger'><B>Bomb detonated.</span></B>")
 
