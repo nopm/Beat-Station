@@ -28391,13 +28391,44 @@
 /turf/open/floor/plasteel/white,
 /area/medical/sleeper)
 "bEb" = (
-/turf/open/floor/plasteel/white/side{
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
 /area/medical/sleeper)
 "bEc" = (
-/obj/machinery/sleeper{
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
 	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/machinery/defibrillator_mount/loaded{
+	pixel_x = 30
+	},
+/obj/item/storage/firstaid/regular{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/firstaid/o2,
+/obj/item/reagent_containers/pill/patch/styptic{
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/pill/patch/silver_sulf{
+	pixel_x = 5;
+	pixel_y = 3
 	},
 /turf/open/floor/plasteel,
 /area/medical/sleeper)
@@ -28406,15 +28437,7 @@
 /turf/closed/wall,
 /area/medical/sleeper)
 "bEe" = (
-/obj/structure/table/glass,
-/obj/item/reagent_containers/glass/beaker/cryoxadone{
-	pixel_x = 7;
-	pixel_y = 1
-	},
-/obj/item/reagent_containers/glass/beaker/cryoxadone{
-	pixel_x = 7;
-	pixel_y = 1
-	},
+/obj/structure/closet/secure_closet/medical1,
 /turf/open/floor/plasteel,
 /area/medical/sleeper)
 "bEf" = (
@@ -28428,6 +28451,10 @@
 	},
 /obj/item/reagent_containers/glass/beaker/cryoxadone,
 /obj/item/reagent_containers/glass/beaker/cryoxadone,
+/obj/item/reagent_containers/glass/beaker/cryoxadone{
+	pixel_x = 7;
+	pixel_y = 1
+	},
 /turf/open/floor/plasteel,
 /area/medical/sleeper)
 "bEh" = (
@@ -29800,13 +29827,15 @@
 /turf/open/floor/plasteel/dark,
 /area/medical/chemistry)
 "bHM" = (
-/obj/structure/closet/secure_closet/medical1,
 /obj/machinery/light{
 	dir = 8
 	},
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -24
+	},
+/obj/machinery/sleeper{
+	dir = 4
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/sleeper)
@@ -29818,7 +29847,7 @@
 	c_tag = "Medbay Treatment Center";
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/plasteel/white,
 /area/medical/sleeper)
 "bHO" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
@@ -54254,6 +54283,19 @@
 /obj/machinery/atmospherics/pipe/simple/general/hidden/layer1,
 /turf/open/floor/wood,
 /area/crew_quarters/bar/maint)
+"lCF" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/medical/sleeper)
 "lCQ" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
@@ -97285,8 +97327,8 @@ oaV
 kmr
 bCE
 bDZ
-bFn
 bGz
+bFn
 bHM
 bCE
 bKg
@@ -97543,7 +97585,7 @@ kmr
 bCF
 bEa
 bEa
-bEa
+bFo
 bEa
 bJh
 bEa
@@ -97799,9 +97841,9 @@ bzP
 bBp
 bCF
 bEb
-bFo
+lCF
 bGA
-bEb
+bEa
 bCE
 bKh
 bLr
@@ -98056,7 +98098,7 @@ oaV
 bBq
 bCE
 bEc
-bEa
+bEb
 bEa
 bHN
 bCD
@@ -98312,10 +98354,10 @@ bnJ
 oaV
 bBr
 bCD
-bEd
-bFp
-bFp
 bCD
+bFp
+bFp
+bEd
 bCD
 bKj
 tuD
