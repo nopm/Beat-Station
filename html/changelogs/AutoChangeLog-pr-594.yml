@@ -1,0 +1,6 @@
+author: "SrPiwin"
+delete-after: True
+changes: 
+  - rscadd: "Added a vacant area near the chapel"
+  - rscadd: "Added bread and wine in the chapel"
+  - tweak: "Improved the chapel in general on Donustation"
