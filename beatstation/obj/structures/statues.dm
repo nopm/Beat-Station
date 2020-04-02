@@ -1,7 +1,7 @@
 /obj/structure/statue/sandstone/asstue
 	name = "opao statue"
 	desc = "THE GREAT PURGE - March 25, 2020."
-	icon = 'hippiestation/icons/obj/statueopao.dmi'
+	icon = 'beatstation/icons/obj/statueopao.dmi'
 	icon_state = "opao"
 
 /obj/structure/statue/sandstone/asstue/proc/toot()
