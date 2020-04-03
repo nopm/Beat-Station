@@ -439,7 +439,7 @@ GLOBAL_LIST_EMPTY(external_rsc_urls)
 		adminGreet(1)
 		holder.owner = null
 		GLOB.admins -= src
-		if (!GLOB.admins.len && SSticker.IsRoundInProgress()) //Only report this stuff if we are currently playing.
+		/*if (!GLOB.admins.len && SSticker.IsRoundInProgress()) //Only report this stuff if we are currently playing. // beat start -- removes "no admins online" messages
 			var/cheesy_message = pick(
 				"I have no admins online!",\
 				"I'm all alone :(",\
@@ -455,7 +455,7 @@ GLOBAL_LIST_EMPTY(external_rsc_urls)
 				"Forever alone :("\
 			)
 
-			send2irc("Server", "[cheesy_message] (No admins online)")
+			send2irc("Server", "[cheesy_message] (No admins online)")*/ // beat end
 	QDEL_LIST_ASSOC_VAL(char_render_holders)
 	if(movingmob != null)
 		movingmob.client_mobs_in_contents -= mob
