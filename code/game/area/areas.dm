@@ -470,10 +470,7 @@ GLOBAL_LIST_EMPTY(teleportlocs)
 		return max_grav
 
 	if(isspaceturf(T)) // Turf never has gravity
-		return FALSE
-	if(istype(T, /turf/open/openspace)) //openspace in a space area doesn't get gravity
-		if(istype(get_area(T), /area/space))
-			return FALSE
+		return 0
 
 	var/area/A = get_area(T)
 	if(A.has_gravity) // Areas which always has gravity

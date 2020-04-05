@@ -61,11 +61,6 @@
 
 /obj/structure/proc/do_climb(atom/movable/A)
 	if(climbable)
-		if(A.loc == src.loc)
-			var/where_to_climb = get_step(A,dir)
-			if(!(is_blocked_turf(where_to_climb)))
-				A.forceMove(where_to_climb)
-				return TRUE
 		density = FALSE
 		. = step(A,get_dir(A,src.loc))
 		density = TRUE
