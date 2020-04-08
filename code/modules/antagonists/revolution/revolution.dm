@@ -245,9 +245,9 @@
 	if(give_flash)
 		var/obj/item/assembly/flash/T = new(H)
 		var/list/slots = list (
-			"backpack" = SLOT_IN_BACKPACK,
-			"left pocket" = SLOT_L_STORE,
-			"right pocket" = SLOT_R_STORE
+			"backpack" = ITEM_SLOT_BACKPACK,
+			"left pocket" = ITEM_SLOT_LPOCKET,
+			"right pocket" = ITEM_SLOT_RPOCKET
 		)
 		var/where = H.equip_in_one_of_slots(T, slots)
 		if (!where)
@@ -259,6 +259,22 @@
 		var/obj/item/organ/cyberimp/eyes/hud/security/syndicate/S = new(H)
 		S.Insert(H, special = FALSE, drop_if_replaced = FALSE)
 		to_chat(H, "Your eyes have been implanted with a cybernetic security HUD which will help you keep track of who is mindshield-implanted, and therefore unable to be recruited.")
+<<<<<<< HEAD
+=======
+	
+	if(give_book)
+		var/obj/item/book/granter/crafting_recipe/USSR3/L = new(H)
+		var/list/slots = list (
+			"backpack" = ITEM_SLOT_BACKPACK,
+			"left pocket" = ITEM_SLOT_LPOCKET,
+			"right pocket" = ITEM_SLOT_RPOCKET
+		)
+		var/where = H.equip_in_one_of_slots(L, slots)
+		if (!where)
+			to_chat(H, "The Syndicate were unfortunately unable to get you an indoctrination manual.")
+		else
+			to_chat(H, "The indoctrination manual in your [where] will help you to acquire tools vital to your struggle.")
+>>>>>>> caaee88234... Merge pull request #12721 from yoyobatty/fix_item_flags
 
 /datum/team/revolution
 	name = "Revolution"
