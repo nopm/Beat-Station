@@ -60,13 +60,8 @@
 	W.assignment = "Highlander"
 	W.registered_name = H.real_name
 	ADD_TRAIT(W, TRAIT_NODROP, HIGHLANDER)
-<<<<<<< HEAD
-	W.update_label() // beat
-	H.equip_to_slot_or_del(W, SLOT_WEAR_ID)
-=======
 	W.update_label()
 	H.equip_to_slot_or_del(W, ITEM_SLOT_ID)
->>>>>>> caaee88234... Merge pull request #12721 from yoyobatty/fix_item_flags
 
 	sword = new(H)
 	if(!GLOB.highlander)
