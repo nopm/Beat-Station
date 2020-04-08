@@ -9,7 +9,7 @@
 
 /obj/item/clothing/mask/stone/equipped(mob/M, slot)
 	. = ..()
-	if(ishuman(M) && slot == SLOT_WEAR_MASK)
+	if(ishuman(M) && slot == ITEM_SLOT_MASK)
 		if(M.mind?.has_antag_datum(/datum/antagonist/vampire))
 			M.visible_message("<span class='hypnophrase big'>[src] falls off of [M]'s face!</span>")
 			M.doUnEquip(src, TRUE)
