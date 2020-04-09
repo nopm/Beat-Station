@@ -55,7 +55,7 @@
 
 /obj/item/clothing/gloves/color/yellow/palpatine/equipped(mob/user, slot)
 	. = ..()
-	if(slot == SLOT_GLOVES)
+	if(slot == ITEM_SLOT_GLOVES)
 		RegisterSignal(user, COMSIG_MOB_CLICKON, .proc/Zap)
 		if(!unlimited_power)
 			to_chat(user, "<span class='notice'>You feel electricity begin to build up in [src].</span>")
