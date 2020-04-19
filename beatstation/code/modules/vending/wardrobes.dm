@@ -22,7 +22,7 @@
 					/obj/item/clothing/head/shrine_wig = 1)
 	contraband = list(/obj/item/toy/plush/plushvar = 1,
 					/obj/item/toy/plush/narplush = 1,
-					/obj/item/clothing/head/medievaljewhat = 3,
+					/obj/item/clothing/head/medievaltophat = 3,
 					/obj/item/clothing/suit/chaplainsuit/clownpriest = 1,
 					/obj/item/clothing/head/clownmitre = 1)
 	premium = list(/obj/item/clothing/suit/chaplainsuit/bishoprobe = 1,
