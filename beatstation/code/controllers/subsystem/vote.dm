@@ -204,7 +204,7 @@
 		if(vote_type == "crew_transfer") // beat start
 			SEND_SOUND(world, sound('beatstation/sound/ai/alarm4.ogg'))
 		else
-			SEND_SOUND(world, sound('sound/ai/attention.ogg')) // beat end
+			SEND_SOUND(world, sound(pick('sound/ai/attention.ogg', 'hippiestation/sound/misc/choose1.ogg', 'hippiestation/sound/misc/choose2.ogg'))) // beat end
 		time_remaining = round(vp/10)
 		for(var/c in GLOB.clients)
 			var/client/C = c
