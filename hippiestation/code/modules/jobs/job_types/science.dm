@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 /*/datum/outfit/job/rd // beat start -- removes stungun
 	backpack_contents = list(/obj/item/melee/baton/stungun=1, /obj/item/modular_computer/tablet/preset/advanced=1, /obj/item/card/id/departmental_budget/sci=1)*/ // beat end
-=======
-/datum/outfit/job/rd
-	backpack_contents = list(/obj/item/melee/baton/stungun=1, /obj/item/modular_computer/tablet/preset/advanced=1, /obj/item/card/id/departmental_budget/sci=1)
-
 
 /datum/outfit/job/scientist
 	name = "Scientist"
@@ -19,4 +14,3 @@
 
 	backpack = /obj/item/storage/backpack/science
 	satchel = /obj/item/storage/backpack/satchel/tox
->>>>>>> ff93bd2c2c... Half Life sound effects, HEV Suit and scientist changes (#12726)
