@@ -1,0 +1,4 @@
+author: "Beat-Bot"
+delete-after: True
+changes: 
+  - bugfix: "Invisible masks and ties/capes have been fixed"
